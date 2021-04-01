@@ -1,0 +1,207 @@
+$font:  'Poppins'
+$color1: #A059F8
+$color2: #29C4CD
+$color2-h: #1b878d
+
+
+
+.ml-desktop-pagina-inicial *,
+.ml-movil-pagina-inicial *
+    margin: 0
+    padding: 0
+    text-decoration: none
+    box-sizing:  border-box
+    font-family: $font
+    &:focus
+        outline: none
+
+    & a:active
+        text-decoration: none
+        &:active
+            text-decoration: none
+
+    & input,
+    & button
+        border: 0.1vw solid #fff0
+        &:focus
+            outline: none
+
+    
+
+.ml-desktop-pagina-inicial
+    font-family: $font
+    overflow-x: hidden
+    background: url(https://pyndele.co/wp-content/uploads/2021/04/pagina-inicial.png)
+    background-size: contain
+    background-repeat: no-repeat
+    
+    &__opacity
+        width: 100vw
+        height: 47vw
+        background: rgba(38, 37, 38, 0.8)
+        width: 100vw
+        height: 47vw
+        display: flex
+        flex-direction: column
+        padding-left: 16.6vw
+        padding-top: 10.3vw
+
+        &__title
+            width: 24.2vw
+            color: #fff
+            font-weight: 800
+            font-size: 3.7vw
+            line-height: 1.2
+
+            & > span 
+                display: flex
+                width: 46.7vw
+
+        &__sub-title
+            font-size: 1.75vw
+            line-height: 2
+            font-weight: 300
+            color: #FFF
+
+            & > span 
+                background: $color1
+                border-radius: 3vw
+                padding: 0 1vw
+
+        &__sub-title-2
+            margin-top: 2vw
+            margin-bottom: 2vw
+            color: #FFF
+            font-size: 1.2vw
+            font-weight: 400
+
+            & > span
+                font-weight: 700
+            
+        &__row-1
+            display: flex
+            flex-direction: row
+
+            &__registrarme
+                font-size: 1.23vw
+                color: #FFF
+                font-weight: 800
+                padding: 0.5vw 1vw
+                background: $color2
+                letter-spacing: 0.1vw
+                margin-right: 2vw
+                line-height: 1.3
+                display: flex
+                flex-direction: column
+                justify-content: center
+                transition: background 0.3s ease
+                &:hover
+                    color: #FFF
+                    background: $color2-h
+
+            &__importancia-registro
+                line-height: 1.3
+                display: flex
+                flex-direction: column
+                justify-content: center
+                font-size: 1.23vw
+                color: #FFF
+                font-weight: 800
+                padding: 0.5vw 1vw
+                border-radius: 3vw
+                border: 0.25vw solid $color2
+                letter-spacing: 0.1vw
+                margin-right: 2vw
+                transition: background 0.3s ease
+                &:hover
+                    color: #FFF
+                    background: $color2-h
+
+            &__aceptar-los-terminos
+                font-size: 1vw
+                font-weight: 300
+                color: #FFF
+                width: 25vw
+                margin-top: 2.7vw
+
+            &__risa-amarilla
+                height: 5.5vw
+                width: 10.3vw
+                opacity: 0.5
+                margin-left: -5vw
+
+
+.ml-movil-pagina-inicial
+    font-family: $font
+    overflow-x: hidden
+
+    &__bg
+        display: flex
+        flex-direction: column
+        align-items: center
+        padding-top: 37vw
+        width: 100vw
+        height: 187vw
+        background: url(https://pyndele.co/wp-content/uploads/2021/04/Recurso-1-8.png)
+        background-size: contain
+        background-repeat: no-repeat
+
+
+        &__title
+            text-align: center
+            width: 68vw
+            font-weight: 800
+            color: #fff
+            font-size: 6.3vw
+
+        &__sub-title
+            margin-top: 3vw
+            text-align: center
+            width: 52vw
+            font-size: 3.4vw
+            color: #fff
+            font-weight: 300
+
+            & > span 
+                background: $color1
+                padding: 0.3vw 1vw
+                border-radius: 0.5vw
+
+        &__sub-title-2
+            margin-top: 20vw
+            text-align: center
+            width: 38vw
+            font-size: 3.4vw
+            color: #fff
+            font-weight: 300
+            line-height: 1.6
+            
+            & > span 
+                font-weight: 800
+
+        &__registro
+            font-size: 3.4vw
+            background: $color2
+            padding: 1.5vw 3vw
+            color: #FFF
+            margin-top: 5vw
+            font-weight: 600
+            border-radius: 0.5vw
+
+        &__importancia-registro
+            font-size: 3vw
+            font-weight: 300
+            margin-top: 15vw
+            padding: 1.5vw 3vw
+            color: #FFF
+            border: 0.5vw solid $color2
+            border-radius: 1.5vw
+
+        &__aceptar-terminos
+            width: 65.5vw
+            margin-top: 4.8vw
+            font-size: 2.7vw
+            color: #FFF
+            font-weight: 300
+            text-align: center
+
