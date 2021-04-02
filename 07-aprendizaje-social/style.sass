@@ -1,5 +1,8 @@
 $font:  'Poppins'
 $color1: #A059F8
+$color2: #5B5B5B
+$color3: #29C4CD
+$color3-h: #1da0a7
 
 .ml-desktop-aprendizaje-social *,
 .ml-movil-aprendizaje-social *
@@ -36,18 +39,85 @@ $color1: #A059F8
     &__col
         display: flex
         flex-direction: column
+        margin-left: 4.8vw
 
         &__title
-            margin-top: 4.5vw
-            font-weight: 2.6vw
+            margin-top: 2vw
+            font-size: 2.6vw
+            line-height: 1.6
             color: $color1
             font-weight: 300
-            width: 10.4vw
+            width: 16.4vw
 
             & > span 
-                width: 1.4vw
+                display: flex
+                width: 26vw
+                font-weight: 800
+
+        &__paragraph
+            margin-top: 2vw
+            font-size: 1.1vw
+            font-weight: 400
+            width: 22vw
+            color: $color2
+
+        &__button
+            font-size: 1.2vw
+            font-weight: 800
+            margin-top: 2vw
+            padding: 0.5vw 1vw
+            border: 0.3vw solid $color3
+            border-radius: 3vw
+            text-align: center
+            color: $color3
+            transition: background 0.3s ease, color 0.3s ease
+            background: #FFF
+            &:hover
+                background: $color3-h
+                color: #FFF
+
+.ml-movil-aprendizaje-social 
+    display: flex
+    flex-direction: column
+    align-items: center
+    margin-top: 10vw
+
+    &__img
+        width: 70vw
+
+    &__title
+        font-size: 6vw
+        font-weight: 300
+        width: 59vw
+        text-align: center
+        margin-top: 6vw
+        color: $color1
+
+        & > span
+            display: flex
+            font-weight: 800
+
+    &__paragraph
+        margin-top: 5vw
+        font-size: 2.9vw
+        color: $color2
+        width: 71vw
+
+    &__button
+        margin-top: 7vw
+        font-size: 3.1vw
+        color: $color3
+        padding: 0.5vw 2vw
+        border: 0.3vw solid $color3
+        border-radius: 1.5vw
+        margin-bottom: 10vw
 
 
 
-            
+
+
+
+
+
+    
 

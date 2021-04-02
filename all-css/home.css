@@ -1793,4 +1793,167 @@
   width: 70vw;
   color: #5B5B5B;
 }
+
+.ml-desktop-aprendizaje-social *,
+.ml-movil-aprendizaje-social * {
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  line-height: 1.4;
+  font-family: "Poppins";
+}
+
+.ml-desktop-aprendizaje-social *:focus,
+.ml-movil-aprendizaje-social *:focus {
+  outline: none;
+}
+
+.ml-desktop-aprendizaje-social * a:active,
+.ml-movil-aprendizaje-social * a:active {
+  text-decoration: none;
+}
+
+.ml-desktop-aprendizaje-social * a:active:active,
+.ml-movil-aprendizaje-social * a:active:active {
+  text-decoration: none;
+}
+
+.ml-desktop-aprendizaje-social * input,
+.ml-desktop-aprendizaje-social * button,
+.ml-movil-aprendizaje-social * input,
+.ml-movil-aprendizaje-social * button {
+  border: 0.1vw solid #fff0;
+}
+
+.ml-desktop-aprendizaje-social * input:focus,
+.ml-desktop-aprendizaje-social * button:focus,
+.ml-movil-aprendizaje-social * input:focus,
+.ml-movil-aprendizaje-social * button:focus {
+  outline: none;
+}
+
+.ml-desktop-aprendizaje-social {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  margin-top: 6.8vw;
+}
+
+.ml-desktop-aprendizaje-social__img {
+  height: 19.3vw;
+  width: 36.1vw;
+  margin-left: 16.4vw;
+}
+
+.ml-desktop-aprendizaje-social__col {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  margin-left: 4.8vw;
+}
+
+.ml-desktop-aprendizaje-social__col__title {
+  margin-top: 2vw;
+  font-size: 2.6vw;
+  line-height: 1.6;
+  color: #A059F8;
+  font-weight: 300;
+  width: 16.4vw;
+}
+
+.ml-desktop-aprendizaje-social__col__title > span {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 26vw;
+  font-weight: 800;
+}
+
+.ml-desktop-aprendizaje-social__col__paragraph {
+  margin-top: 2vw;
+  font-size: 1.1vw;
+  font-weight: 400;
+  width: 22vw;
+  color: #5B5B5B;
+}
+
+.ml-desktop-aprendizaje-social__col__button {
+  font-size: 1.2vw;
+  font-weight: 800;
+  margin-top: 2vw;
+  padding: 0.5vw 1vw;
+  border: 0.3vw solid #29C4CD;
+  border-radius: 3vw;
+  text-align: center;
+  color: #29C4CD;
+  -webkit-transition: background 0.3s ease, color 0.3s ease;
+  transition: background 0.3s ease, color 0.3s ease;
+  background: #FFF;
+}
+
+.ml-desktop-aprendizaje-social__col__button:hover {
+  background: #1da0a7;
+  color: #FFF;
+}
+
+.ml-movil-aprendizaje-social {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-top: 10vw;
+}
+
+.ml-movil-aprendizaje-social__img {
+  width: 70vw;
+}
+
+.ml-movil-aprendizaje-social__title {
+  font-size: 6vw;
+  font-weight: 300;
+  width: 59vw;
+  text-align: center;
+  margin-top: 6vw;
+  color: #A059F8;
+}
+
+.ml-movil-aprendizaje-social__title > span {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  font-weight: 800;
+}
+
+.ml-movil-aprendizaje-social__paragraph {
+  margin-top: 5vw;
+  font-size: 2.9vw;
+  color: #5B5B5B;
+  width: 71vw;
+}
+
+.ml-movil-aprendizaje-social__button {
+  margin-top: 7vw;
+  font-size: 3.1vw;
+  color: #29C4CD;
+  padding: 0.5vw 2vw;
+  border: 0.3vw solid #29C4CD;
+  border-radius: 1.5vw;
+  margin-bottom: 10vw;
+}
 /*# sourceMappingURL=home.css.map */
