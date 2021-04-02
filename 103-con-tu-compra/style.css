@@ -92,4 +92,210 @@
   width: 14vw;
   height: 6vw;
 }
+
+.jd-main-container-contribuye *,
+.jd-movil-main-container-contribuye * {
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  font-family: "Poppins";
+  line-height: 1.4;
+}
+
+.jd-main-container-contribuye *:focus,
+.jd-movil-main-container-contribuye *:focus {
+  outline: none;
+}
+
+.jd-main-container-contribuye * a,
+.jd-movil-main-container-contribuye * a {
+  text-decoration: none;
+}
+
+.jd-main-container-contribuye * a:active,
+.jd-movil-main-container-contribuye * a:active {
+  text-decoration: none;
+}
+
+.jd-main-container-contribuye * input,
+.jd-main-container-contribuye * button,
+.jd-movil-main-container-contribuye * input,
+.jd-movil-main-container-contribuye * button {
+  border: 0.1vw solid #fff0;
+}
+
+.jd-main-container-contribuye * input:focus,
+.jd-main-container-contribuye * button:focus,
+.jd-movil-main-container-contribuye * input:focus,
+.jd-movil-main-container-contribuye * button:focus {
+  outline: none;
+}
+
+.jd-main-container-contribuye {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -ms-flex-line-pack: start;
+      align-content: start;
+  font-family: "Poppins";
+  margin-left: 17.3vw;
+  padding-bottom: 3.7vw;
+}
+
+.jd-main-container-contribuye__cuadro1 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -ms-flex-line-pack: start;
+      align-content: start;
+  margin-right: 7.3vw;
+}
+
+.jd-main-container-contribuye__cuadro1__imagen {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 4.8vw;
+  height: 4.8vw;
+  margin-right: 1.8vw;
+}
+
+.jd-main-container-contribuye__cuadro1__texto {
+  width: 23.7vw;
+  color: #939393;
+  line-height: 1.6;
+  font-weight: 300;
+  font-size: 1.1vw;
+}
+
+.jd-main-container-contribuye__cuadro2 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -ms-flex-line-pack: start;
+      align-content: start;
+}
+
+.jd-main-container-tyc *,
+.jd-movil-main-container-tyc * {
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  font-family: "Poppins";
+  line-height: 1.4;
+}
+
+.jd-main-container-tyc *:focus,
+.jd-movil-main-container-tyc *:focus {
+  outline: none;
+}
+
+.jd-main-container-tyc * a,
+.jd-movil-main-container-tyc * a {
+  text-decoration: none;
+}
+
+.jd-main-container-tyc * a:active,
+.jd-movil-main-container-tyc * a:active {
+  text-decoration: none;
+}
+
+.jd-main-container-tyc * input,
+.jd-main-container-tyc * button,
+.jd-movil-main-container-tyc * input,
+.jd-movil-main-container-tyc * button {
+  border: 0.1vw solid #fff0;
+}
+
+.jd-main-container-tyc * input:focus,
+.jd-main-container-tyc * button:focus,
+.jd-movil-main-container-tyc * input:focus,
+.jd-movil-main-container-tyc * button:focus {
+  outline: none;
+}
+
+.jd-main-container-tyc {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -ms-flex-line-pack: start;
+      align-content: start;
+  font-family: "Poppins";
+  margin-left: 17.3vw;
+  padding-bottom: 3.7vw;
+}
+
+.jd-main-container-tyc__cuadro {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -ms-flex-line-pack: start;
+      align-content: start;
+  width: 33.7vw;
+  margin-right: 9vw;
+}
+
+.jd-main-container-tyc__cuadro__title {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  color: #29C4CD;
+  font-size: 1.1vw;
+  font-weight: 800;
+}
+
+.jd-main-container-tyc__cuadro__text {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  color: #939393;
+  font-size: 1.1vw;
+  font-weight: 300;
+}
+
+.jd-main-container-tyc__button {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -ms-flex-line-pack: start;
+      align-content: start;
+  margin-top: 2.4vw;
+}
+
+.jd-main-container-tyc__button__inbutt {
+  color: #fff;
+  background-color: #29C4CD;
+  font-size: 1.5vw;
+  font-weight: 800;
+  border-radius: 50px;
+  padding: 0.8vw 1.3vw;
+}
 /*# sourceMappingURL=style.css.map */

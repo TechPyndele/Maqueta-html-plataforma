@@ -8,6 +8,7 @@ $color6: #8A8A8A
 $color7: #A059F8
 $color8: #939393
 $color9: #A059F8
+$color10: #29C4CD
 
 .jd-main-container-compra *,
 .jd-movil-main-container-compra *
@@ -61,3 +62,111 @@ $color9: #A059F8
         &__risa-img
             width: 14vw
             height: 6vw
+
+.jd-main-container-contribuye *,
+.jd-movil-main-container-contribuye *
+    margin: 0
+    padding: 0
+    text-decoration: none
+    box-sizing:  border-box
+    font-family: $font
+    line-height: 1.4
+    &:focus
+        outline: none
+    & a
+        text-decoration: none
+        &:active
+            text-decoration: none
+            
+    & input,
+    & button
+        border: 0.1vw solid #fff0
+        &:focus
+            outline: none
+
+.jd-main-container-contribuye
+    display: flex
+    flex-direction: row
+    align-content: start
+    font-family: $font
+    margin-left: 17.3vw
+    padding-bottom: 3.7vw
+    &__cuadro1
+        display: flex
+        flex-direction: row
+        align-content: start
+        margin-right: 7.3vw
+
+        &__imagen
+            display: flex
+            width: 4.8vw
+            height: 4.8vw
+            margin-right: 1.8vw
+        &__texto
+            width: 23.7vw
+            color: $color8
+            line-height: 1.6
+            font-weight: 300
+            font-size: 1.1vw
+    &__cuadro2
+        display: flex
+        flex-direction: row
+        align-content: start
+
+.jd-main-container-tyc *,
+.jd-movil-main-container-tyc *
+    margin: 0
+    padding: 0
+    text-decoration: none
+    box-sizing:  border-box
+    font-family: $font
+    line-height: 1.4
+    &:focus
+        outline: none
+    & a
+        text-decoration: none
+        &:active
+            text-decoration: none
+            
+    & input,
+    & button
+        border: 0.1vw solid #fff0
+        &:focus
+            outline: none
+            
+.jd-main-container-tyc
+    display: flex
+    flex-direction: row
+    align-content: start
+    font-family: $font
+    margin-left: 17.3vw
+    padding-bottom: 3.7vw
+    &__cuadro
+        display: flex
+        flex-direction: column
+        align-content: start
+        width: 33.7vw
+        margin-right: 9vw
+        &__title
+            display: flex
+            color: $color10
+            font-size: 1.1vw
+            font-weight: 800
+        &__text
+            display: flex
+            color: $color8
+            font-size: 1.1vw
+            font-weight: 300
+    &__button
+        display: flex
+        flex-direction: column
+        align-content: start
+        margin-top: 2.4vw
+        &__inbutt
+            color: #fff
+            background-color: $color10
+            font-size: 1.5vw
+            font-weight: 800
+            border-radius: 50px
+            padding: 0.8vw 1.3vw
+
