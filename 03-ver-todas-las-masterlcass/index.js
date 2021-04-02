@@ -100,7 +100,7 @@ for (item of proximos) {
 
         <div class="ml-desktop-masterclass__proximos-lanzamientos__carrusel__item__nombre-experto">Experto: <span>${ item['nombre-experto'] }</span></div>
 
-        <a href="${item['url-mas']}" class="ml-desktop-masterclass__proximos-lanzamientos__carrusel__item__conoce-mas">Conoce más</a>
+        <a href="${ item['url-mas'] }" class="ml-desktop-masterclass__proximos-lanzamientos__carrusel__item__conoce-mas">Conoce más</a>
 
         </div>
     </div>
@@ -138,7 +138,7 @@ for ( item of proximos){
     
             <div class="ml-movil-masterclass__carrusel__item__nombre-experto">Experto: <span>${ item['nombre-experto'] }</span></div>
     
-            <a href="${item['url-mas']}" class="ml-movil-masterclass__carrusel__item__conoce-mas">Conoce más</a>
+            <a href="${ item['url-mas'] }" class="ml-movil-masterclass__carrusel__item__conoce-mas">Conoce más</a>
     
             </div>
         </div>
