@@ -1,0 +1,148 @@
+.jd-main-container-beneficios *,
+.jd-movil-main-container-beneficios * {
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  font-family: "Poppins";
+  line-height: 1.4;
+}
+
+.jd-main-container-beneficios *:focus,
+.jd-movil-main-container-beneficios *:focus {
+  outline: none;
+}
+
+.jd-main-container-beneficios * a,
+.jd-movil-main-container-beneficios * a {
+  text-decoration: none;
+}
+
+.jd-main-container-beneficios * a:active,
+.jd-movil-main-container-beneficios * a:active {
+  text-decoration: none;
+}
+
+.jd-main-container-beneficios * input,
+.jd-main-container-beneficios * button,
+.jd-movil-main-container-beneficios * input,
+.jd-movil-main-container-beneficios * button {
+  border: 0.1vw solid #fff0;
+}
+
+.jd-main-container-beneficios * input:focus,
+.jd-main-container-beneficios * button:focus,
+.jd-movil-main-container-beneficios * input:focus,
+.jd-movil-main-container-beneficios * button:focus {
+  outline: none;
+}
+
+.jd-main-container-beneficios {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  background-color: #6A33A7;
+  -ms-flex-line-pack: start;
+      align-content: start;
+  padding-top: 4.8vw;
+}
+
+.jd-main-container-beneficios__izquierda {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -ms-flex-line-pack: start;
+      align-content: start;
+  margin-left: 17.3vw;
+}
+
+.jd-main-container-beneficios__izquierda__title {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  width: 23vw;
+  margin-bottom: 4vw;
+}
+
+.jd-main-container-beneficios__izquierda__title__row {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+}
+
+.jd-main-container-beneficios__izquierda__title__row__t {
+  font-size: 2.6vw;
+  color: #29C4CD;
+  font-weight: 800;
+  margin-right: 2vw;
+}
+
+.jd-main-container-beneficios__izquierda__title__row__img {
+  widows: 8.1vw;
+  height: 3.3vw;
+}
+
+.jd-main-container-beneficios__izquierda__title__t {
+  font-size: 2.6vw;
+  color: #29C4CD;
+  font-weight: 800;
+}
+
+.jd-main-container-beneficios__izquierda__title__st {
+  font-size: 1.1vw;
+  color: #fff;
+  font-weight: 300;
+}
+
+.jd-main-container-beneficios__izquierda__textbox {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-line-pack: start;
+      align-content: start;
+  margin-bottom: 2.5vw;
+}
+
+.jd-main-container-beneficios__izquierda__textbox__imagen {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 2vw;
+  height: 1.6vw;
+  margin-right: 0.6vw;
+}
+
+.jd-main-container-beneficios__izquierda__textbox__text {
+  font-size: 1.1vw;
+  color: #fff;
+  font-weight: 300;
+  width: 25vw;
+}
+
+.jd-main-container-beneficios__derecha {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -ms-flex-line-pack: start;
+      align-content: start;
+  margin-left: 8vw;
+  width: 23vw;
+}
+/*# sourceMappingURL=style.css.map */
