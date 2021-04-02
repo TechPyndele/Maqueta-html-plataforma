@@ -1,0 +1,378 @@
+.jd-row-video {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(50%, #fff), color-stop(50%, #480981));
+  background: linear-gradient(to bottom, #fff 50%, #480981 50%);
+  height: 35vw;
+}
+
+.jd-main-container-premium *,
+.jd-movil-main-container-premium * {
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  font-family: "Poppins";
+  line-height: 1.4;
+}
+
+.jd-main-container-premium *:focus,
+.jd-movil-main-container-premium *:focus {
+  outline: none;
+}
+
+.jd-main-container-premium * a,
+.jd-movil-main-container-premium * a {
+  text-decoration: none;
+}
+
+.jd-main-container-premium * a:active,
+.jd-movil-main-container-premium * a:active {
+  text-decoration: none;
+}
+
+.jd-main-container-premium * input,
+.jd-main-container-premium * button,
+.jd-movil-main-container-premium * input,
+.jd-movil-main-container-premium * button {
+  border: 0.1vw solid #fff0;
+}
+
+.jd-main-container-premium * input:focus,
+.jd-main-container-premium * button:focus,
+.jd-movil-main-container-premium * input:focus,
+.jd-movil-main-container-premium * button:focus {
+  outline: none;
+}
+
+.jd-main-container-premium {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -ms-flex-line-pack: start;
+      align-content: start;
+  font-family: "Poppins";
+  background: #480981;
+  padding-bottom: 2.7vw;
+}
+
+.jd-main-container-premium__row-conviertete {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+}
+
+.jd-main-container-premium__row-conviertete__texto {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  margin-left: 17.3vw;
+}
+
+.jd-main-container-premium__row-conviertete__texto__title {
+  color: #EBFFFE;
+  font-size: 2.8vw;
+  font-weight: 800;
+  margin-right: 6.5vw;
+  width: 28vw;
+}
+
+.jd-main-container-premium__row-conviertete__texto__title > span {
+  color: #FFB400;
+}
+
+.jd-main-container-premium__row-conviertete__texto__sub-title {
+  margin-top: 1.6vw;
+  font-size: 1.1vw;
+  color: #fff;
+  font-weight: 300;
+  line-height: 1.6;
+  width: 25vw;
+}
+
+.jd-main-container-premium__row-conviertete__risa-img {
+  width: 27.2vw;
+  height: 14.6vw;
+}
+
+.jd-main-container-planes *,
+.jd-movil-main-container-planes * {
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  font-family: "Poppins";
+  line-height: 1.4;
+}
+
+.jd-main-container-planes *:focus,
+.jd-movil-main-container-planes *:focus {
+  outline: none;
+}
+
+.jd-main-container-planes * a,
+.jd-movil-main-container-planes * a {
+  text-decoration: none;
+}
+
+.jd-main-container-planes * a:active,
+.jd-movil-main-container-planes * a:active {
+  text-decoration: none;
+}
+
+.jd-main-container-planes * input:focus,
+.jd-main-container-planes * button:focus,
+.jd-movil-main-container-planes * input:focus,
+.jd-movil-main-container-planes * button:focus {
+  outline: none;
+}
+
+.jd-main-container-planes {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-line-pack: justify;
+      align-content: space-between;
+  font-family: "Poppins";
+  background: #480981;
+  padding-bottom: 4.3vw;
+}
+
+.jd-main-container-planes__tarjetas {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  background: #fff;
+  border-radius: 10px;
+  margin-left: 16.6vw;
+  width: 20.4vw;
+  height: 26.6vw;
+  margin-right: 2.3vw;
+}
+
+.jd-main-container-planes__tarjetas__imagen {
+  width: 15vw;
+  height: 7.4vw;
+  margin-left: 2.2vw;
+}
+
+.jd-main-container-planes__tarjetas__precio {
+  color: #8A8A8A;
+  font-size: 3.3vw;
+  font-weight: 800;
+  margin-top: 3.7vw;
+}
+
+.jd-main-container-planes__tarjetas__precio__indicador {
+  color: #8A8A8A;
+  font-size: 1.9vw;
+  font-weight: 300;
+  margin-left: 1.5vw;
+}
+
+.jd-main-container-planes__tarjetas__descuento {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -ms-flex-line-pack: center;
+      align-content: center;
+  -webkit-box-align: baseline;
+      -ms-flex-align: baseline;
+          align-items: baseline;
+  line-height: 1.4;
+  margin-left: 5.4vw;
+  margin-bottom: 3.5vw;
+}
+
+.jd-main-container-planes__tarjetas__descuento__porcentaje {
+  font-size: 2.6vw;
+  font-weight: 800;
+  color: #29EB99;
+}
+
+.jd-main-container-planes__tarjetas__descuento__imagen {
+  width: 2.3vw;
+  height: 2.3vw;
+}
+
+.jd-main-container-planes__tarjetas__descuento__precio {
+  font-size: 1.6vw;
+  color: #8A8A8A;
+  font-weight: 300;
+}
+
+.jd-main-container-planes__tarjetas__comprar {
+  font-size: 1.4vw;
+  color: #29EB99;
+  border-style: solid;
+  background: #fff;
+  border-color: #29EB99;
+  font-weight: 800;
+  border-radius: 50px;
+  width: 9vw;
+  border-width: 0.3vw;
+  margin-left: 5vw;
+}
+
+.jd-main-container-planes__tarjetas-2 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  border-style: solid;
+  border-color: #FFB400;
+  border-width: 5px;
+  background: #fff;
+  border-radius: 10px;
+  width: 20.4vw;
+  height: 26.6vw;
+  margin-right: 2.3vw;
+}
+
+.jd-main-container-planes__tarjetas-3 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  background: #fff;
+  border-radius: 10px;
+  width: 20.4vw;
+  height: 26.6vw;
+}
+
+.jd-main-container-recuerda *,
+.jd-movil-main-container-recuerda * {
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  font-family: "Poppins";
+  line-height: 1.4;
+}
+
+.jd-main-container-recuerda *:focus,
+.jd-movil-main-container-recuerda *:focus {
+  outline: none;
+}
+
+.jd-main-container-recuerda * a,
+.jd-movil-main-container-recuerda * a {
+  text-decoration: none;
+}
+
+.jd-main-container-recuerda * a:active,
+.jd-movil-main-container-recuerda * a:active {
+  text-decoration: none;
+}
+
+.jd-main-container-recuerda * input,
+.jd-main-container-recuerda * button,
+.jd-movil-main-container-recuerda * input,
+.jd-movil-main-container-recuerda * button {
+  border: 0.1vw solid #fff0;
+}
+
+.jd-main-container-recuerda * input:focus,
+.jd-main-container-recuerda * button:focus,
+.jd-movil-main-container-recuerda * input:focus,
+.jd-movil-main-container-recuerda * button:focus {
+  outline: none;
+}
+
+.jd-main-container-recuerda {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -ms-flex-line-pack: start;
+      align-content: start;
+  font-family: "Poppins";
+  background: #480981;
+  padding-bottom: 2.7vw;
+}
+
+.jd-main-container-recuerda__mensaje {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+}
+
+.jd-main-container-recuerda__mensaje__texto {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  margin-left: 17.3vw;
+  margin-right: 19.5vw;
+}
+
+.jd-main-container-recuerda__mensaje__texto__title {
+  color: #A059F8;
+  font-size: 2.8vw;
+  font-weight: 800;
+  width: 28vw;
+}
+
+.jd-main-container-recuerda__mensaje__texto__title > span {
+  color: #FFB400;
+}
+
+.jd-main-container-recuerda__mensaje__texto__sub-title {
+  margin-top: 0.5vw;
+  font-size: 1.1vw;
+  color: #fff;
+  font-weight: 300;
+  line-height: 1.6;
+  width: 25vw;
+}
+
+.jd-main-container-recuerda__mensaje__trespuntos-img {
+  width: 10vw;
+  height: 1.2vw;
+  margin-top: 5vw;
+}
+/*# sourceMappingURL=style.css.map */
