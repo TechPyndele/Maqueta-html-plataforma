@@ -4,14 +4,15 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="./swiper.css">
     <link rel="stylesheet" href="style.css">
     <title>Document</title>
+
 
 </head>
 <body>
 
-    <div class="ml-desktop-masterclass">
+    <div class="ml-desktop-masterclass" ml-desktop-masterclass>
 
         <h2 class="ml-desktop-masterclass__title">MasterClass <span>destacadas</span></h2>
 
@@ -52,9 +53,10 @@
                 <div class="ml-desktop-masterclass__proximos-lanzamientos__row-1__title">Próximos <span>lanzamientos</span></div>
 
             </div>
-            
-            <div class="swiper-container">
-                <div class="swiper-wrapper" id="list">
+
+            <!-- <div class="swiper-container" id="ml-wrapper-carrusel-desktop"> -->
+            <div class="swiper-container" id="ml-desktop-wrapper-carrusel">
+                <div class="swiper-wrapper" id="ml-carrusel-desktop">
                     
                 </div>
                 <!-- Add Pagination -->
@@ -64,14 +66,132 @@
         </div>
     </div>
 
-    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+    <div class="ml-movil-masterclass" ml-movil-masterclass>
+
+        <h3 class="ml-movil-masterclass__title">MasterClass <span>destacados</span></h3>
+
+        <div class="ml-movil-masterclass__product"></div>
+
+        <a href="#" class="ml-movil-masterclass__ver-todos-productos">
+            
+            <img src="https://pyndele.co/wp-content/uploads/2021/04/plus.svg" 
+            class="ml-movil-masterclass__ver-todos-productos__plus"
+                alt="plus">
+
+            <div class="ml-movil-masterclass__ver-todos-productos__text">Ver todas las <span>Masterclass</span></div>
+            
+        </a>
+
+        <div class="ml-movil-masterclass__register-text">Accede a <span>contenido gratuito para iniciar tu aprendizaje</span> en negocios registrnadote sin costo en Pyndele</div>
+
+        <a href="#" class="ml-movil-masterclass__register-button">Registrarme</a>
+
+        <div class="ml-movil-masterclass__proximos-lanzamientos">Próximos <span>lanzamientos</span></div>
+
+
+        <!-- Swiper -->
+        <div class="swiper-container" id="ml-movil-wrapper-carrusel">
+            <div class="swiper-wrapper" id="ml-movil-carrusel">
+            
+            </div>
+            <!-- Add Pagination -->
+            <div class="swiper-pagination"></div>
+        </div>
+        
+    </div>
+
+    <script src="./swiper.js"></script>
 
     <script>
 
-        for (let i = 0; i <= 10; i++) {
+        const proximos = [
+            {
+                'url-img': 'https://via.placeholder.com/150',
+                'url-mas': '#',
+                'nombre-master': 'Nombre de MasterClass',
+                'nombre-experto': 'Nombre de experto'
+
+
+            },
+            {
+                'url-img': 'https://via.placeholder.com/150',
+                'url-mas': '#',
+                'nombre-master': 'Nombre de MasterClass',
+                'nombre-experto': 'Nombre de experto'
+
+
+            },
+            {
+                'url-img': 'https://via.placeholder.com/150',
+                'url-mas': '#',
+                'nombre-master': 'Nombre de MasterClass',
+                'nombre-experto': 'Nombre de experto'
+
+
+            },
+            {
+                'url-img': 'https://via.placeholder.com/150',
+                'url-mas': '#',
+                'nombre-master': 'Nombre de MasterClass',
+                'nombre-experto': 'Nombre de experto'
+
+
+            },
+            {
+                'url-img': 'https://via.placeholder.com/150',
+                'url-mas': '#',
+                'nombre-master': 'Nombre de MasterClass',
+                'nombre-experto': 'Nombre de experto'
+
+
+            },
+            {
+                'url-img': 'https://via.placeholder.com/150',
+                'url-mas': '#',
+                'nombre-master': 'Nombre de MasterClass',
+                'nombre-experto': 'Nombre de experto'
+
+
+            },
+            {
+                'url-img': 'https://via.placeholder.com/150',
+                'url-mas': '#',
+                'nombre-master': 'Nombre de MasterClass',
+                'nombre-experto': 'Nombre de experto'
+
+
+            },
+            {
+                'url-img': 'https://via.placeholder.com/150',
+                'url-mas': '#',
+                'nombre-master': 'Nombre de MasterClass',
+                'nombre-experto': 'Nombre de experto'
+
+
+            },
+            {
+                'url-img': 'https://via.placeholder.com/150',
+                'url-mas': '#',
+                'nombre-master': 'Nombre de MasterClass',
+                'nombre-experto': 'Nombre de experto'
+
+
+            },
+            {
+                'url-img': 'https://via.placeholder.com/150',
+                'url-mas': '#',
+                'nombre-master': 'Nombre de MasterClass',
+                'nombre-experto': 'Nombre de experto'
+
+
+            },
+        ];
+
+
+        for (item of proximos) {
 
             // <div class="swiper-slide">Slide ${i}</div>
-            document.querySelector('#list').innerHTML += `
+            document.querySelector('#ml-carrusel-desktop').innerHTML += `
 
 
             <div class='swiper-slide'>
@@ -80,13 +200,13 @@
         
                     <img 
                     class="ml-desktop-masterclass__proximos-lanzamientos__carrusel__item__img"
-                    src="https://via.placeholder.com/150" />
+                    src="${ item['url-img'] }" />
         
-                <div class="ml-desktop-masterclass__proximos-lanzamientos__carrusel__item__title">Nombre de MasterClass</div>
+                <div class="ml-desktop-masterclass__proximos-lanzamientos__carrusel__item__title">${ item['nombre-master'] }</div>
         
-                <div class="ml-desktop-masterclass__proximos-lanzamientos__carrusel__item__nombre-experto">Experto: <span>Nombre de experto</span></div>
+                <div class="ml-desktop-masterclass__proximos-lanzamientos__carrusel__item__nombre-experto">Experto: <span>${ item['nombre-experto'] }</span></div>
         
-                <a href="#" class="ml-desktop-masterclass__proximos-lanzamientos__carrusel__item__conoce-mas">Conoce más</a>
+                <a href="${item['url-mas']}" class="ml-desktop-masterclass__proximos-lanzamientos__carrusel__item__conoce-mas">Conoce más</a>
         
                 </div>
             </div>
@@ -96,7 +216,7 @@
 
         }
 
-        var swiper = new Swiper(".swiper-container", {
+        var swiper = new Swiper("#ml-desktop-wrapper-carrusel", {
             slidesPerView: 4,
             spaceBetween: 30,      
             // loop: true,
@@ -107,6 +227,53 @@
             }
         });
 
+        
+
+        for ( item of proximos){
+
+            // <div 
+            //     class="swiper-slide"
+            //     style="
+            //         background-image: url(${img.url});
+            //     "
+            // ></div>
+            document.querySelector('#ml-movil-carrusel').innerHTML += `
+                <div class='swiper-slide'>
+                    
+                    <div class="ml-movil-masterclass__carrusel__item">
+            
+                        <img 
+                        class="ml-movil-masterclass__carrusel__item__img"
+                        src="${ item['url-img'] }" />
+            
+                    <div class="ml-movil-masterclass__carrusel__item__title">${ item['nombre-master'] }</div>
+            
+                    <div class="ml-movil-masterclass__carrusel__item__nombre-experto">Experto: <span>${ item['nombre-experto'] }</span></div>
+            
+                    <a href="${item['url-mas']}" class="ml-movil-masterclass__carrusel__item__conoce-mas">Conoce más</a>
+            
+                    </div>
+                </div>
+            `
+        }
+
+        var swiper = new Swiper("#ml-movil-wrapper-carrusel", {
+            effect: "coverflow",
+            grabCursor: true,
+            centeredSlides: true,
+            slidesPerView: "auto",
+            coverflowEffect: {
+                rotate: 50,
+                stretch: 0,
+                depth: 100,
+                modifier: 1,
+                slideShadows: true
+            },
+            pagination: {
+                el: ".swiper-pagination",
+                dynamicBullets: true
+            }
+        });
     </script>
 </body>
 </html>

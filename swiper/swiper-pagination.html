@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
+  <head>
     <meta charset="utf-8" />
     <title>Swiper demo</title>
     <meta
@@ -16,55 +16,35 @@
 
     <!-- Demo styles -->
     <style>
-    html,
-    body {
-        position: relative;
-        height: 100%;
-    }
+        body {    
+            background: #fff;
+            font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+            font-size: 14px;
+            color: #000;
+            margin: 0;
+            padding: 0;
+        }
 
-    body {
-        background: #eee;
-        font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
-        font-size: 14px;
-        color: #000;
-        margin: 0;
-        padding: 0;
-    }
+        .swiper-container {
+            width: 100%;
+            padding-top: 50px;
+            padding-bottom: 50px;
+        }
 
-    .swiper-container {
-        width: 80%;
-        height: 100%;
-        display: flex;
-        flex-direction: column;
-    }
-
-    .swiper-slide {
-        text-align: center;
-        font-size: 18px;
-        background: #fff;
-
-        /* Center slide text vertically */
-        display: -webkit-box;
-        display: -ms-flexbox;
-        display: -webkit-flex;
-        display: flex;
-        -webkit-box-pack: center;
-        -ms-flex-pack: center;
-        -webkit-justify-content: center;
-        justify-content: center;
-        -webkit-box-align: center;
-        -ms-flex-align: center;
-        -webkit-align-items: center;
-        align-items: center;
-    }
+        .swiper-slide {
+            background-position: center;
+            background-size: cover;
+            width: 300px;
+            height: 300px;
+        }
     </style>
 </head>
 
 <body>
     <!-- Swiper -->
     <div class="swiper-container">
-        <div class="swiper-wrapper" id="list">
-            
+        <div class="swiper-wrapper" id="carrusel-movil">
+        
         </div>
         <!-- Add Pagination -->
         <div class="swiper-pagination"></div>
@@ -76,20 +56,43 @@
     <!-- Initialize Swiper -->
     <script>
 
-        for (let i = 0; i <= 10; i++) {
+        const imgs = [
+            {url: 'https://swiperjs.com/demos/images/nature-1.jpg'},
+            {url: 'https://swiperjs.com/demos/images/nature-2.jpg'},
+            {url: 'https://swiperjs.com/demos/images/nature-3.jpg'},
+            {url: 'https://swiperjs.com/demos/images/nature-4.jpg'},
+            {url: 'https://swiperjs.com/demos/images/nature-5.jpg'},
+            {url: 'https://swiperjs.com/demos/images/nature-6.jpg'},
+            {url: 'https://swiperjs.com/demos/images/nature-7.jpg'},
+            {url: 'https://swiperjs.com/demos/images/nature-8.jpg'},
+            {url: 'https://swiperjs.com/demos/images/nature-9.jpg'},
+            {url: 'https://swiperjs.com/demos/images/nature-10.jpg'},
+        ];
 
-            document.querySelector('#list').innerHTML += `
-            
-            <div class="swiper-slide">Slide ${i}</div>
-            
+        for ( img of imgs){
+
+            document.querySelector('#carrusel-movil').innerHTML += `
+                <div 
+                    class="swiper-slide"
+                    style="
+                        background-image: url(${img.url});
+                    "
+                ></div>
             `
-
         }
 
         var swiper = new Swiper(".swiper-container", {
-            slidesPerView: 3,
-            spaceBetween: 30,
+            effect: "coverflow",
             grabCursor: true,
+            centeredSlides: true,
+            slidesPerView: "auto",
+            coverflowEffect: {
+                rotate: 50,
+                stretch: 0,
+                depth: 100,
+                modifier: 1,
+                slideShadows: true
+            },
             pagination: {
                 el: ".swiper-pagination",
                 dynamicBullets: true
