@@ -1,31 +1,40 @@
-.ml-desktop-nuestros-expertos * {
+.ml-desktop-nuestros-expertos *,
+.ml-movil-nuestros-expertos * {
   margin: 0;
   padding: 0;
   text-decoration: none;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
   font-family: "Poppins";
+  line-height: 1.4;
 }
 
-.ml-desktop-nuestros-expertos *:focus {
+.ml-desktop-nuestros-expertos *:focus,
+.ml-movil-nuestros-expertos *:focus {
   outline: none;
 }
 
-.ml-desktop-nuestros-expertos * a:active {
+.ml-desktop-nuestros-expertos * a:active,
+.ml-movil-nuestros-expertos * a:active {
   text-decoration: none;
 }
 
-.ml-desktop-nuestros-expertos * a:active:active {
+.ml-desktop-nuestros-expertos * a:active:active,
+.ml-movil-nuestros-expertos * a:active:active {
   text-decoration: none;
 }
 
 .ml-desktop-nuestros-expertos * input,
-.ml-desktop-nuestros-expertos * button {
+.ml-desktop-nuestros-expertos * button,
+.ml-movil-nuestros-expertos * input,
+.ml-movil-nuestros-expertos * button {
   border: 0.1vw solid #fff0;
 }
 
 .ml-desktop-nuestros-expertos * input:focus,
-.ml-desktop-nuestros-expertos * button:focus {
+.ml-desktop-nuestros-expertos * button:focus,
+.ml-movil-nuestros-expertos * input:focus,
+.ml-movil-nuestros-expertos * button:focus {
   outline: none;
 }
 
@@ -161,5 +170,149 @@
   font-size: 0.73vw;
   color: #A059F8;
   width: 9vw;
+}
+
+.ml-movil-nuestros-expertos {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.ml-movil-nuestros-expertos__parte-1 {
+  background: #A059F8;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 78.5vw;
+  border-radius: 0 15vw 0 0;
+  margin-left: 10vw;
+  margin-top: 5vw;
+}
+
+.ml-movil-nuestros-expertos__parte-1__title {
+  margin-top: 4vw;
+  font-size: 5.8vw;
+  font-weight: 300;
+  color: #FFF;
+  text-align: center;
+  width: 26vw;
+  line-height: 1;
+}
+
+.ml-movil-nuestros-expertos__parte-1__title > span {
+  color: #3A0563;
+  font-weight: 800;
+}
+
+.ml-movil-nuestros-expertos__parte-1__paragraph {
+  margin-top: 3vw;
+  width: 54vw;
+  font-size: 2.7vw;
+  font-weight: 300;
+  color: #FFF;
+}
+
+.ml-movil-nuestros-expertos__parte-1__tres-puntos {
+  height: 0.75vw;
+  margin-top: 5vw;
+  margin-bottom: 5vw;
+}
+
+.ml-movil-nuestros-expertos__parte-2 {
+  margin-top: 5vw;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding: 0 5vw;
+}
+
+.ml-movil-nuestros-expertos__parte-2__perfil {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 23vw;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.ml-movil-nuestros-expertos__parte-2__perfil__img {
+  height: 23vw;
+  width: 23vw;
+  border-radius: 50%;
+}
+
+.ml-movil-nuestros-expertos__parte-2__perfil__nombre {
+  margin-top: 3vw;
+  line-height: 1.4;
+  font-size: 3vw;
+  font-weight: 800;
+  color: #5B5B5B;
+}
+
+.ml-movil-nuestros-expertos__parte-2__perfil__tematica {
+  font-weight: 800;
+  font-size: 2.14vw;
+  margin-top: 2vw;
+  color: #A059F8;
+}
+
+.ml-movil-nuestros-expertos__parte-3 {
+  background: #A059F8;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 78.5vw;
+  border-radius: 0 0 0 15vw;
+  margin-left: 10vw;
+  margin-top: 5vw;
+}
+
+.ml-movil-nuestros-expertos__parte-3__title {
+  font-weight: 300;
+  font-size: 5.8vw;
+  color: #FFF;
+  margin-top: 6.7vw;
+}
+
+.ml-movil-nuestros-expertos__parte-3__pyn-live {
+  margin-top: 5.7vw;
+  height: 10vw;
+  width: 23.4vw;
+}
+
+.ml-movil-nuestros-expertos__parte-3__paragraph {
+  margin-top: 5.7vw;
+  margin-bottom: 10vw;
+  font-size: 3vw;
+  color: #FFF;
+  font-weight: 300;
+  width: 56vw;
 }
 /*# sourceMappingURL=index.css.map */

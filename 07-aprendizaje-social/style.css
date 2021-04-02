@@ -1,0 +1,79 @@
+.ml-desktop-aprendizaje-social *,
+.ml-movil-aprendizaje-social * {
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  line-height: 1.4;
+  font-family: "Poppins";
+}
+
+.ml-desktop-aprendizaje-social *:focus,
+.ml-movil-aprendizaje-social *:focus {
+  outline: none;
+}
+
+.ml-desktop-aprendizaje-social * a:active,
+.ml-movil-aprendizaje-social * a:active {
+  text-decoration: none;
+}
+
+.ml-desktop-aprendizaje-social * a:active:active,
+.ml-movil-aprendizaje-social * a:active:active {
+  text-decoration: none;
+}
+
+.ml-desktop-aprendizaje-social * input,
+.ml-desktop-aprendizaje-social * button,
+.ml-movil-aprendizaje-social * input,
+.ml-movil-aprendizaje-social * button {
+  border: 0.1vw solid #fff0;
+}
+
+.ml-desktop-aprendizaje-social * input:focus,
+.ml-desktop-aprendizaje-social * button:focus,
+.ml-movil-aprendizaje-social * input:focus,
+.ml-movil-aprendizaje-social * button:focus {
+  outline: none;
+}
+
+.ml-desktop-aprendizaje-social {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  margin-top: 6.8vw;
+}
+
+.ml-desktop-aprendizaje-social__img {
+  height: 19.3vw;
+  width: 36.1vw;
+  margin-left: 16.4vw;
+}
+
+.ml-desktop-aprendizaje-social__col {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.ml-desktop-aprendizaje-social__col__title {
+  margin-top: 4.5vw;
+  font-weight: 2.6vw;
+  color: #A059F8;
+  font-weight: 300;
+  width: 10.4vw;
+}
+
+.ml-desktop-aprendizaje-social__col__title > span {
+  width: 1.4vw;
+}
+/*# sourceMappingURL=style.css.map */

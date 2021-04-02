@@ -824,6 +824,7 @@ $color2: #5B5B5B
     text-decoration: none
     box-sizing:  border-box
     font-family: $font
+    line-height: 1.4
     &:focus
         outline: none
 
@@ -901,12 +902,19 @@ $color1: #A059F8
 $color2: #3A0563
 $color3: #5B5B5B 
 
-.ml-desktop-nuestros-expertos *
+$font:  'Poppins'
+$color1: #A059F8
+$color2: #3A0563
+$color3: #5B5B5B 
+
+.ml-desktop-nuestros-expertos *,
+.ml-movil-nuestros-expertos *
     margin: 0
     padding: 0
     text-decoration: none
     box-sizing:  border-box
     font-family: $font
+    line-height: 1.4
     &:focus
         outline: none
 
@@ -1015,6 +1023,250 @@ $color3: #5B5B5B
                     font-size: 0.73vw
                     color: $color1
                     width: 9vw
+
+.ml-movil-nuestros-expertos
+    display: flex
+    flex-direction: column
+
+    &__parte-1
+        background: $color1
+        display: flex
+        flex-direction: column
+        align-items: center
+        width: 78.5vw
+        border-radius: 0 15vw 0 0
+        margin-left: 10vw
+        margin-top: 5vw
+
+        &__title
+            margin-top: 4vw
+            font-size: 5.8vw
+            font-weight: 300
+            color: #FFF
+            text-align: center
+            width: 26vw
+            line-height: 1
+            & > span
+                color: $color2
+                font-weight: 800
+
+        &__paragraph
+            margin-top: 3vw
+            width: 54vw
+            font-size: 2.7vw
+            font-weight: 300
+            color: #FFF
+        
+        &__tres-puntos
+            height: 0.75vw
+            margin-top: 5vw
+            margin-bottom: 5vw
+            // margin-left: 32vw
+
+    &__parte-2
+        margin-top: 5vw
+        display: flex
+        flex-direction: row
+        justify-content: space-between
+        padding: 0 5vw
+
+        &__perfil
+            display: flex
+            width: 23vw
+            flex-direction: column
+
+            &__img
+                height: 23vw
+                width: 23vw
+                border-radius: 50%
+
+            &__nombre
+                margin-top: 3vw
+                line-height: 1.4
+                font-size: 3vw
+                font-weight: 800
+                color: $color3
+
+            &__tematica
+                font-weight: 800
+                font-size: 2.14vw
+                margin-top: 2vw
+                color: $color1
+
+    &__parte-3
+        background: $color1
+        display: flex
+        flex-direction: column
+        align-items: center
+        width: 78.5vw
+        border-radius: 0 0 0 15vw
+        margin-left: 10vw
+        margin-top: 5vw
+
+        &__title
+            font-weight: 300
+            font-size: 5.8vw
+            color: #FFF
+            margin-top: 6.7vw
+
+        &__pyn-live
+            margin-top: 5.7vw
+            height: 10vw
+            width: 23.4vw
+
+        &__paragraph
+            margin-top: 5.7vw
+            margin-bottom: 10vw
+            font-size: 3vw
+            color: #FFF
+            font-weight: 300
+            width: 56vw
+
+
+//Beneficios
+$font:  'Poppins'
+$color1: #480981
+$color2: #A059F8
+$color3: #F7F7F7
+$color4: #5B5B5B
+
+.ml-desktop-beneficios *,
+.ml-movil-beneficios *
+    margin: 0
+    padding: 0
+    line-height: 1.4
+    text-decoration: none
+    box-sizing:  border-box
+    font-family: $font
+    &:focus
+        outline: none
+
+    & a:active
+        text-decoration: none
+        &:active
+            text-decoration: none
+
+    & input,
+    & button
+        border: 0.1vw solid #fff0
+        &:focus
+            outline: none
+
+.ml-desktop-beneficios
+
+    display: flex
+    flex-direction: column
+    align-items: center
+    background: $color3
+
+    &__title
+        margin-top: 8vw
+        font-size: 2.6vw
+        color: $color1
+        font-weight: 300
+        width: 35vw
+        text-align: center
+        line-height: 1.2
+
+        & > span 
+            font-weight: 800
+            color: $color2
+
+    &__row
+        display: flex
+        flex-direction: row
+
+        &__col-1
+            margin-top: 6vw
+            display: flex
+            flex-direction: column
+            justify-content: center
+            margin-right: 8vw
+
+            &__item
+                display: flex
+                flex-direction: row
+                align-items: center
+                margin-bottom: 2vw
+
+                &__img
+                    height: 4.5vw
+                    width: 4.5vw
+                
+                &__paragraph
+                    margin-left: 1.6vw
+                    font-size: 1.3vw
+                    width: 24vw
+                    color: $color4
+
+        
+        &__col-2
+            margin-top: 6vw
+            display: flex
+            flex-direction: column
+            justify-content: center
+
+            &__item
+                display: flex
+                flex-direction: row
+                align-items: center
+                margin-bottom: 2vw
+
+                &__img
+                    height: 4.5vw
+                    width: 4.5vw
+                
+                &__paragraph
+                    margin-left: 1.6vw
+                    font-size: 1.3vw
+                    width: 24vw
+                    color: $color4
+
+.ml-movil-beneficios
+
+    display: flex
+    flex-direction: column
+    align-items: center
+    background: $color3
+    &__title
+        margin-bottom: 7.5vw
+        margin-top: 8vw
+        font-size: 6.1vw
+        color: $color1
+        font-weight: 300
+        width: 82vw
+        text-align: center
+        line-height: 1.2
+
+        & > span 
+            font-weight: 800
+            color: $color2
+
+    
+    &__item
+        display: flex
+        flex-direction: row
+        align-items: center
+        margin-bottom: 4vw
+        width: 70vw
+
+        &__img
+            height: 7.8vw
+            width: 7.8vw
+        
+        &__paragraph
+            margin-left: 4vw
+            font-size: 3vw
+            width: 70vw
+            color: $color4
+
+
+
+
+
+
+
+
 
 
 
