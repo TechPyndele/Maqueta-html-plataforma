@@ -1,0 +1,95 @@
+.jd-main-container-compra *,
+.jd-movil-main-container-compra * {
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  font-family: "Poppins";
+  line-height: 1.4;
+}
+
+.jd-main-container-compra *:focus,
+.jd-movil-main-container-compra *:focus {
+  outline: none;
+}
+
+.jd-main-container-compra * a,
+.jd-movil-main-container-compra * a {
+  text-decoration: none;
+}
+
+.jd-main-container-compra * a:active,
+.jd-movil-main-container-compra * a:active {
+  text-decoration: none;
+}
+
+.jd-main-container-compra * input,
+.jd-main-container-compra * button,
+.jd-movil-main-container-compra * input,
+.jd-movil-main-container-compra * button {
+  border: 0.1vw solid #fff0;
+}
+
+.jd-main-container-compra * input:focus,
+.jd-main-container-compra * button:focus,
+.jd-movil-main-container-compra * input:focus,
+.jd-movil-main-container-compra * button:focus {
+  outline: none;
+}
+
+.jd-main-container-compra {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -ms-flex-line-pack: start;
+      align-content: start;
+  font-family: "Poppins";
+  padding-bottom: 2.7vw;
+}
+
+.jd-main-container-compra__con-tu-compra {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+}
+
+.jd-main-container-compra__con-tu-compra__texto {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  margin-left: 17.3vw;
+  margin-right: 2.8vw;
+}
+
+.jd-main-container-compra__con-tu-compra__texto__title {
+  color: #A059F8;
+  font-size: 2.8vw;
+  font-weight: 800;
+}
+
+.jd-main-container-compra__con-tu-compra__texto__sub-title {
+  font-size: 1.1vw;
+  color: #939393;
+  line-height: 1.6;
+  width: 23vw;
+  font-weight: 300;
+}
+
+.jd-main-container-compra__con-tu-compra__risa-img {
+  width: 14vw;
+  height: 6vw;
+}
+/*# sourceMappingURL=style.css.map */

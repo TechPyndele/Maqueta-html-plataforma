@@ -1,0 +1,63 @@
+$font:  'Poppins'
+$color1: #480981
+$color2: #FFB400
+$color3: #FCFCFC
+$color4: #EBFFFE
+$color5: #29EB99
+$color6: #8A8A8A
+$color7: #A059F8
+$color8: #939393
+$color9: #A059F8
+
+.jd-main-container-compra *,
+.jd-movil-main-container-compra *
+    margin: 0
+    padding: 0
+    text-decoration: none
+    box-sizing:  border-box
+    font-family: $font
+    line-height: 1.4
+    &:focus
+        outline: none
+    & a
+        text-decoration: none
+        &:active
+            text-decoration: none
+            
+    & input,
+    & button
+        border: 0.1vw solid #fff0
+        &:focus
+            outline: none
+
+.jd-main-container-compra
+    display: flex
+    flex-direction: column
+    align-content: start
+    font-family: $font
+    padding-bottom: 2.7vw
+
+    &__con-tu-compra
+        display: flex
+        flex-direction: row
+
+        &__texto
+            display: flex
+            flex-direction: column
+            margin-left: 17.3vw
+            margin-right: 2.8vw
+    
+            &__title
+                color: $color9
+                font-size: 2.8vw
+                font-weight: 800
+            
+            &__sub-title
+                font-size: 1.1vw
+                color: $color8
+                line-height: 1.6
+                width: 23vw
+                font-weight: 300
+        &__risa-img
+            width: 14vw
+            height: 6vw
