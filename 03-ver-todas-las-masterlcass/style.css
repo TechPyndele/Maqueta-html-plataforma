@@ -7,6 +7,7 @@
           box-sizing: border-box;
   font-family: "Poppins";
   list-style: none;
+  line-height: 1.4;
 }
 
 .ml-desktop-masterclass *:focus,
@@ -191,6 +192,7 @@
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  width: 100vw;
   -webkit-box-orient: horizontal;
   -webkit-box-direction: normal;
       -ms-flex-direction: row;
@@ -199,7 +201,7 @@
 
 .ml-desktop-masterclass__proximos-lanzamientos__row-1__risa-morada {
   width: 40vw;
-  margin-left: -44vw;
+  margin-left: -3vw;
   margin-top: -20vw;
   height: 36.4vw;
 }
