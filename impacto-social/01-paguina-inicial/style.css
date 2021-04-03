@@ -1,4 +1,9 @@
-.ml-desktop-pagina-inicial-enfoquesocial * {
+* {
+  margin: 0;
+}
+
+.ml-desktop-pagina-inicial-enfoquesocial *,
+.ml-movil-pagina-inicial-enfoquesocial * {
   margin: 0;
   padding: 0;
   text-decoration: none;
@@ -8,25 +13,32 @@
   font-family: "Poppins";
 }
 
-.ml-desktop-pagina-inicial-enfoquesocial *:focus {
+.ml-desktop-pagina-inicial-enfoquesocial *:focus,
+.ml-movil-pagina-inicial-enfoquesocial *:focus {
   outline: none;
 }
 
-.ml-desktop-pagina-inicial-enfoquesocial * a:active {
+.ml-desktop-pagina-inicial-enfoquesocial * a:active,
+.ml-movil-pagina-inicial-enfoquesocial * a:active {
   text-decoration: none;
 }
 
-.ml-desktop-pagina-inicial-enfoquesocial * a:active:active {
+.ml-desktop-pagina-inicial-enfoquesocial * a:active:active,
+.ml-movil-pagina-inicial-enfoquesocial * a:active:active {
   text-decoration: none;
 }
 
 .ml-desktop-pagina-inicial-enfoquesocial * input,
-.ml-desktop-pagina-inicial-enfoquesocial * button {
+.ml-desktop-pagina-inicial-enfoquesocial * button,
+.ml-movil-pagina-inicial-enfoquesocial * input,
+.ml-movil-pagina-inicial-enfoquesocial * button {
   border: 0.1vw solid #fff0;
 }
 
 .ml-desktop-pagina-inicial-enfoquesocial * input:focus,
-.ml-desktop-pagina-inicial-enfoquesocial * button:focus {
+.ml-desktop-pagina-inicial-enfoquesocial * button:focus,
+.ml-movil-pagina-inicial-enfoquesocial * input:focus,
+.ml-movil-pagina-inicial-enfoquesocial * button:focus {
   outline: none;
 }
 
@@ -103,5 +115,53 @@
 .ml-desktop-pagina-inicial-enfoquesocial__col__button:hover {
   background: #1da0a7;
   color: #FFF;
+}
+
+.ml-movil-pagina-inicial-enfoquesocial {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  padding: 0 10vw;
+  background: #480981;
+}
+
+.ml-movil-pagina-inicial-enfoquesocial__img {
+  width: 80vw;
+  margin-top: 5vw;
+  margin-bottom: 10vw;
+}
+
+.ml-movil-pagina-inicial-enfoquesocial__title {
+  font-size: 6.3vw;
+  color: #FFF;
+  font-weight: 300;
+  width: 36vw;
+}
+
+.ml-movil-pagina-inicial-enfoquesocial__title > span {
+  font-weight: 800;
+  color: #A059F8;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 62vw;
+}
+
+.ml-movil-pagina-inicial-enfoquesocial__paragraph {
+  margin-top: 5vw;
+  color: #FFF;
+  font-size: 3.4vw;
+  font-weight: 300;
+}
+
+.ml-movil-pagina-inicial-enfoquesocial__tres-puntos {
+  height: 2.2vw;
+  margin: 0 auto;
+  margin-top: 10vw;
+  margin-bottom: 10vw;
 }
 /*# sourceMappingURL=style.css.map */
