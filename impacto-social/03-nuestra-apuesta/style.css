@@ -1,4 +1,9 @@
-.ml-desktop-apuesta-social * {
+* {
+  margin: 0;
+}
+
+.ml-desktop-apuesta-social *,
+.ml-movil-apuesta-social * {
   margin: 0;
   padding: 0;
   text-decoration: none;
@@ -8,25 +13,32 @@
   font-family: "Poppins";
 }
 
-.ml-desktop-apuesta-social *:focus {
+.ml-desktop-apuesta-social *:focus,
+.ml-movil-apuesta-social *:focus {
   outline: none;
 }
 
-.ml-desktop-apuesta-social * a:active {
+.ml-desktop-apuesta-social * a:active,
+.ml-movil-apuesta-social * a:active {
   text-decoration: none;
 }
 
-.ml-desktop-apuesta-social * a:active:active {
+.ml-desktop-apuesta-social * a:active:active,
+.ml-movil-apuesta-social * a:active:active {
   text-decoration: none;
 }
 
 .ml-desktop-apuesta-social * input,
-.ml-desktop-apuesta-social * button {
+.ml-desktop-apuesta-social * button,
+.ml-movil-apuesta-social * input,
+.ml-movil-apuesta-social * button {
   border: 0.1vw solid #fff0;
 }
 
 .ml-desktop-apuesta-social * input:focus,
-.ml-desktop-apuesta-social * button:focus {
+.ml-desktop-apuesta-social * button:focus,
+.ml-movil-apuesta-social * input:focus,
+.ml-movil-apuesta-social * button:focus {
   outline: none;
 }
 
@@ -184,5 +196,68 @@
 .ml-desktop-apuesta-social__row-3__row__img {
   margin-top: -10vw;
   width: 50.6vw;
+}
+
+.ml-movil-apuesta-social {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  background: #F7F7F7;
+  padding-top: 5vw;
+  padding: 0 10vw 10vw 10vw;
+}
+
+.ml-movil-apuesta-social__title {
+  margin-bottom: 4vw;
+  font-size: 6.3vw;
+  color: #A059F8;
+  font-weight: 800;
+  width: 50vw;
+}
+
+.ml-movil-apuesta-social__paragraph {
+  margin-bottom: 4vw;
+  color: #939393;
+  font-weight: 300;
+  font-size: 3.4vw;
+  line-height: 1.7;
+}
+
+.ml-movil-apuesta-social__card {
+  background: #FFF;
+  border-radius: 3vw;
+  margin-top: 3vw;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  padding: 0 10vw 10vw 10vw;
+}
+
+.ml-movil-apuesta-social__card__img {
+  height: 15.5vw;
+  width: 15.5vw;
+  margin: 0 auto;
+  margin-top: 5.5vw;
+}
+
+.ml-movil-apuesta-social__card__paragraph {
+  font-size: 3.4vw;
+  font-weight: 300;
+  color: #939393;
+  margin-top: 5vw;
+  line-height: 2;
+}
+
+.ml-movil-apuesta-social__card__paragraph > span {
+  font-weight: 800;
+  color: #29C4CD;
 }
 /*# sourceMappingURL=style.css.map */

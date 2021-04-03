@@ -2,7 +2,8 @@ $font:  'Poppins'
 $color1: #A059F8
 $color2: #939393
 
-.ml-desktop-emprendedor-rural *
+.ml-desktop-emprendedor-rural *,
+.ml-movil-emprendedor-rural *
     margin: 0
     padding: 0
     text-decoration: none
@@ -41,7 +42,7 @@ $color2: #939393
         margin-bottom: 5vw
         flex-direction: row
         align-items: center
- 
+
         &__title
             font-size: 2.6vw
             font-weight: 800
@@ -59,3 +60,38 @@ $color2: #939393
             font-weight: 300
             color: $color2
             width: 30vw
+
+.ml-movil-emprendedor-rural 
+    display: flex
+    flex-direction: column
+
+    &__video
+        width: 90vw
+        height: 44vw
+        margin: 5vw
+
+    &__title
+        font-size: 6.3vw
+        width: 66vw
+        margin-left: 10vw
+        margin-top: 7vw
+        color: $color1
+
+    &__paragraph
+        color: $color2
+        font-weight: 300
+        font-size: 3.4vw
+        line-height: 1.7
+        margin: 0 10vw
+        margin-top: 5vw
+
+    &__tres-puntos
+        height: 2vw
+        margin-top: 8.5vw
+        margin-bottom: 8.5vw
+
+
+
+
+
+

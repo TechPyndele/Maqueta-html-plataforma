@@ -4,7 +4,11 @@ $color2: #939393
 $color3: #F7F7F7
 $color4: #29C4CD
 
-.ml-desktop-apuesta-social *
+*
+    margin: 0
+
+.ml-desktop-apuesta-social *,
+.ml-movil-apuesta-social *
     margin: 0
     padding: 0
     text-decoration: none
@@ -124,5 +128,59 @@ $color4: #29C4CD
                 // height: 78.4vw
                 // overflow-x: hidden
                 width: 50.6vw
-        
+
+.ml-movil-apuesta-social
+    display: flex
+    flex-direction: column
+    background: $color3
+    padding-top: 5vw
+    padding: 0 10vw 10vw 10vw
+
+    &__title
+        margin-bottom: 4vw
+        font-size: 6.3vw
+        color: $color1
+        font-weight: 800
+        width: 50vw
+
+    &__paragraph
+        margin-bottom: 4vw
+        color: $color2
+        font-weight: 300
+        font-size: 3.4vw
+        line-height: 1.7
+
+    &__card
+        background: #FFF
+        border-radius: 3vw
+        margin-top: 3vw
+        display: flex
+        flex-direction: column
+        padding: 0 10vw 10vw 10vw
+
+        &__img
+            height: 15.5vw
+            width: 15.5vw
+            margin: 0 auto
+            margin-top: 5.5vw
+
+        &__paragraph
+            font-size: 3.4vw
+            font-weight: 300
+            color: $color2
+            margin-top: 5vw
+            line-height: 2
+
+            & > span 
+                font-weight: 800
+                color: $color4
+
+
+
+
+
+
+
+
+
 
