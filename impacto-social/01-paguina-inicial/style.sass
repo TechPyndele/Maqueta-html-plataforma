@@ -1,0 +1,83 @@
+$font:  'Poppins'
+$color1: #A059F8
+$color2: #5B5B5B
+$color3: #29C4CD
+$color3-h: #1da0a7
+$color4: #480981
+
+.ml-desktop-pagina-inicial-enfoquesocial *
+    margin: 0
+    padding: 0
+    text-decoration: none
+    box-sizing:  border-box
+    line-height: 1.4
+    font-family: $font
+    &:focus
+        outline: none
+
+    & a:active
+        text-decoration: none
+        &:active
+            text-decoration: none
+
+    & input,
+    & button
+        border: 0.1vw solid #fff0
+        &:focus
+            outline: none
+
+.ml-desktop-pagina-inicial-enfoquesocial 
+    display: flex
+    flex-direction: row
+    padding-top: 6.8vw
+    padding-bottom: 9.4vw
+    background: $color4
+
+    &__img
+        height: 19.3vw
+        width: 36.1vw
+        margin-left: 16.4vw
+
+    &__col
+        display: flex
+        flex-direction: column
+        margin-left: 4.8vw
+
+        &__title
+            margin-top: 2vw
+            font-size: 2.6vw
+            line-height: 1.6
+            color: #FFF
+            font-weight: 300
+            width: 16.4vw
+
+            & > span 
+                display: flex
+                color: $color1
+                width: 26vw
+                font-weight: 800
+
+        &__paragraph
+            margin-top: 2vw
+            font-size: 1.1vw
+            font-weight: 400
+            width: 28vw
+            color: #FFF
+
+        &__button
+            font-size: 1.2vw
+            font-weight: 800
+            margin-top: 2vw
+            padding: 0.5vw 1vw
+            border: 0.3vw solid $color3
+            border-radius: 3vw
+            text-align: center
+            color: $color3
+            transition: background 0.3s ease, color 0.3s ease
+            background: #FFF
+            &:hover
+                background: $color3-h
+                color: #FFF
+
+    
+

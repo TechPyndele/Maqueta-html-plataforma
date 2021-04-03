@@ -1,0 +1,88 @@
+.ml-desktop-emprendedor-rural * {
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  line-height: 1.4;
+  font-family: "Poppins";
+}
+
+.ml-desktop-emprendedor-rural *:focus {
+  outline: none;
+}
+
+.ml-desktop-emprendedor-rural * a:active {
+  text-decoration: none;
+}
+
+.ml-desktop-emprendedor-rural * a:active:active {
+  text-decoration: none;
+}
+
+.ml-desktop-emprendedor-rural * input,
+.ml-desktop-emprendedor-rural * button {
+  border: 0.1vw solid #fff0;
+}
+
+.ml-desktop-emprendedor-rural * input:focus,
+.ml-desktop-emprendedor-rural * button:focus {
+  outline: none;
+}
+
+.ml-desktop-emprendedor-rural {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-top: 5vw;
+}
+
+.ml-desktop-emprendedor-rural__video {
+  height: 29.1vw;
+  width: 60.9vw;
+  border-radius: 1vw;
+}
+
+.ml-desktop-emprendedor-rural__text {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-top: 5vw;
+  margin-bottom: 5vw;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.ml-desktop-emprendedor-rural__text__title {
+  font-size: 2.6vw;
+  font-weight: 800;
+  color: #A059F8;
+  width: 28vw;
+}
+
+.ml-desktop-emprendedor-rural__text__img {
+  height: 7.3vw;
+  width: 0.85vw;
+  margin-left: 3vw;
+  margin-right: 5vw;
+}
+
+.ml-desktop-emprendedor-rural__text__paragraph {
+  font-size: 1.1vw;
+  font-weight: 300;
+  color: #939393;
+  width: 30vw;
+}
+/*# sourceMappingURL=style.css.map */

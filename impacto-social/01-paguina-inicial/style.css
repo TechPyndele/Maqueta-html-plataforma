@@ -1,0 +1,107 @@
+.ml-desktop-pagina-inicial-enfoquesocial * {
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  line-height: 1.4;
+  font-family: "Poppins";
+}
+
+.ml-desktop-pagina-inicial-enfoquesocial *:focus {
+  outline: none;
+}
+
+.ml-desktop-pagina-inicial-enfoquesocial * a:active {
+  text-decoration: none;
+}
+
+.ml-desktop-pagina-inicial-enfoquesocial * a:active:active {
+  text-decoration: none;
+}
+
+.ml-desktop-pagina-inicial-enfoquesocial * input,
+.ml-desktop-pagina-inicial-enfoquesocial * button {
+  border: 0.1vw solid #fff0;
+}
+
+.ml-desktop-pagina-inicial-enfoquesocial * input:focus,
+.ml-desktop-pagina-inicial-enfoquesocial * button:focus {
+  outline: none;
+}
+
+.ml-desktop-pagina-inicial-enfoquesocial {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  padding-top: 6.8vw;
+  padding-bottom: 9.4vw;
+  background: #480981;
+}
+
+.ml-desktop-pagina-inicial-enfoquesocial__img {
+  height: 19.3vw;
+  width: 36.1vw;
+  margin-left: 16.4vw;
+}
+
+.ml-desktop-pagina-inicial-enfoquesocial__col {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  margin-left: 4.8vw;
+}
+
+.ml-desktop-pagina-inicial-enfoquesocial__col__title {
+  margin-top: 2vw;
+  font-size: 2.6vw;
+  line-height: 1.6;
+  color: #FFF;
+  font-weight: 300;
+  width: 16.4vw;
+}
+
+.ml-desktop-pagina-inicial-enfoquesocial__col__title > span {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  color: #A059F8;
+  width: 26vw;
+  font-weight: 800;
+}
+
+.ml-desktop-pagina-inicial-enfoquesocial__col__paragraph {
+  margin-top: 2vw;
+  font-size: 1.1vw;
+  font-weight: 400;
+  width: 28vw;
+  color: #FFF;
+}
+
+.ml-desktop-pagina-inicial-enfoquesocial__col__button {
+  font-size: 1.2vw;
+  font-weight: 800;
+  margin-top: 2vw;
+  padding: 0.5vw 1vw;
+  border: 0.3vw solid #29C4CD;
+  border-radius: 3vw;
+  text-align: center;
+  color: #29C4CD;
+  -webkit-transition: background 0.3s ease, color 0.3s ease;
+  transition: background 0.3s ease, color 0.3s ease;
+  background: #FFF;
+}
+
+.ml-desktop-pagina-inicial-enfoquesocial__col__button:hover {
+  background: #1da0a7;
+  color: #FFF;
+}
+/*# sourceMappingURL=style.css.map */
