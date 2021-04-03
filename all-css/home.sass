@@ -1374,6 +1374,425 @@ $color3-h: #1da0a7
 
 
 
+// impacto social 01
+$font:  'Poppins'
+$color1: #A059F8
+$color2: #5B5B5B
+$color3: #29C4CD
+$color3-h: #1da0a7
+$color4: #480981
+
+.ml-desktop-pagina-inicial-enfoquesocial *,
+.ml-movil-pagina-inicial-enfoquesocial *
+    margin: 0
+    padding: 0
+    text-decoration: none
+    box-sizing:  border-box
+    line-height: 1.4
+    font-family: $font
+    &:focus
+        outline: none
+
+    & a:active
+        text-decoration: none
+        &:active
+            text-decoration: none
+
+    & input,
+    & button
+        border: 0.1vw solid #fff0
+        &:focus
+            outline: none
+
+.ml-desktop-pagina-inicial-enfoquesocial 
+    display: flex
+    flex-direction: row
+    padding-top: 6.8vw
+    padding-bottom: 9.4vw
+    background: $color4
+
+    &__img
+        height: 19.3vw
+        width: 36.1vw
+        margin-left: 16.4vw
+
+    &__col
+        display: flex
+        flex-direction: column
+        margin-left: 4.8vw
+
+        &__title
+            margin-top: 2vw
+            font-size: 2.6vw
+            line-height: 1.6
+            color: #FFF
+            font-weight: 300
+            width: 16.4vw
+
+            & > span 
+                display: flex
+                color: $color1
+                width: 26vw
+                font-weight: 800
+
+        &__paragraph
+            margin-top: 2vw
+            font-size: 1.1vw
+            font-weight: 400
+            width: 28vw
+            color: #FFF
+
+        &__button
+            font-size: 1.2vw
+            font-weight: 800
+            margin-top: 2vw
+            padding: 0.5vw 1vw
+            border: 0.3vw solid $color3
+            border-radius: 3vw
+            text-align: center
+            color: $color3
+            transition: background 0.3s ease, color 0.3s ease
+            background: #FFF
+            &:hover
+                background: $color3-h
+                color: #FFF
+
+.ml-movil-pagina-inicial-enfoquesocial 
+    display: flex
+    flex-direction: column
+    padding: 0 10vw
+    background: $color4
+
+    &__img
+        width:  80vw
+        // margin: 0 10vw
+        margin-top: 5vw
+        margin-bottom: 10vw
+
+    &__title
+        font-size: 6.3vw
+        color: #FFF
+        font-weight: 300
+        width: 36vw
+
+        & > span 
+            font-weight: 800
+            color: $color1
+            display: flex
+            width: 62vw
+
+    &__paragraph
+        margin-top: 5vw
+        color: #FFF
+        font-size: 3.4vw
+        font-weight: 300
+
+    &__tres-puntos
+        height: 2.2vw
+        margin: 0 auto
+        margin-top: 10vw
+        margin-bottom: 10vw
+
+
+// impacto social 02
+
+$font:  'Poppins'
+$color1: #A059F8
+$color2: #939393
+
+.ml-desktop-emprendedor-rural *,
+.ml-movil-emprendedor-rural *
+    margin: 0
+    padding: 0
+    text-decoration: none
+    box-sizing:  border-box
+    line-height: 1.4
+    font-family: $font
+    &:focus
+        outline: none
+
+    & a:active
+        text-decoration: none
+        &:active
+            text-decoration: none
+
+    & input,
+    & button
+        border: 0.1vw solid #fff0
+        &:focus
+            outline: none
+
+
+.ml-desktop-emprendedor-rural
+    display: flex
+    flex-direction: column
+    align-items: center
+    margin-top:  5vw
+
+    &__video
+        height: 29.1vw
+        width: 60.9vw
+        border-radius: 1vw
+
+    &__text
+        display: flex
+        margin-top: 5vw
+        margin-bottom: 5vw
+        flex-direction: row
+        align-items: center
+
+        &__title
+            font-size: 2.6vw
+            font-weight: 800
+            color: $color1
+            width: 28vw
+
+        &__img 
+            height: 7.3vw
+            width: 0.85vw
+            margin-left: 3vw
+            margin-right: 5vw
+
+        &__paragraph
+            font-size: 1.1vw
+            font-weight: 300
+            color: $color2
+            width: 30vw
+
+.ml-movil-emprendedor-rural 
+    display: flex
+    flex-direction: column
+
+    &__video
+        width: 90vw
+        height: 44vw
+        margin: 5vw
+
+    &__title
+        font-size: 6.3vw
+        width: 66vw
+        margin-left: 10vw
+        margin-top: 7vw
+        color: $color1
+
+    &__paragraph
+        color: $color2
+        font-weight: 300
+        font-size: 3.4vw
+        line-height: 1.7
+        margin: 0 10vw
+        margin-top: 5vw
+
+    &__tres-puntos
+        height: 2vw
+        margin-top: 8.5vw
+        margin-bottom: 8.5vw
+
+
+// impacto social 03
+$font:  'Poppins'
+$color1: #A059F8
+$color2: #939393
+$color3: #F7F7F7
+$color4: #29C4CD
+
+
+.ml-desktop-apuesta-social *,
+.ml-movil-apuesta-social *
+    margin: 0
+    padding: 0
+    text-decoration: none
+    box-sizing:  border-box
+    line-height: 1.4
+    font-family: $font
+    &:focus
+        outline: none
+
+    & a:active
+        text-decoration: none
+        &:active
+            text-decoration: none
+
+    & input,
+    & button
+        border: 0.1vw solid #fff0
+        &:focus
+            outline: none
+
+.ml-desktop-apuesta-social
+    display: flex
+    flex-direction: column
+    padding: 0 15vw
+    background: $color3
+
+    &__row-1
+        margin-top: 4vw
+        display: flex
+        flex-direction: row
+        align-items: center
+
+        &__title
+            width: 21vw
+            font-size: 2.6vw
+            font-weight: 800
+            color: $color1
+            margin-right: 13.3vw
+
+        &__paragraph
+            color: $color2
+            font-size: 1.1vw
+            font-weight: 300
+            width: 25.5vw
+
+    &__row-2
+        display: flex
+        flex-direction: row
+        margin-top: 4.5vw
+        justify-content: space-between
+
+        &__card
+            height: 38vw
+            width: 32vw
+            background: #FFF
+            border-radius: 1vw
+            display: flex
+            flex-direction: column
+            align-items: center
+            padding: 1.6vw 3.7vw 0 3.7vw
+
+            &__img
+                height: 5.4vw
+                width: 5.4vw
+                margin-bottom: 3.7vw
+
+            &__paragraph
+                color: $color2
+                font-size: 1.1vw
+                line-height: 2
+                font-weight: 300
+
+                & > span 
+                    font-weight: 800
+                    color: $color4
+
+    &__row-3
+        display: flex
+        flex-direction: column
+        padding-top: 7vw
+
+        &__paragraph
+            width: 35vw
+            font-size: 1.1vw
+            color: $color2
+            font-weight: 300
+            line-height: 2
+
+        &__row
+            display: flex
+            flex-direction: row
+
+            &__title
+                display: flex
+                flex-direction: column
+
+                &__1
+                    margin-top: 7.8vw
+                    width: 27vw
+                    font-size: 2.3vw
+                    color: $color4
+                    font-weight: 300
+                    line-height: 1.7
+                    & > span 
+                        font-weight: 800
+
+                &__2
+                    font-size: 1.1vw
+                    color: $color2
+                    font-weight: 300
+                    line-height: 2
+                    width: 27vw
+
+            &__img
+                margin-top: -10vw
+                // margin-left: -15vw
+                // height: 78.4vw
+                // overflow-x: hidden
+                width: 50.6vw
+
+.ml-movil-apuesta-social
+    display: flex
+    flex-direction: column
+    background: $color3
+    overflow-x: hidden
+    padding-top: 5vw
+    padding: 0 10vw 10vw 10vw
+
+    &__title
+        margin-bottom: 4vw
+        font-size: 6.3vw
+        color: $color1
+        font-weight: 800
+        width: 50vw
+
+    &__paragraph
+        margin-bottom: 4vw
+        color: $color2
+        font-weight: 300
+        font-size: 3.4vw
+        line-height: 1.7
+
+    &__card
+        background: #FFF
+        border-radius: 3vw
+        margin-top: 3vw
+        display: flex
+        flex-direction: column
+        padding: 0 10vw 10vw 10vw
+
+        &__img
+            height: 15.5vw
+            width: 15.5vw
+            margin: 0 auto
+            margin-top: 5.5vw
+
+        &__paragraph
+            font-size: 3.4vw
+            font-weight: 300
+            color: $color2
+            margin-top: 5vw
+            line-height: 2
+
+            & > span 
+                font-weight: 800
+                color: $color4
+
+    &__img-2
+        width: 100vw
+        margin-left: -10vw
+
+    &__title-2
+        font-size: 6.4vw
+        font-weight: 300
+        width: 75vw
+        color: $color4
+        & > span 
+            font-weight: 800
+
+
+    &__title-3
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
