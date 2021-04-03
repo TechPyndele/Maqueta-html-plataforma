@@ -1,0 +1,128 @@
+$font:  'Poppins'
+$color1: #A059F8
+$color2: #939393
+$color3: #F7F7F7
+$color4: #29C4CD
+
+.ml-desktop-apuesta-social *
+    margin: 0
+    padding: 0
+    text-decoration: none
+    box-sizing:  border-box
+    line-height: 1.4
+    font-family: $font
+    &:focus
+        outline: none
+
+    & a:active
+        text-decoration: none
+        &:active
+            text-decoration: none
+
+    & input,
+    & button
+        border: 0.1vw solid #fff0
+        &:focus
+            outline: none
+
+.ml-desktop-apuesta-social
+    display: flex
+    flex-direction: column
+    padding: 0 15vw
+    background: $color3
+
+    &__row-1
+        margin-top: 4vw
+        display: flex
+        flex-direction: row
+        align-items: center
+
+        &__title
+            width: 21vw
+            font-size: 2.6vw
+            font-weight: 800
+            color: $color1
+            margin-right: 13.3vw
+
+        &__paragraph
+            color: $color2
+            font-size: 1.1vw
+            font-weight: 300
+            width: 25.5vw
+
+    &__row-2
+        display: flex
+        flex-direction: row
+        margin-top: 4.5vw
+        justify-content: space-between
+
+        &__card
+            height: 38vw
+            width: 32vw
+            background: #FFF
+            border-radius: 1vw
+            display: flex
+            flex-direction: column
+            align-items: center
+            padding: 1.6vw 3.7vw 0 3.7vw
+
+            &__img
+                height: 5.4vw
+                width: 5.4vw
+                margin-bottom: 3.7vw
+
+            &__paragraph
+                color: $color2
+                font-size: 1.1vw
+                line-height: 2
+                font-weight: 300
+
+                & > span 
+                    font-weight: 800
+                    color: $color4
+
+    &__row-3
+        display: flex
+        flex-direction: column
+        padding-top: 7vw
+
+        &__paragraph
+            width: 35vw
+            font-size: 1.1vw
+            color: $color2
+            font-weight: 300
+            line-height: 2
+
+        &__row
+            display: flex
+            flex-direction: row
+
+            &__title
+                display: flex
+                flex-direction: column
+
+                &__1
+                    margin-top: 7.8vw
+                    width: 27vw
+                    font-size: 2.3vw
+                    color: $color4
+                    font-weight: 300
+                    line-height: 1.7
+                    & > span 
+                        font-weight: 800
+
+                &__2
+                    font-size: 1.1vw
+                    color: $color2
+                    font-weight: 300
+                    line-height: 2
+                    width: 27vw
+
+            &__img
+                margin-top: -10vw
+                // margin-left: -15vw
+                // height: 78.4vw
+                // overflow-x: hidden
+                width: 50.6vw
+        
+
