@@ -13,6 +13,11 @@ $color7: #A059F8
     flex-direction: column
     background: linear-gradient(to bottom, #fff 50%, $color1 50%);
     height: 35vw
+.jd-movil-row-video
+    display: flex
+    flex-direction: column
+    background: linear-gradient(to bottom, #fff 50%, $color1 50%);
+    height: 35vw
 
 .jd-main-container-premium *,
 .jd-movil-main-container-premium *
@@ -71,6 +76,38 @@ $color7: #A059F8
         &__risa-img
             width: 27.2vw
             height: 14.6vw
+.jd-movil-main-container-premium
+    display: flex
+    flex-direction: column
+    align-content: start
+    font-family: $font
+    background: $color1
+    padding-bottom: 2.7vw
+
+    &__row-conviertete
+        display: flex
+        flex-direction: row
+
+        &__texto
+            display: flex
+            flex-direction: column
+            margin-left: 11.1vw
+    
+            &__title
+                color: $color4
+                font-size: 6.9vw
+                font-weight: 800
+                margin-right: 6.5vw 
+                & > span
+                    color: $color2
+
+            &__sub-title
+                margin-top: 1.6vw
+                font-size: 3.4vw
+                color: #fff
+                font-weight: 300
+                line-height: 1.6
+                width: 77vw
 
 .jd-main-container-planes *,
 .jd-movil-main-container-planes *
@@ -174,6 +211,91 @@ $color7: #A059F8
         width: 20.4vw
         height: 26.6vw
 
+.jd-movil-main-container-planes
+    display: flex
+    flex-direction: column
+    align-content: space-between
+    font-family: $font
+    background: $color1
+    padding-bottom: 4.3vw
+    
+
+    &__tarjetas
+        display: flex
+        flex-direction: column
+        background: #fff
+        border-radius: 10px
+        margin-left: 21.4vw
+        width: 56.7vw
+        height: 64.3vw
+        margin-bottom: 12vw
+
+        &__imagen
+            width: 46vw
+            height: 23vw
+            margin-left: 5.6vw
+        &__precio
+            color: $color6
+            font-size: 9.7vw
+            font-weight: 800
+            margin-top: 5vw
+            &__indicador
+                color: $color6
+                font-size: 4.8vw
+                font-weight: 300
+                margin-left: 3.7vw
+        &__descuento
+            display: flex
+            flex-direction: row
+            align-content: center
+            align-items: baseline
+            line-height: 1.4
+            margin-left: 14vw
+            margin-bottom: 4vw
+
+            &__porcentaje
+                font-size: 8.1vw
+                font-weight: 800
+                color: $color5
+            &__imagen
+                width: 6.1vw
+                height: 6.1vw
+            &__precio
+                font-size: 3.6vw
+                color: $color6
+                font-weight: 300
+        &__comprar
+            font-size: 3.4vw
+            color: $color5
+            border-style: solid
+            background: #fff
+            border-color: $color5
+            font-weight: 800
+            border-radius: 50px
+            width: 30vw
+            border-width: 0.3vw
+            margin-left: 13.4vw
+    &__tarjetas-2
+        display: flex
+        flex-direction: column
+        border-style: solid
+        border-color: $color2
+        border-width: 14px
+        background: #fff
+        border-radius: 10px
+        width: 56.7vw
+        height: 64.3vw
+        margin-left: 21.4vw    
+        margin-bottom: 12vw
+    &__tarjetas-3
+        display: flex
+        flex-direction: column
+        background: #fff
+        border-radius: 10px
+        width: 56.7vw
+        height: 64.3vw
+        margin-left: 21.4vw
+
 .jd-main-container-recuerda *,
 .jd-movil-main-container-recuerda *
     margin: 0
@@ -232,5 +354,39 @@ $color7: #A059F8
             width: 10vw
             height: 1.2vw
             margin-top: 5vw
-        
+.jd-movil-main-container-recuerda
+    display: flex
+    flex-direction: column
+    align-content: start
+    font-family: $font
+    background: $color1
+    padding-bottom: 2.7vw
+
+    &__mensaje
+        display: flex
+        flex-direction: column
+
+        &__texto
+            display: flex
+            flex-direction: column
+    
+            &__title
+                color: $color7
+                font-size: 6.3vw
+                font-weight: 800
+                margin-left: 27.3vw
+
+            &__sub-title
+                margin-top: 4.8vw
+                font-size: 3.4vw
+                color: #fff
+                font-weight: 300
+                line-height: 1.6
+                margin-left: 13.4vw
+                width: 77vw
+        &__trespuntos-img
+            width: 15.5vw
+            height: 2.5vw
+            margin-top: 2.6vw
+            margin-left: 42vw        
 

@@ -63,6 +63,38 @@ $color10: #29C4CD
             width: 14vw
             height: 6vw
 
+.jd-movil-main-container-compra
+    display: flex
+    flex-direction: column
+    align-content: start
+    font-family: $font
+    padding-bottom: 12vw
+
+    &__con-tu-compra
+        display: flex
+        flex-direction: row
+
+        &__texto
+            display: flex
+            flex-direction: column
+            margin-left: 17.3vw
+            margin-right: 2.8vw
+            &__box
+                display: flex
+                height: 12.6vw
+                &__title
+                    color: $color9
+                    font-size: 6.3vw
+                    font-weight: 800
+                &__risa-img
+                    width: 25vw
+                    height: 11vw
+            &__sub-title
+                font-size: 3.4vw
+                color: $color8
+                line-height: 1.6
+                font-weight: 300
+
 .jd-main-container-contribuye *,
 .jd-movil-main-container-contribuye *
     margin: 0
@@ -113,6 +145,35 @@ $color10: #29C4CD
         flex-direction: row
         align-content: start
 
+.jd-movil-main-container-contribuye
+    display: flex
+    flex-direction: column
+    align-content: start
+    font-family: $font
+    margin-left: 17.3vw
+    padding-bottom: 3.7vw
+    &__cuadro1
+        display: flex
+        flex-direction: row
+        align-content: start
+        margin-bottom: 7.5vw
+
+        &__imagen
+            display: flex
+            width: 15vw
+            height: 15vw
+            margin-right: 6.5vw
+        &__texto
+            width: 58.5vw
+            color: $color8
+            line-height: 1.6
+            font-weight: 300
+            font-size: 3.4vw
+    &__cuadro2
+        display: flex
+        flex-direction: row
+        align-content: start
+
 .jd-main-container-tyc *,
 .jd-movil-main-container-tyc *
     margin: 0
@@ -140,7 +201,7 @@ $color10: #29C4CD
     align-content: start
     font-family: $font
     margin-left: 17.3vw
-    padding-bottom: 3.7vw
+    padding-bottom: 4.2vw
     &__cuadro
         display: flex
         flex-direction: column
@@ -170,3 +231,38 @@ $color10: #29C4CD
             border-radius: 50px
             padding: 0.8vw 1.3vw
 
+.jd-movil-main-container-tyc
+    display: flex
+    flex-direction: column
+    align-content: start
+    font-family: $font
+    margin-left: 17.3vw
+    padding-bottom: 3.7vw
+    &__cuadro
+        display: flex
+        flex-direction: column
+        align-content: start
+        margin-bottom: 8.8vw
+        &__title
+            display: flex
+            color: $color10
+            font-size: 3.4vw
+            font-weight: 800
+            margin-bottom: 5vw
+        &__text
+            display: flex
+            color: $color8
+            font-size: 3.4vw
+            font-weight: 300
+    &__button
+        display: flex
+        flex-direction: column
+        align-items: center
+        margin-top: 2.4vw
+        &__inbutt
+            color: #fff
+            background-color: $color10
+            font-size: 3.4vw
+            font-weight: 800
+            border-radius: 13px
+            padding: 0.8vw 1.3vw
