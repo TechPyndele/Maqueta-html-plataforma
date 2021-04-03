@@ -170,7 +170,6 @@
           flex-direction: column;
   -ms-flex-line-pack: start;
       align-content: start;
-  margin-left: 17.3vw;
 }
 
 .jd-movil-main-container-beneficios__izquierda__title {
@@ -181,8 +180,8 @@
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
-  width: 23vw;
   margin-bottom: 4vw;
+  margin-left: 21vw;
 }
 
 .jd-movil-main-container-beneficios__izquierda__title__row {
@@ -196,19 +195,19 @@
 }
 
 .jd-movil-main-container-beneficios__izquierda__title__row__t {
-  font-size: 2.6vw;
+  font-size: 6.3vw;
   color: #29C4CD;
   font-weight: 800;
-  margin-right: 2vw;
+  margin-right: 5vw;
 }
 
 .jd-movil-main-container-beneficios__izquierda__title__row__img {
-  widows: 8.1vw;
-  height: 3.3vw;
+  widows: 20vw;
+  height: 8vw;
 }
 
 .jd-movil-main-container-beneficios__izquierda__title__t {
-  font-size: 2.6vw;
+  font-size: 6.3vw;
   color: #29C4CD;
   font-weight: 800;
 }
