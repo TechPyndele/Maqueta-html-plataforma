@@ -207,6 +207,7 @@
       -ms-flex-direction: column;
           flex-direction: column;
   background: #F7F7F7;
+  overflow-x: hidden;
   padding-top: 5vw;
   padding: 0 10vw 10vw 10vw;
 }
@@ -259,5 +260,21 @@
 .ml-movil-apuesta-social__card__paragraph > span {
   font-weight: 800;
   color: #29C4CD;
+}
+
+.ml-movil-apuesta-social__img-2 {
+  width: 100vw;
+  margin-left: -10vw;
+}
+
+.ml-movil-apuesta-social__title-2 {
+  font-size: 6.4vw;
+  font-weight: 300;
+  width: 75vw;
+  color: #29C4CD;
+}
+
+.ml-movil-apuesta-social__title-2 > span {
+  font-weight: 800;
 }
 /*# sourceMappingURL=style.css.map */
