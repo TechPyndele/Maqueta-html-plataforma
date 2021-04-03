@@ -1,0 +1,32 @@
+.ml-desktop-masterclass-page * {
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  line-height: 1.4;
+  font-family: "Poppins";
+}
+
+.ml-desktop-masterclass-page *:focus {
+  outline: none;
+}
+
+.ml-desktop-masterclass-page * a:active {
+  text-decoration: none;
+}
+
+.ml-desktop-masterclass-page * a:active:active {
+  text-decoration: none;
+}
+
+.ml-desktop-masterclass-page * input,
+.ml-desktop-masterclass-page * button {
+  border: 0.1vw solid #fff0;
+}
+
+.ml-desktop-masterclass-page * input:focus,
+.ml-desktop-masterclass-page * button:focus {
+  outline: none;
+}
+/*# sourceMappingURL=style.css.map */
