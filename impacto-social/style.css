@@ -1,5 +1,5 @@
-.ml-desktop-pagina-inicial-enfoquesocial *,
-.ml-movil-pagina-inicial-enfoquesocial * {
+.ml-enfoquesocial-desktop *,
+.ml-enfoquesocial-movil * {
   margin: 0;
   padding: 0;
   text-decoration: none;
@@ -9,36 +9,36 @@
   font-family: "Poppins";
 }
 
-.ml-desktop-pagina-inicial-enfoquesocial *:focus,
-.ml-movil-pagina-inicial-enfoquesocial *:focus {
+.ml-enfoquesocial-desktop *:focus,
+.ml-enfoquesocial-movil *:focus {
   outline: none;
 }
 
-.ml-desktop-pagina-inicial-enfoquesocial * a:active,
-.ml-movil-pagina-inicial-enfoquesocial * a:active {
+.ml-enfoquesocial-desktop * a:active,
+.ml-enfoquesocial-movil * a:active {
   text-decoration: none;
 }
 
-.ml-desktop-pagina-inicial-enfoquesocial * a:active:active,
-.ml-movil-pagina-inicial-enfoquesocial * a:active:active {
+.ml-enfoquesocial-desktop * a:active:active,
+.ml-enfoquesocial-movil * a:active:active {
   text-decoration: none;
 }
 
-.ml-desktop-pagina-inicial-enfoquesocial * input,
-.ml-desktop-pagina-inicial-enfoquesocial * button,
-.ml-movil-pagina-inicial-enfoquesocial * input,
-.ml-movil-pagina-inicial-enfoquesocial * button {
+.ml-enfoquesocial-desktop * input,
+.ml-enfoquesocial-desktop * button,
+.ml-enfoquesocial-movil * input,
+.ml-enfoquesocial-movil * button {
   border: 0.1vw solid #fff0;
 }
 
-.ml-desktop-pagina-inicial-enfoquesocial * input:focus,
-.ml-desktop-pagina-inicial-enfoquesocial * button:focus,
-.ml-movil-pagina-inicial-enfoquesocial * input:focus,
-.ml-movil-pagina-inicial-enfoquesocial * button:focus {
+.ml-enfoquesocial-desktop * input:focus,
+.ml-enfoquesocial-desktop * button:focus,
+.ml-enfoquesocial-movil * input:focus,
+.ml-enfoquesocial-movil * button:focus {
   outline: none;
 }
 
-.ml-desktop-pagina-inicial-enfoquesocial {
+.ml-enfoquesocial-desktop {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -51,13 +51,13 @@
   background: #480981;
 }
 
-.ml-desktop-pagina-inicial-enfoquesocial__img {
+.ml-enfoquesocial-desktop__img {
   height: 19.3vw;
   width: 36.1vw;
   margin-left: 16.4vw;
 }
 
-.ml-desktop-pagina-inicial-enfoquesocial__col {
+.ml-enfoquesocial-desktop__col {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -68,7 +68,7 @@
   margin-left: 4.8vw;
 }
 
-.ml-desktop-pagina-inicial-enfoquesocial__col__title {
+.ml-enfoquesocial-desktop__col__title {
   margin-top: 2vw;
   font-size: 2.6vw;
   line-height: 1.6;
@@ -77,7 +77,7 @@
   width: 16.4vw;
 }
 
-.ml-desktop-pagina-inicial-enfoquesocial__col__title > span {
+.ml-enfoquesocial-desktop__col__title > span {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -86,7 +86,7 @@
   font-weight: 800;
 }
 
-.ml-desktop-pagina-inicial-enfoquesocial__col__paragraph {
+.ml-enfoquesocial-desktop__col__paragraph {
   margin-top: 2vw;
   font-size: 1.1vw;
   font-weight: 400;
@@ -94,7 +94,7 @@
   color: #FFF;
 }
 
-.ml-desktop-pagina-inicial-enfoquesocial__col__button {
+.ml-enfoquesocial-desktop__col__button {
   font-size: 1.2vw;
   font-weight: 800;
   margin-top: 2vw;
@@ -108,12 +108,12 @@
   background: #FFF;
 }
 
-.ml-desktop-pagina-inicial-enfoquesocial__col__button:hover {
+.ml-enfoquesocial-desktop__col__button:hover {
   background: #1da0a7;
   color: #FFF;
 }
 
-.ml-movil-pagina-inicial-enfoquesocial {
+.ml-enfoquesocial-movil {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -125,20 +125,20 @@
   background: #480981;
 }
 
-.ml-movil-pagina-inicial-enfoquesocial__img {
+.ml-enfoquesocial-movil__img {
   width: 80vw;
   margin-top: 5vw;
   margin-bottom: 10vw;
 }
 
-.ml-movil-pagina-inicial-enfoquesocial__title {
+.ml-enfoquesocial-movil__title {
   font-size: 6.3vw;
   color: #FFF;
   font-weight: 300;
   width: 36vw;
 }
 
-.ml-movil-pagina-inicial-enfoquesocial__title > span {
+.ml-enfoquesocial-movil__title > span {
   font-weight: 800;
   color: #A059F8;
   display: -webkit-box;
@@ -147,22 +147,22 @@
   width: 62vw;
 }
 
-.ml-movil-pagina-inicial-enfoquesocial__paragraph {
+.ml-enfoquesocial-movil__paragraph {
   margin-top: 5vw;
   color: #FFF;
   font-size: 3.4vw;
   font-weight: 300;
 }
 
-.ml-movil-pagina-inicial-enfoquesocial__tres-puntos {
+.ml-enfoquesocial-movil__tres-puntos {
   height: 2.2vw;
   margin: 0 auto;
   margin-top: 10vw;
   margin-bottom: 10vw;
 }
 
-.ml-desktop-emprendedor-rural *,
-.ml-movil-emprendedor-rural * {
+.ml-enfoquesocial-desktop-emprendedor-rural *,
+.ml-enfoquesocial-movil-emprendedor-rural * {
   margin: 0;
   padding: 0;
   text-decoration: none;
@@ -172,36 +172,36 @@
   font-family: "Poppins";
 }
 
-.ml-desktop-emprendedor-rural *:focus,
-.ml-movil-emprendedor-rural *:focus {
+.ml-enfoquesocial-desktop-emprendedor-rural *:focus,
+.ml-enfoquesocial-movil-emprendedor-rural *:focus {
   outline: none;
 }
 
-.ml-desktop-emprendedor-rural * a:active,
-.ml-movil-emprendedor-rural * a:active {
+.ml-enfoquesocial-desktop-emprendedor-rural * a:active,
+.ml-enfoquesocial-movil-emprendedor-rural * a:active {
   text-decoration: none;
 }
 
-.ml-desktop-emprendedor-rural * a:active:active,
-.ml-movil-emprendedor-rural * a:active:active {
+.ml-enfoquesocial-desktop-emprendedor-rural * a:active:active,
+.ml-enfoquesocial-movil-emprendedor-rural * a:active:active {
   text-decoration: none;
 }
 
-.ml-desktop-emprendedor-rural * input,
-.ml-desktop-emprendedor-rural * button,
-.ml-movil-emprendedor-rural * input,
-.ml-movil-emprendedor-rural * button {
+.ml-enfoquesocial-desktop-emprendedor-rural * input,
+.ml-enfoquesocial-desktop-emprendedor-rural * button,
+.ml-enfoquesocial-movil-emprendedor-rural * input,
+.ml-enfoquesocial-movil-emprendedor-rural * button {
   border: 0.1vw solid #fff0;
 }
 
-.ml-desktop-emprendedor-rural * input:focus,
-.ml-desktop-emprendedor-rural * button:focus,
-.ml-movil-emprendedor-rural * input:focus,
-.ml-movil-emprendedor-rural * button:focus {
+.ml-enfoquesocial-desktop-emprendedor-rural * input:focus,
+.ml-enfoquesocial-desktop-emprendedor-rural * button:focus,
+.ml-enfoquesocial-movil-emprendedor-rural * input:focus,
+.ml-enfoquesocial-movil-emprendedor-rural * button:focus {
   outline: none;
 }
 
-.ml-desktop-emprendedor-rural {
+.ml-enfoquesocial-desktop-emprendedor-rural {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -215,13 +215,13 @@
   margin-top: 5vw;
 }
 
-.ml-desktop-emprendedor-rural__video {
+.ml-enfoquesocial-desktop-emprendedor-rural__video {
   height: 29.1vw;
   width: 60.9vw;
   border-radius: 1vw;
 }
 
-.ml-desktop-emprendedor-rural__text {
+.ml-enfoquesocial-desktop-emprendedor-rural__text {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -236,28 +236,28 @@
           align-items: center;
 }
 
-.ml-desktop-emprendedor-rural__text__title {
+.ml-enfoquesocial-desktop-emprendedor-rural__text__title {
   font-size: 2.6vw;
   font-weight: 800;
   color: #A059F8;
   width: 28vw;
 }
 
-.ml-desktop-emprendedor-rural__text__img {
+.ml-enfoquesocial-desktop-emprendedor-rural__text__img {
   height: 7.3vw;
   width: 0.85vw;
   margin-left: 3vw;
   margin-right: 5vw;
 }
 
-.ml-desktop-emprendedor-rural__text__paragraph {
+.ml-enfoquesocial-desktop-emprendedor-rural__text__paragraph {
   font-size: 1.1vw;
   font-weight: 300;
   color: #939393;
   width: 30vw;
 }
 
-.ml-movil-emprendedor-rural {
+.ml-enfoquesocial-movil-emprendedor-rural {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -267,13 +267,13 @@
           flex-direction: column;
 }
 
-.ml-movil-emprendedor-rural__video {
+.ml-enfoquesocial-movil-emprendedor-rural__video {
   width: 90vw;
   height: 44vw;
   margin: 5vw;
 }
 
-.ml-movil-emprendedor-rural__title {
+.ml-enfoquesocial-movil-emprendedor-rural__title {
   font-size: 6.3vw;
   width: 66vw;
   margin-left: 10vw;
@@ -281,7 +281,7 @@
   color: #A059F8;
 }
 
-.ml-movil-emprendedor-rural__paragraph {
+.ml-enfoquesocial-movil-emprendedor-rural__paragraph {
   color: #939393;
   font-weight: 300;
   font-size: 3.4vw;
@@ -290,14 +290,14 @@
   margin-top: 5vw;
 }
 
-.ml-movil-emprendedor-rural__tres-puntos {
+.ml-enfoquesocial-movil-emprendedor-rural__tres-puntos {
   height: 2vw;
   margin-top: 8.5vw;
   margin-bottom: 8.5vw;
 }
 
-.ml-desktop-apuesta-social *,
-.ml-movil-apuesta-social * {
+.ml-enfoquesocial-desktop-apuesta-social *,
+.ml-enfoquesocial-movil-apuesta-social * {
   margin: 0;
   padding: 0;
   text-decoration: none;
@@ -307,36 +307,36 @@
   font-family: "Poppins";
 }
 
-.ml-desktop-apuesta-social *:focus,
-.ml-movil-apuesta-social *:focus {
+.ml-enfoquesocial-desktop-apuesta-social *:focus,
+.ml-enfoquesocial-movil-apuesta-social *:focus {
   outline: none;
 }
 
-.ml-desktop-apuesta-social * a:active,
-.ml-movil-apuesta-social * a:active {
+.ml-enfoquesocial-desktop-apuesta-social * a:active,
+.ml-enfoquesocial-movil-apuesta-social * a:active {
   text-decoration: none;
 }
 
-.ml-desktop-apuesta-social * a:active:active,
-.ml-movil-apuesta-social * a:active:active {
+.ml-enfoquesocial-desktop-apuesta-social * a:active:active,
+.ml-enfoquesocial-movil-apuesta-social * a:active:active {
   text-decoration: none;
 }
 
-.ml-desktop-apuesta-social * input,
-.ml-desktop-apuesta-social * button,
-.ml-movil-apuesta-social * input,
-.ml-movil-apuesta-social * button {
+.ml-enfoquesocial-desktop-apuesta-social * input,
+.ml-enfoquesocial-desktop-apuesta-social * button,
+.ml-enfoquesocial-movil-apuesta-social * input,
+.ml-enfoquesocial-movil-apuesta-social * button {
   border: 0.1vw solid #fff0;
 }
 
-.ml-desktop-apuesta-social * input:focus,
-.ml-desktop-apuesta-social * button:focus,
-.ml-movil-apuesta-social * input:focus,
-.ml-movil-apuesta-social * button:focus {
+.ml-enfoquesocial-desktop-apuesta-social * input:focus,
+.ml-enfoquesocial-desktop-apuesta-social * button:focus,
+.ml-enfoquesocial-movil-apuesta-social * input:focus,
+.ml-enfoquesocial-movil-apuesta-social * button:focus {
   outline: none;
 }
 
-.ml-desktop-apuesta-social {
+.ml-enfoquesocial-desktop-apuesta-social {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -348,7 +348,7 @@
   background: #F7F7F7;
 }
 
-.ml-desktop-apuesta-social__row-1 {
+.ml-enfoquesocial-desktop-apuesta-social__row-1 {
   margin-top: 4vw;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -362,7 +362,7 @@
           align-items: center;
 }
 
-.ml-desktop-apuesta-social__row-1__title {
+.ml-enfoquesocial-desktop-apuesta-social__row-1__title {
   width: 21vw;
   font-size: 2.6vw;
   font-weight: 800;
@@ -370,14 +370,14 @@
   margin-right: 13.3vw;
 }
 
-.ml-desktop-apuesta-social__row-1__paragraph {
+.ml-enfoquesocial-desktop-apuesta-social__row-1__paragraph {
   color: #939393;
   font-size: 1.1vw;
   font-weight: 300;
   width: 25.5vw;
 }
 
-.ml-desktop-apuesta-social__row-2 {
+.ml-enfoquesocial-desktop-apuesta-social__row-2 {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -391,7 +391,7 @@
           justify-content: space-between;
 }
 
-.ml-desktop-apuesta-social__row-2__card {
+.ml-enfoquesocial-desktop-apuesta-social__row-2__card {
   height: 38vw;
   width: 32vw;
   background: #FFF;
@@ -409,25 +409,25 @@
   padding: 1.6vw 3.7vw 0 3.7vw;
 }
 
-.ml-desktop-apuesta-social__row-2__card__img {
+.ml-enfoquesocial-desktop-apuesta-social__row-2__card__img {
   height: 5.4vw;
   width: 5.4vw;
   margin-bottom: 3.7vw;
 }
 
-.ml-desktop-apuesta-social__row-2__card__paragraph {
+.ml-enfoquesocial-desktop-apuesta-social__row-2__card__paragraph {
   color: #939393;
   font-size: 1.1vw;
   line-height: 2;
   font-weight: 300;
 }
 
-.ml-desktop-apuesta-social__row-2__card__paragraph > span {
+.ml-enfoquesocial-desktop-apuesta-social__row-2__card__paragraph > span {
   font-weight: 800;
   color: #29C4CD;
 }
 
-.ml-desktop-apuesta-social__row-3 {
+.ml-enfoquesocial-desktop-apuesta-social__row-3 {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -438,7 +438,7 @@
   padding-top: 7vw;
 }
 
-.ml-desktop-apuesta-social__row-3__paragraph {
+.ml-enfoquesocial-desktop-apuesta-social__row-3__paragraph {
   width: 35vw;
   font-size: 1.1vw;
   color: #939393;
@@ -446,7 +446,7 @@
   line-height: 2;
 }
 
-.ml-desktop-apuesta-social__row-3__row {
+.ml-enfoquesocial-desktop-apuesta-social__row-3__row {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -456,7 +456,7 @@
           flex-direction: row;
 }
 
-.ml-desktop-apuesta-social__row-3__row__title {
+.ml-enfoquesocial-desktop-apuesta-social__row-3__row__title {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -466,7 +466,7 @@
           flex-direction: column;
 }
 
-.ml-desktop-apuesta-social__row-3__row__title__1 {
+.ml-enfoquesocial-desktop-apuesta-social__row-3__row__title__1 {
   margin-top: 7.8vw;
   width: 27vw;
   font-size: 2.3vw;
@@ -475,11 +475,11 @@
   line-height: 1.7;
 }
 
-.ml-desktop-apuesta-social__row-3__row__title__1 > span {
+.ml-enfoquesocial-desktop-apuesta-social__row-3__row__title__1 > span {
   font-weight: 800;
 }
 
-.ml-desktop-apuesta-social__row-3__row__title__2 {
+.ml-enfoquesocial-desktop-apuesta-social__row-3__row__title__2 {
   font-size: 1.1vw;
   color: #939393;
   font-weight: 300;
@@ -487,12 +487,12 @@
   width: 27vw;
 }
 
-.ml-desktop-apuesta-social__row-3__row__img {
+.ml-enfoquesocial-desktop-apuesta-social__row-3__row__img {
   margin-top: -10vw;
   width: 50.6vw;
 }
 
-.ml-movil-apuesta-social {
+.ml-enfoquesocial-movil-apuesta-social {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -506,7 +506,7 @@
   padding: 0 10vw 10vw 10vw;
 }
 
-.ml-movil-apuesta-social__title {
+.ml-enfoquesocial-movil-apuesta-social__title {
   margin-bottom: 4vw;
   font-size: 6.3vw;
   color: #A059F8;
@@ -514,7 +514,7 @@
   width: 50vw;
 }
 
-.ml-movil-apuesta-social__paragraph {
+.ml-enfoquesocial-movil-apuesta-social__paragraph {
   margin-bottom: 4vw;
   color: #939393;
   font-weight: 300;
@@ -522,7 +522,7 @@
   line-height: 1.7;
 }
 
-.ml-movil-apuesta-social__card {
+.ml-enfoquesocial-movil-apuesta-social__card {
   background: #FFF;
   border-radius: 3vw;
   margin-top: 3vw;
@@ -536,14 +536,14 @@
   padding: 0 10vw 10vw 10vw;
 }
 
-.ml-movil-apuesta-social__card__img {
+.ml-enfoquesocial-movil-apuesta-social__card__img {
   height: 15.5vw;
   width: 15.5vw;
   margin: 0 auto;
   margin-top: 5.5vw;
 }
 
-.ml-movil-apuesta-social__card__paragraph {
+.ml-enfoquesocial-movil-apuesta-social__card__paragraph {
   font-size: 3.4vw;
   font-weight: 300;
   color: #939393;
@@ -551,24 +551,24 @@
   line-height: 2;
 }
 
-.ml-movil-apuesta-social__card__paragraph > span {
+.ml-enfoquesocial-movil-apuesta-social__card__paragraph > span {
   font-weight: 800;
   color: #29C4CD;
 }
 
-.ml-movil-apuesta-social__img-2 {
+.ml-enfoquesocial-movil-apuesta-social__img-2 {
   width: 100vw;
   margin-left: -10vw;
 }
 
-.ml-movil-apuesta-social__title-2 {
+.ml-enfoquesocial-movil-apuesta-social__title-2 {
   font-size: 6.4vw;
   font-weight: 300;
   width: 75vw;
   color: #29C4CD;
 }
 
-.ml-movil-apuesta-social__title-2 > span {
+.ml-enfoquesocial-movil-apuesta-social__title-2 > span {
   font-weight: 800;
 }
 /*# sourceMappingURL=style.css.map */
