@@ -366,7 +366,7 @@
       -ms-flex-direction: column;
           flex-direction: column;
   background: #fff;
-  border-radius: 10px;
+  border-radius: 10vw;
   margin-left: 21.4vw;
   width: 56.7vw;
   height: 64.3vw;
@@ -435,7 +435,7 @@
   background: #fff;
   border-color: #29EB99;
   font-weight: 800;
-  border-radius: 50px;
+  border-radius: 5vw;
   width: 30vw;
   border-width: 0.3vw;
   margin-left: 13.4vw;
@@ -451,9 +451,9 @@
           flex-direction: column;
   border-style: solid;
   border-color: #FFB400;
-  border-width: 14px;
+  border-width: 1.4vw;
   background: #fff;
-  border-radius: 10px;
+  border-radius: 1vw;
   width: 56.7vw;
   height: 64.3vw;
   margin-left: 21.4vw;
@@ -469,7 +469,7 @@
       -ms-flex-direction: column;
           flex-direction: column;
   background: #fff;
-  border-radius: 10px;
+  border-radius: 1vw;
   width: 56.7vw;
   height: 64.3vw;
   margin-left: 21.4vw;
