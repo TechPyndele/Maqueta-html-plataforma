@@ -9,10 +9,6 @@ $color7: #F7F7F7
 $color8: #EE306C
 
 
-*
-    margin: 0
-    box-sizing:  border-box
-
 .ml-masterclass-page *
     margin: 0
     padding: 0
@@ -164,6 +160,7 @@ $color8: #EE306C
         margin: auto
         color: #FFF
         margin-top: 7vw
+        font-size: 3.4vw
 
     &__woo
         width: 80vw
@@ -422,6 +419,7 @@ $color8: #EE306C
         background: $color6
         border-radius: 3vw
 
+
 .ml-masterclass-desktop-redes-del-expertos
     display: flex
     flex-direction:row
@@ -484,4 +482,41 @@ $color8: #EE306C
                     margin-left: 8vw
                     color: $color6
 
+.ml-masterclass-movil-redes-del-expertos
+    display: flex
+    flex-direction: column
+    background: $color1
+    height: 86.3vw
+    width: 100%
+
+    &__perfil
+        display: flex
+        flex-direction: row
+
+        &__foto
+            height: 49.4vw
+            width: 32.5vw
+            margin-left: 13vw
+            margin-top: -10vw
+
+        &__nombre
+            color: #FFF
+            font-size: 6.3vw
+            font-weight: 800
+
+            & > span
+                display: block
+
+            &::after
+                content: ''
+                display: block
+                height: 1vw
+                width: 15vw
+
+
+    &__paragraph
+        color: #FFF
+        font-size: 3.2vw
+        width: 80vw
+        margin: 2vw auto
 

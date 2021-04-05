@@ -1,9 +1,3 @@
-* {
-  margin: 0;
-  -webkit-box-sizing: border-box;
-          box-sizing: border-box;
-}
-
 .ml-masterclass-page * {
   margin: 0;
   padding: 0;
@@ -228,6 +222,7 @@
   margin: auto;
   color: #FFF;
   margin-top: 7vw;
+  font-size: 3.4vw;
 }
 
 .ml-masterclass-movil-introduccion__woo {
@@ -696,5 +691,59 @@
   margin-top: -5vw;
   margin-left: 8vw;
   color: #A059F8;
+}
+
+.ml-masterclass-movil-redes-del-expertos {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  background: #480981;
+  height: 86.3vw;
+  width: 100%;
+}
+
+.ml-masterclass-movil-redes-del-expertos__perfil {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+}
+
+.ml-masterclass-movil-redes-del-expertos__perfil__foto {
+  height: 49.4vw;
+  width: 32.5vw;
+  margin-left: 13vw;
+  margin-top: -10vw;
+}
+
+.ml-masterclass-movil-redes-del-expertos__perfil__nombre {
+  color: #FFF;
+  font-size: 6.3vw;
+  font-weight: 800;
+}
+
+.ml-masterclass-movil-redes-del-expertos__perfil__nombre > span {
+  display: block;
+}
+
+.ml-masterclass-movil-redes-del-expertos__perfil__nombre::after {
+  content: '';
+  display: block;
+  height: 1vw;
+  width: 15vw;
+}
+
+.ml-masterclass-movil-redes-del-expertos__paragraph {
+  color: #FFF;
+  font-size: 3.2vw;
+  width: 80vw;
+  margin: 2vw auto;
 }
 /*# sourceMappingURL=style.css.map */

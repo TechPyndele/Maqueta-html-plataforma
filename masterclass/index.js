@@ -68,52 +68,53 @@ const redesDeExperto = {
 
 
 // renderiza basandose en la constante [bgMoradoNombreYFoto] nombre de masterclass en fondo purpura con degradado
-if (bgMoradoNombreYFoto.idDesktop) {
+if ( bgMoradoNombreYFoto.idDesktop ) {
 
-    document.querySelector('.ml-masterclass-desktop-nombre-y-foto ')
+    bgMoradoNombreYFoto.idDesktop
         .style.cssText = `
             background: url(${bgMoradoNombreYFoto.urlImagenDesktop});
             background-size: cover;
             background-repeat: no-repeat;
-            `
+        `
 
-    bgMoradoNombreYFoto.idDesktop.innerHTML = `
-    
-        <div class="ml-masterclass-desktop-nombre-y-foto__info">
+    bgMoradoNombreYFoto.idDesktop
+        .innerHTML = `
+            <div class="ml-masterclass-desktop-nombre-y-foto__info">
 
-            <div class="ml-masterclass-desktop-nombre-y-foto__info__nombre-masterclass">${bgMoradoNombreYFoto.nombreMasterClass}</div>
+                <div class="ml-masterclass-desktop-nombre-y-foto__info__nombre-masterclass">${bgMoradoNombreYFoto.nombreMasterClass}</div>
 
-            <h3 class="ml-masterclass-desktop-nombre-y-foto__info__nombre-experto"> 
+                <h3 class="ml-masterclass-desktop-nombre-y-foto__info__nombre-experto"> 
+                    
+                <img src="https://pyndele.co/wp-content/uploads/2021/03/risa-cain.svg" 
+                        alt="risa cain" class="ml-masterclass-desktop-nombre-y-foto__info__nombre-experto__risa-cain">
                 
-            <img src="https://pyndele.co/wp-content/uploads/2021/03/risa-cain.svg" 
-                    alt="risa cain" class="ml-masterclass-desktop-nombre-y-foto__info__nombre-experto__risa-cain">
-            
-                ${bgMoradoNombreYFoto.nombreExperto} 
-                
-            </h3>
+                    ${bgMoradoNombreYFoto.nombreExperto} 
+                    
+                </h3>
 
-        </div>
-    
-    `
-
+            </div>
+        
+        `
 }
 
 if (bgMoradoNombreYFoto.idMovil) {
 
-    bgMoradoNombreYFoto.idMovil.style.cssText = `
-        background: url(${bgMoradoNombreYFoto.urlImagenMovil});
-        background-repeat: no-repeat;
-        background-size: cover;
-    `
+    bgMoradoNombreYFoto.idMovil
+        .style.cssText = `
+            background: url(${bgMoradoNombreYFoto.urlImagenMovil});
+            background-repeat: no-repeat;
+            background-size: cover;
+        `
 
-    bgMoradoNombreYFoto.idMovil.innerHTML = `
-        <div class="ml-masterclass-movil-nombre-y-foto__nombre-masterclass">${ bgMoradoNombreYFoto.nombreMasterClass }</div>
+    bgMoradoNombreYFoto.idMovil
+        .innerHTML = `
+            <div class="ml-masterclass-movil-nombre-y-foto__nombre-masterclass">${ bgMoradoNombreYFoto.nombreMasterClass }</div>
 
-        <h3 class="ml-masterclass-movil-nombre-y-foto__nombre-experto"> 
-            <img src="https://pyndele.co/wp-content/uploads/2021/03/risa-cain.svg" alt="risa cain">
-            ${ bgMoradoNombreYFoto.nombreExperto }    
-        </h3>
-    `
+            <h3 class="ml-masterclass-movil-nombre-y-foto__nombre-experto"> 
+                <img src="https://pyndele.co/wp-content/uploads/2021/03/risa-cain.svg" alt="risa cain">
+                ${ bgMoradoNombreYFoto.nombreExperto }    
+            </h3>
+        `
 }
 
 
@@ -123,49 +124,45 @@ if (bgMoradoNombreYFoto.idMovil) {
 // renderiza basandose en la constante [videoIntroduccion] el video de introdduccion y parrafo
 if (videoIntroduccion.idDesktop) {
     
-    videoIntroduccion.idDesktop.innerHTML = `
-        <lite-vimeo videoid="${ videoIntroduccion.videoId }" class="ml-masterclass-desktop-introduccion__video">
-        </lite-vimeo>
+    videoIntroduccion.idDesktop
+        .innerHTML = `
+            <lite-vimeo videoid="${ videoIntroduccion.videoId }" class="ml-masterclass-desktop-introduccion__video">
+            </lite-vimeo>
 
-        <div class="ml-masterclass-desktop-introduccion__info">
+            <div class="ml-masterclass-desktop-introduccion__info">
 
-            <p class="ml-masterclass-desktop-introduccion__info__paragraph">
-            
-                ${videoIntroduccion.paragraph}
+                <p class="ml-masterclass-desktop-introduccion__info__paragraph">
+                
+                    ${videoIntroduccion.paragraph}
 
-                <img src="https://pyndele.co/wp-content/uploads/2021/04/tres-puntos.svg" 
-                    alt="tres puntos" class="ml-masterclass-desktop-introduccion__info__paragraph__tres-puntos">
-            
-            </p>
+                    <img src="https://pyndele.co/wp-content/uploads/2021/04/tres-puntos.svg" 
+                        alt="tres puntos" class="ml-masterclass-desktop-introduccion__info__paragraph__tres-puntos">
+                
+                </p>
 
-            <div class="ml-masterclass-desktop-introduccion__info__valor"></div>
+                <div class="ml-masterclass-desktop-introduccion__info__valor"></div>
 
-        </div>
-    `
-
-
-
+            </div>
+        `
 }
 
 if (videoIntroduccion.idMovil) {
 
-    videoIntroduccion.idMovil.innerHTML = `
-    
-        <lite-vimeo videoid="${ videoIntroduccion.videoId }" class="ml-masterclass-movil-introduccion__video">
-        </lite-vimeo>
-
-        <p class="ml-masterclass-movil-introduccion__paragraph">
+    videoIntroduccion.idMovil
+        .innerHTML = `
         
-            ${videoIntroduccion.paragraph}
+            <lite-vimeo videoid="${ videoIntroduccion.videoId }" class="ml-masterclass-movil-introduccion__video">
+            </lite-vimeo>
 
-        </p>
+            <p class="ml-masterclass-movil-introduccion__paragraph">
+            
+                ${videoIntroduccion.paragraph}
 
-        <div class="ml-masterclass-movil-introduccion__woo"></div>
+            </p>
 
-    `
+            <div class="ml-masterclass-movil-introduccion__woo"></div>
 
-
-    
+        `
 }
 
 
@@ -173,106 +170,109 @@ if (videoIntroduccion.idMovil) {
 
 // renderiza parrafos de "Que aprendere" y "A quien se dirije"
 if (aprenderasDirigido.idDesktop) {
-    aprenderasDirigido.idDesktop.innerHTML = `
-    
-        <div class="ml-masterclass-desktop-aprenderas-dirigido__row">
+    aprenderasDirigido.idDesktop
+        .innerHTML = `
+            <div class="ml-masterclass-desktop-aprenderas-dirigido__row">
 
-            <div class="ml-masterclass-desktop-aprenderas-dirigido__row__title">
-                ¿Que aprenderé
-                <span>con esta masterclass?</span>
+                <div class="ml-masterclass-desktop-aprenderas-dirigido__row__title">
+                    ¿Que aprenderé
+                    <span>con esta masterclass?</span>
+                </div>
+
+                <p class="ml-masterclass-desktop-aprenderas-dirigido__row__paragraph"
+                    id="ml-masterclass-desktop-que-aprenderas">
+                    ${ aprenderasDirigido.aprenderas }
+                </p>
+
             </div>
 
-            <p class="ml-masterclass-desktop-aprenderas-dirigido__row__paragraph"
-                id="ml-masterclass-desktop-que-aprenderas">
-                ${ aprenderasDirigido.aprenderas }
-            </p>
+            <div class="ml-masterclass-desktop-aprenderas-dirigido__row">
 
-        </div>
+                <div class="ml-masterclass-desktop-aprenderas-dirigido__row__title">
+                    ¿A quien se dirige
+                    <span>la masterclass?</span>
+                </div>
 
-        <div class="ml-masterclass-desktop-aprenderas-dirigido__row">
+                <p class="ml-masterclass-desktop-aprenderas-dirigido__row__paragraph"
+                    id="ml-masterclass-desktop-a-quien-se-dirige">
+                    ${ aprenderasDirigido.dirigido }
+                </p>
 
-            <div class="ml-masterclass-desktop-aprenderas-dirigido__row__title">
-                ¿A quien se dirige
-                <span>la masterclass?</span>
             </div>
-
-            <p class="ml-masterclass-desktop-aprenderas-dirigido__row__paragraph"
-                id="ml-masterclass-desktop-a-quien-se-dirige">
-                ${ aprenderasDirigido.dirigido }
-            </p>
-
-        </div>
-    `
+        `
 
 }
 
 if (aprenderasDirigido.idMovil) {
-    aprenderasDirigido.idMovil.innerHTML = `
-        <h3 class="ml-masterclass-movil-aprenderas-dirigido__title">
-            ¿Que aprenderé
-            <span>con esta masterclass?</span>
-        </h3>
+    aprenderasDirigido.idMovil
+        .innerHTML = `
+            <h3 class="ml-masterclass-movil-aprenderas-dirigido__title">
+                ¿Que aprenderé
+                <span>con esta masterclass?</span>
+            </h3>
 
-        <p class="ml-masterclass-movil-aprenderas-dirigido__paragraph">
-            ${ aprenderasDirigido.aprenderas }
-        </p>
+            <p class="ml-masterclass-movil-aprenderas-dirigido__paragraph">
+                ${ aprenderasDirigido.aprenderas }
+            </p>
 
-        <h3 class="ml-masterclass-movil-aprenderas-dirigido__title">
-            ¿A quien se dirige 
-            <span>la masterclass?</span>
-        </h3>
+            <h3 class="ml-masterclass-movil-aprenderas-dirigido__title">
+                ¿A quien se dirige 
+                <span>la masterclass?</span>
+            </h3>
 
-        <p class="ml-masterclass-movil-aprenderas-dirigido__paragraph">
-            ${ aprenderasDirigido.dirigido }
-        </p>
-    `
+            <p class="ml-masterclass-movil-aprenderas-dirigido__paragraph">
+                ${ aprenderasDirigido.dirigido }
+            </p>
+        `
 }
 
 
 
 if (requisitos.idDesktop) {
 
-    requisitos.idDesktop.innerHTML = `
-        <h3 class="ml-masterclass-desktop-requisitos__title">Requisitos</h3>
+    requisitos.idDesktop
+        .innerHTML = `
+            <h3 class="ml-masterclass-desktop-requisitos__title">Requisitos</h3>
 
-        <div class="ml-masterclass-desktop-requisitos__points">
+            <div class="ml-masterclass-desktop-requisitos__points">
 
-            <div class="ml-masterclass-desktop-requisitos__points__item"
-                id="ml-masterclass-desktop-requisitos__points__item-1">
-                ${ requisitos.paragraph1 }
+                <div class="ml-masterclass-desktop-requisitos__points__item"
+                    id="ml-masterclass-desktop-requisitos__points__item-1">
+                    ${ requisitos.paragraph1 }
+                </div>
+
+
+                <div class="ml-masterclass-desktop-requisitos__points__item"
+                    id="ml-masterclass-desktop-requisitos__points__item-2">
+                    ${ requisitos.paragraph2 }
+                </div>
+
             </div>
 
 
-            <div class="ml-masterclass-desktop-requisitos__points__item"
-                id="ml-masterclass-desktop-requisitos__points__item-2">
-                ${ requisitos.paragraph2 }
+            <div class="ml-masterclass-desktop-requisitos__points">
+
+                <div class="ml-masterclass-desktop-requisitos__points__item"
+                    id="ml-masterclass-desktop-requisitos__points__item-3">
+                    ${ requisitos.paragraph3 }
+                </div>
+
+
+                <div class="ml-masterclass-desktop-requisitos__points__item"
+                    id="ml-masterclass-desktop-requisitos__points__item-4">
+                    ${ requisitos.paragraph4 }
+                </div>
+
             </div>
-
-        </div>
-
-
-        <div class="ml-masterclass-desktop-requisitos__points">
-
-            <div class="ml-masterclass-desktop-requisitos__points__item"
-                id="ml-masterclass-desktop-requisitos__points__item-3">
-                ${ requisitos.paragraph3 }
-            </div>
-
-
-            <div class="ml-masterclass-desktop-requisitos__points__item"
-                id="ml-masterclass-desktop-requisitos__points__item-4">
-                ${ requisitos.paragraph4 }
-            </div>
-
-    </div>
-`
+        `
 }
 
 if (requisitos.idMovil) {
     
-    requisitos.idMovil.innerHTML = `
-        <div class="ml-masterclass-movil-requisitos__title">Requisitos</div>
-    
+    requisitos.idMovil
+        .innerHTML = `
+            <div class="ml-masterclass-movil-requisitos__title">Requisitos</div>
+        
             <div class="ml-masterclass-movil-requisitos__points">
                 <span></span>
                 <p>
@@ -298,7 +298,7 @@ if (requisitos.idMovil) {
     
                 </p>
             </div>
-    `
+        `
 }
 
 
@@ -306,41 +306,41 @@ if (requisitos.idMovil) {
 // renderiza la zona donde estan las redes del experto
 if (redesDeExperto.idDesktop) {
 
-    redesDeExperto.idDesktop.innerHTML = `
+    redesDeExperto.idDesktop
+        .innerHTML = `
+            <img src="${ redesDeExperto.imgExperto }" alt="${ redesDeExperto.nombreExperto }"
+                class="ml-masterclass-desktop-redes-del-expertos__fotos">
 
-    <img src="${ redesDeExperto.imgExperto }" alt="${ redesDeExperto.nombreExperto }"
-        class="ml-masterclass-desktop-redes-del-expertos__fotos">
+            <div class="ml-masterclass-desktop-redes-del-expertos__nombre">
+                ${ redesDeExperto.nombreExperto }
+            </div>
 
-    <div class="ml-masterclass-desktop-redes-del-expertos__nombre">
-        ${ redesDeExperto.nombreExperto }
-    </div>
+            <div class="ml-masterclass-desktop-redes-del-expertos__redes">
 
-    <div class="ml-masterclass-desktop-redes-del-expertos__redes">
+                <p class="ml-masterclass-desktop-redes-del-expertos__redes__paragraph">
+                    ${ redesDeExperto.paragraph }
+                </p>
 
-        <p class="ml-masterclass-desktop-redes-del-expertos__redes__paragraph">
-            ${ redesDeExperto.paragraph }
-        </p>
+                <div class="ml-masterclass-desktop-redes-del-expertos__redes__paragraph__row">
 
-        <div class="ml-masterclass-desktop-redes-del-expertos__redes__paragraph__row">
+                    <a href="${ redesDeExperto.instagram }">
+                        <img src="https://pyndele.co/wp-content/uploads/2021/04/instagram.svg" alt="instagram" class="ml-masterclass-desktop-redes-del-expertos__redes__paragraph__row__items">
+                    </a>
 
-            <a href="${ redesDeExperto.instagram }">
-                <img src="https://pyndele.co/wp-content/uploads/2021/04/instagram.svg" alt="instagram" class="ml-masterclass-desktop-redes-del-expertos__redes__paragraph__row__items">
-            </a>
+                    <a href="${ redesDeExperto.linkedin }">
+                        <img src="https://pyndele.co/wp-content/uploads/2021/04/linkedin.svg" alt="linkedin" class="ml-masterclass-desktop-redes-del-expertos__redes__paragraph__row__items">
+                    </a>
 
-            <a href="${ redesDeExperto.linkedin }">
-                <img src="https://pyndele.co/wp-content/uploads/2021/04/linkedin.svg" alt="instagram" class="ml-masterclass-desktop-redes-del-expertos__redes__paragraph__row__items">
-            </a>
+                    <a href="${ redesDeExperto.web }">
+                        <img src="https://pyndele.co/wp-content/uploads/2021/04/web.svg" alt="web" class="ml-masterclass-desktop-redes-del-expertos__redes__paragraph__row__items">
+                    </a>
 
-            <a href="${ redesDeExperto.web }">
-                <img src="https://pyndele.co/wp-content/uploads/2021/04/web.svg" alt="instagram" class="ml-masterclass-desktop-redes-del-expertos__redes__paragraph__row__items">
-            </a>
+                    <img src="https://pyndele.co/wp-content/uploads/2021/04/risa-morada-2.svg" alt="risa morada" class="ml-masterclass-desktop-redes-del-expertos__redes__paragraph__row__risa-morada">
 
-            <img src="https://pyndele.co/wp-content/uploads/2021/04/risa-morada-2.svg" alt="" class="ml-masterclass-desktop-redes-del-expertos__redes__paragraph__row__risa-morada">
+                </div>
 
-        </div>
-
-    </div>
-    `
+            </div>
+        `
 }
 
 
