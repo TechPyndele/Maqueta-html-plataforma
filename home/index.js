@@ -9,7 +9,7 @@
     for (let i = 0; i < 10; i++) {
         proximos.push({
             'url-img': `https://via.placeholder.com/150`,
-            'url-mas': `#`,
+            'url-mas': `https://pyndele.co/master-class/`,
             'nombre-master': `Nombre de MasterClass ${i}`,
             'nombre-experto': `Nombre de experto ${i}`
         })

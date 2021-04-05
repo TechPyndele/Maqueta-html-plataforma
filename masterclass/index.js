@@ -1,12 +1,11 @@
 
-
 const bgMoradoNombreYFoto = {
     idDesktop: document.querySelector('.ml-masterclass-desktop-nombre-y-foto'),
     idMovil: document.querySelector('.ml-masterclass-movil-nombre-y-foto'),
     urlImagenDesktop: 'https://pyndele.co/wp-content/uploads/2021/04/master-class-foto-experto-nombre-2.png',
     urlImagenMovil: 'https://pyndele.co/wp-content/uploads/2021/04/Recurso-1-8-1.png',
     nombreMasterClass: 'Nombre de la <span>Master class.</span>',
-    nombreExperto: 'Nombre del experto ',
+    nombreExperto: 'Nombre del experto',
 }
 
 const videoIntroduccion = {
@@ -51,6 +50,7 @@ const requisitos = {
 
 const redesDeExperto = {
     idDesktop: document.querySelector('.ml-masterclass-desktop-redes-del-expertos'),
+    idMovil: document.querySelector('.ml-masterclass-movil-redes-del-expertos'),
     imgExperto: 'https://pyndele.co/wp-content/uploads/2021/04/Recurso-14-8.png',
     nombreExperto: 'Carolina <span>Melendez</span>',
     paragraph: `
@@ -343,6 +343,48 @@ if (redesDeExperto.idDesktop) {
         `
 }
 
+if (redesDeExperto.idMovil) {
+    
+    redesDeExperto.idMovil  
+        .innerHTML = `
+            
+            <div class="ml-masterclass-movil-redes-del-expertos__perfil">
+
+                <img src="https://pyndele.co/wp-content/uploads/2021/04/Recurso-2-8.png" 
+                    alt="" class="ml-masterclass-movil-redes-del-expertos__perfil__foto">
+
+                <div class="ml-masterclass-movil-redes-del-expertos__perfil__nombre">
+                    Carolina 
+                    <span>Melendez.</span>
+                </div>
+            </div>
+
+            <p class="ml-masterclass-movil-redes-del-expertos__paragraph">
+
+                Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat.
 
 
+            </p>
 
+            <div class="ml-masterclass-movil-redes-del-expertos__redes">
+
+                <a href="${ redesDeExperto.instagram }">
+                    <img src="https://pyndele.co/wp-content/uploads/2021/04/instagram.svg" alt="instagram" class="ml-masterclass-movil-redes-del-expertos__redes__items">
+                </a>
+
+                <a href="${ redesDeExperto.linkedin }">
+                    <img src="https://pyndele.co/wp-content/uploads/2021/04/linkedin.svg" alt="linkedin" class="ml-masterclass-movil-redes-del-expertos__redes__items">
+                </a>
+
+                <a href="${ redesDeExperto.web }">
+                    <img src="https://pyndele.co/wp-content/uploads/2021/04/web.svg" alt="web" class="ml-masterclass-movil-redes-del-expertos__redes__items">
+                </a>
+
+            </div>
+
+
+        </div>
+
+
+        `
+}

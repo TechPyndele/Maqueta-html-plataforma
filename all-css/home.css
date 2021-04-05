@@ -2536,6 +2536,10 @@
   font-weight: 800;
 }
 
+* {
+  margin: 0;
+}
+
 .ml-masterclass-page * {
   margin: 0;
   padding: 0;
@@ -3143,6 +3147,7 @@
   height: 44.5vw;
   width: 80vw;
   margin: 5vw auto;
+  margin-bottom: 15vw;
   background: #A059F8;
   border-radius: 3vw;
 }
@@ -3229,5 +3234,83 @@
   margin-top: -5vw;
   margin-left: 8vw;
   color: #A059F8;
+}
+
+.ml-masterclass-movil-redes-del-expertos {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  background: #480981;
+  height: 86.3vw;
+  width: 100%;
+  margin-top: 5vw;
+}
+
+.ml-masterclass-movil-redes-del-expertos__perfil {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+}
+
+.ml-masterclass-movil-redes-del-expertos__perfil__foto {
+  height: 49.4vw;
+  width: 32.5vw;
+  margin-left: 13vw;
+  margin-top: -15vw;
+}
+
+.ml-masterclass-movil-redes-del-expertos__perfil__nombre {
+  margin-top: 5vw;
+  color: #FFF;
+  font-size: 6.3vw;
+  font-weight: 800;
+}
+
+.ml-masterclass-movil-redes-del-expertos__perfil__nombre > span {
+  display: block;
+}
+
+.ml-masterclass-movil-redes-del-expertos__perfil__nombre::after {
+  content: '';
+  margin-left: 70%;
+  display: block;
+  height: 1vw;
+  width: 15vw;
+  background: #29C4CD;
+}
+
+.ml-masterclass-movil-redes-del-expertos__paragraph {
+  color: #FFF;
+  font-size: 3.2vw;
+  width: 80vw;
+  margin: 5vw auto;
+}
+
+.ml-masterclass-movil-redes-del-expertos__redes {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  margin: 0 auto;
+  width: 40vw;
+}
+
+.ml-masterclass-movil-redes-del-expertos__redes__items {
+  height: 7.5vw;
+  width: 7.5vw;
+  margin-bottom: 2vw;
 }
 /*# sourceMappingURL=home.css.map */

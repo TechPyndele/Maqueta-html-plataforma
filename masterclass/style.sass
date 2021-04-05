@@ -8,6 +8,8 @@ $color6: #A059F8
 $color7: #F7F7F7
 $color8: #EE306C
 
+*
+    margin: 0
 
 .ml-masterclass-page *
     margin: 0
@@ -416,6 +418,7 @@ $color8: #EE306C
         height: 44.5vw
         width: 80vw
         margin: 5vw auto
+        margin-bottom: 15vw
         background: $color6
         border-radius: 3vw
 
@@ -488,6 +491,7 @@ $color8: #EE306C
     background: $color1
     height: 86.3vw
     width: 100%
+    margin-top: 5vw
 
     &__perfil
         display: flex
@@ -497,9 +501,10 @@ $color8: #EE306C
             height: 49.4vw
             width: 32.5vw
             margin-left: 13vw
-            margin-top: -10vw
+            margin-top: -15vw
 
         &__nombre
+            margin-top: 5vw
             color: #FFF
             font-size: 6.3vw
             font-weight: 800
@@ -509,14 +514,27 @@ $color8: #EE306C
 
             &::after
                 content: ''
+                margin-left: 70%
                 display: block
                 height: 1vw
                 width: 15vw
-
+                background: $color2
 
     &__paragraph
         color: #FFF
         font-size: 3.2vw
         width: 80vw
-        margin: 2vw auto
+        margin: 5vw auto
+
+    &__redes
+        display: flex
+        flex-direction: row
+        justify-content: space-around
+        margin: 0 auto
+        width: 40vw
+
+        &__items
+            height: 7.5vw
+            width:  7.5vw
+            margin-bottom: 2vw
 
