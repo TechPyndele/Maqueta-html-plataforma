@@ -11,7 +11,6 @@ $color8: #EE306C
 
 *
     margin: 0
-    // font-family: $font
     box-sizing:  border-box
 
 .ml-masterclass-page *
@@ -75,6 +74,36 @@ $color8: #EE306C
                 transform: rotate(50deg);
                 margin-bottom: -1vw
 
+.ml-masterclass-movil-nombre-y-foto
+    display: flex
+    flex-direction: column
+    justify-content: center
+    align-items: center
+    height: 41vw
+    width: 100%
+
+    &__nombre-masterclass
+        font-size: 5.7vw
+        font-weight: 300
+        color: #FFF
+
+        & > span 
+            display: block
+            font-weight: 800
+            color: $color2
+
+    &__nombre-experto
+        font-weight: 300
+        font-size: 3vw
+        margin-left: -20vw
+        color: #FFF
+        
+        & > img
+            height: 9vw
+            transform: rotate(50deg);
+            width: 12.9vw
+    
+
 
 .ml-masterclass-desktop-introduccion
     display: flex
@@ -115,6 +144,33 @@ $color8: #EE306C
             height: 15.6vw
             background: $color4
             border-radius: 1vw
+
+.ml-masterclass-movil-introduccion
+    display: flex
+    margin-top: -0.5vw
+    flex-direction: column
+    background: $color3
+
+    &__video
+        margin: 0 auto
+        margin-top: 7vw
+        border-radius: 3vw
+        box-shadow: 0vw 3vw 6vw rgba(0, 0, 0, 0.4)
+        width: 92vw
+        height: 52vw
+
+    &__paragraph
+        width: 79vw
+        margin: auto
+        color: #FFF
+        margin-top: 7vw
+
+    &__woo
+        width: 80vw
+        height: 50vw
+        margin: 7vw auto
+        background: $color4
+        border-radius: 3vw
 
 
 .ml-masterclass-desktop-incluye
@@ -159,6 +215,48 @@ $color8: #EE306C
                     width: 2.6vw
                     margin-right: 1vw
 
+.ml-masterclass-movil-incluye
+    display: flex
+    flex-direction: column
+    padding: 0 25vw
+    margin-top: 3.7vw
+    margin-bottom: 4vw
+    align-items: center
+
+    &__title
+        color: $color6
+        font-weight: 800
+        font-size: 6.3vw
+        width: 60vw
+        text-align: center
+
+    &__row
+        display: flex
+        flex-direction: row
+        justify-content: space-around
+        width: 80vw
+
+
+        &__col
+            display: flex
+            flex-direction: column
+            margin-bottom: 1vw
+
+
+            &__item
+                display: flex
+                margin-top: 5vw
+                flex-direction: row
+                align-items:center
+                font-size: 3.2vw
+                font-weight: 300
+                color: $color5
+
+                & > img
+                    height: 5vw
+                    width: 5vw
+                    margin-right: 3vw
+
 
 .ml-masterclass-desktop-aprenderas-dirigido
     display: flex
@@ -192,6 +290,29 @@ $color8: #EE306C
             width: 35vw
             color: $color5
 
+.ml-masterclass-movil-aprenderas-dirigido
+    display: flex
+    background: $color7
+    flex-direction: column
+
+    &__title
+        font-size: 6.4vw
+        color: $color6
+        font-weight: 800
+        margin: 5vw auto
+        text-align: center
+
+        & > span 
+            font-weight: 300
+            display: block
+
+    &__paragraph
+        font-size: 3.4vw
+        font-weight: 300
+        color: $color3
+        margin: 0 9.5vw  5vw 9.5vw
+
+
 
 .ml-masterclass-desktop-requisitos
     display: flex
@@ -217,14 +338,45 @@ $color8: #EE306C
             color: $color5
             &::before
                 content: ''
-                // display: block
-                // flex-direction: row
                 height: 2vw
                 width: 3vw
                 border-radius: 50%
                 background: $color8
                 margin-top: 0.5vw                
                 margin-right: 1vw
+
+.ml-masterclass-movil-requisitos
+    display: flex
+    flex-direction: column
+
+    &__title
+        font-size: 6.3vw
+        color: $color6
+        font-weight: 800
+        margin-top: 8vw
+        margin-left: 20vw
+
+    &__points
+        margin-left: 20vw
+        display: flex
+        flex-direction: row
+        margin-top: 2vw
+        margin-bottom: 2vw
+
+        & > p
+            font-size: 3.4vw
+            color: $color5
+            width: 60vw
+
+        & > span 
+            display: inline-block
+            height: 5vw
+            width:  5vw
+            border-radius: 50%
+            background: $color8
+            margin-top: 0.5vw                
+            margin-right: 3vw
+
 
 
 .ml-masterclass-desktop-contenidos
