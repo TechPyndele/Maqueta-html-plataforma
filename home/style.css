@@ -1,3 +1,19 @@
+.ml-learndash-curso-container {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.ml-learndash-curso-container__video {
+  display: inline-block;
+  height: 35vw;
+  width: 62vw;
+}
+
 .ml-home-desktop-pagina-inicial *,
 .ml-home-movil-pagina-inicial * {
   margin: 0;

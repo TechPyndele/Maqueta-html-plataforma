@@ -7,6 +7,7 @@ $color5: #939393
 $color6: #A059F8
 $color7: #F7F7F7
 $color8: #EE306C
+$color9: #3A0563
 
 *
     margin: 0
@@ -38,52 +39,66 @@ $color8: #EE306C
     width: 100%
     height: 29.6vw
     background: $color1
-    padding: 9vw 32vw 0 32vw
-    align-items: flex-end
+    // padding: 9vw 32vw 0 32vw
+    // align-items: center
+
+    &__historia
+        background: $color6
+        font-weight: 800
+        font-size: 2.5vw
+        color: #FFF
+        padding: 0.5vw 1.5vw
+        width: 28vw
+        margin-bottom: 1vw
+        // display: inline-blockblock
 
     &__info
-        align-items: flex-end
+        margin-left: 10vw
+        height: 100%
+        // align-items: flex-end
+        justify-content: center
         display: flex
         flex-direction: column
 
 
         &__nombre-masterclass
             font-size: 3.6vw
-            font-weight: 300
-            color: #FFF
+            font-weight: 800
+            line-height: 1
+            color: $color9
             // width: 25.5vw
 
             & > span 
                 display: block
-                font-weight: 800
-                color: $color2
 
         &__nombre-experto
-            margin-top: -2vw
-            color: #FFF
-            font-size: 1.5vw
+            margin-top: 1vw            
+            color: $color9
+
+            font-size: 2vw
             font-weight: 300
             width: 35vw
-            // margin-right: 7vw
 
-            &__risa-cain
+            &__risa-purple
+                margin-right: 2vw
                 height: 8vw
-                width: 11.3vw
                 transform: rotate(50deg);
-                margin-bottom: -1vw
+                vertical-align: middle
 
 .ml-masterclass-movil-nombre-y-foto
     display: flex
     flex-direction: column
     justify-content: center
-    align-items: center
+    // align-items: center
     height: 41vw
     width: 100%
+    padding-left: 10vw
 
     &__nombre-masterclass
-        font-size: 5.7vw
-        font-weight: 300
-        color: #FFF
+        font-size: 4vw
+        font-weight: 800
+        color: $color9
+        
 
         & > span 
             display: block
@@ -93,8 +108,10 @@ $color8: #EE306C
     &__nombre-experto
         font-weight: 300
         font-size: 3vw
-        margin-left: -20vw
-        color: #FFF
+        // margin-left: -20vw
+        color: $color9
+        vertical-align: baseline
+        
         
         & > img
             height: 9vw
@@ -106,7 +123,7 @@ $color8: #EE306C
 .ml-masterclass-desktop-introduccion
     display: flex
     flex-direction: column
-    padding: 6vw 17.2vw 8vw 17.2vw
+    padding: 6vw 17.2vw 4vw 17.2vw
     background: $color3
 
     &__video
@@ -121,13 +138,24 @@ $color8: #EE306C
         justify-content: space-between
         margin-top: 6.5vw
 
+        
+        &__title
+            color: $color2
+            font-weight: 800
+            font-size: 3vw
+            line-height: 1
+            margin-bottom: 1vw
+
+            & > span 
+                font-weight: 400
+
         &__paragraph
             font-size: 1.1vw
             line-height: 1.3
             letter-spacing: 0.1vw
             color: #FFF
             font-weight: 300
-            width: 24vw
+            width: 40vw
             display: flex
             flex-direction: column
 
@@ -157,11 +185,21 @@ $color8: #EE306C
         width: 92vw
         height: 52vw
 
+    &__title
+        width: 79vw
+        margin: 7vw auto
+        font-size: 6vw
+        color: $color2
+        font-weight: 800
+
+        & > span 
+            font-weight: 400
+
     &__paragraph
         width: 79vw
         margin: auto
         color: #FFF
-        margin-top: 7vw
+        // margin-top: vw
         font-size: 3.4vw
 
     &__woo
@@ -208,6 +246,7 @@ $color8: #EE306C
                 font-size: 1.1vw
                 font-weight: 300
                 color: $color5
+                height: 4vw
 
                 & > img
                     height: 2.6vw
@@ -250,6 +289,7 @@ $color8: #EE306C
                 font-size: 3.2vw
                 font-weight: 300
                 color: $color5
+                height: 6vw
 
                 & > img
                     height: 5vw
@@ -328,21 +368,25 @@ $color8: #EE306C
         justify-content: space-between
 
         &__item
-            margin-top: 1.5vw
-            margin-bottom: 2vw
-            font-size: 1.1vw
-            font-weight: 400
-            width: 24vw
-            display: flex
-            color: $color5
-            &::before
-                content: ''
+            display: flex 
+            flex-direccion: row 
+            align-items: center
+
+            &__circle
                 height: 2vw
-                width: 3vw
+                width:  2vw
                 border-radius: 50%
                 background: $color8
-                margin-top: 0.5vw                
                 margin-right: 1vw
+
+            &__text
+                margin-top: 1.5vw
+                margin-bottom: 1.5vw
+                font-size: 1.1vw
+                font-weight: 400
+                width: 24vw
+                display: flex
+                color: $color5
 
 .ml-masterclass-movil-requisitos
     display: flex
@@ -432,10 +476,10 @@ $color8: #EE306C
 
     &__fotos
         height: 28.3vw
-        width: 17.5vw
+        // width: 17.5vw
         z-index: 100
         margin-top: -7.3vw
-        margin-left: 15vw
+        margin-left: 10vw
 
     &__nombre
         z-index: 100
@@ -462,34 +506,35 @@ $color8: #EE306C
         display: flex
         flex-direction: column
 
+        
         &__paragraph
             font-size: 1.1vw
             color: #FFF
             font-weight: 400
-            width: 23vw
+            width: 30vw
 
             &__row
                 display: flex
-                margin-top: 2.4vw
+                margin-top: 1.5vw
                 flex-direction: row
 
                 &__items
-                    height: 2vw
-                    width: 2vw
+                    height: 3vw
+                    width:  3vw
                     margin-right: 2vw
 
                 &__risa-morada
                     height: 7vw
                     width: 8.8vw
                     margin-top: -5vw
-                    margin-left: 8vw
+                    margin-left: 9vw
                     color: $color6
+
 
 .ml-masterclass-movil-redes-del-expertos
     display: flex
     flex-direction: column
     background: $color1
-    height: 86.3vw
     width: 100%
     margin-top: 5vw
 
@@ -499,8 +544,7 @@ $color8: #EE306C
 
         &__foto
             height: 49.4vw
-            width: 32.5vw
-            margin-left: 13vw
+            margin-left: 2vw
             margin-top: -15vw
 
         &__nombre

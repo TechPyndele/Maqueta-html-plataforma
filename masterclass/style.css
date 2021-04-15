@@ -45,16 +45,24 @@
   width: 100%;
   height: 29.6vw;
   background: #480981;
-  padding: 9vw 32vw 0 32vw;
-  -webkit-box-align: end;
-      -ms-flex-align: end;
-          align-items: flex-end;
+}
+
+.ml-masterclass-desktop-nombre-y-foto__historia {
+  background: #A059F8;
+  font-weight: 800;
+  font-size: 2.5vw;
+  color: #FFF;
+  padding: 0.5vw 1.5vw;
+  width: 28vw;
+  margin-bottom: 1vw;
 }
 
 .ml-masterclass-desktop-nombre-y-foto__info {
-  -webkit-box-align: end;
-      -ms-flex-align: end;
-          align-items: flex-end;
+  margin-left: 10vw;
+  height: 100%;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -66,30 +74,29 @@
 
 .ml-masterclass-desktop-nombre-y-foto__info__nombre-masterclass {
   font-size: 3.6vw;
-  font-weight: 300;
-  color: #FFF;
+  font-weight: 800;
+  line-height: 1;
+  color: #3A0563;
 }
 
 .ml-masterclass-desktop-nombre-y-foto__info__nombre-masterclass > span {
   display: block;
-  font-weight: 800;
-  color: #29C4CD;
 }
 
 .ml-masterclass-desktop-nombre-y-foto__info__nombre-experto {
-  margin-top: -2vw;
-  color: #FFF;
-  font-size: 1.5vw;
+  margin-top: 1vw;
+  color: #3A0563;
+  font-size: 2vw;
   font-weight: 300;
   width: 35vw;
 }
 
-.ml-masterclass-desktop-nombre-y-foto__info__nombre-experto__risa-cain {
+.ml-masterclass-desktop-nombre-y-foto__info__nombre-experto__risa-purple {
+  margin-right: 2vw;
   height: 8vw;
-  width: 11.3vw;
   -webkit-transform: rotate(50deg);
           transform: rotate(50deg);
-  margin-bottom: -1vw;
+  vertical-align: middle;
 }
 
 .ml-masterclass-movil-nombre-y-foto {
@@ -103,17 +110,15 @@
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
   height: 41vw;
   width: 100%;
+  padding-left: 10vw;
 }
 
 .ml-masterclass-movil-nombre-y-foto__nombre-masterclass {
-  font-size: 5.7vw;
-  font-weight: 300;
-  color: #FFF;
+  font-size: 4vw;
+  font-weight: 800;
+  color: #3A0563;
 }
 
 .ml-masterclass-movil-nombre-y-foto__nombre-masterclass > span {
@@ -125,8 +130,8 @@
 .ml-masterclass-movil-nombre-y-foto__nombre-experto {
   font-weight: 300;
   font-size: 3vw;
-  margin-left: -20vw;
-  color: #FFF;
+  color: #3A0563;
+  vertical-align: baseline;
 }
 
 .ml-masterclass-movil-nombre-y-foto__nombre-experto > img {
@@ -144,7 +149,7 @@
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
-  padding: 6vw 17.2vw 8vw 17.2vw;
+  padding: 6vw 17.2vw 4vw 17.2vw;
   background: #3A3A3A;
 }
 
@@ -170,13 +175,25 @@
   margin-top: 6.5vw;
 }
 
+.ml-masterclass-desktop-introduccion__info__title {
+  color: #29C4CD;
+  font-weight: 800;
+  font-size: 3vw;
+  line-height: 1;
+  margin-bottom: 1vw;
+}
+
+.ml-masterclass-desktop-introduccion__info__title > span {
+  font-weight: 400;
+}
+
 .ml-masterclass-desktop-introduccion__info__paragraph {
   font-size: 1.1vw;
   line-height: 1.3;
   letter-spacing: 0.1vw;
   color: #FFF;
   font-weight: 300;
-  width: 24vw;
+  width: 40vw;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -221,11 +238,22 @@
   height: 52vw;
 }
 
+.ml-masterclass-movil-introduccion__title {
+  width: 79vw;
+  margin: 7vw auto;
+  font-size: 6vw;
+  color: #29C4CD;
+  font-weight: 800;
+}
+
+.ml-masterclass-movil-introduccion__title > span {
+  font-weight: 400;
+}
+
 .ml-masterclass-movil-introduccion__paragraph {
   width: 79vw;
   margin: auto;
   color: #FFF;
-  margin-top: 7vw;
   font-size: 3.4vw;
 }
 
@@ -297,6 +325,7 @@
   font-size: 1.1vw;
   font-weight: 300;
   color: #939393;
+  height: 4vw;
 }
 
 .ml-masterclass-desktop-incluye__row__col__item > img {
@@ -365,6 +394,7 @@
   font-size: 3.2vw;
   font-weight: 300;
   color: #939393;
+  height: 6vw;
 }
 
 .ml-masterclass-movil-incluye__row__col__item > img {
@@ -484,8 +514,26 @@
 }
 
 .ml-masterclass-desktop-requisitos__points__item {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  flex-direccion: row;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.ml-masterclass-desktop-requisitos__points__item__circle {
+  height: 2vw;
+  width: 2vw;
+  border-radius: 50%;
+  background: #EE306C;
+  margin-right: 1vw;
+}
+
+.ml-masterclass-desktop-requisitos__points__item__text {
   margin-top: 1.5vw;
-  margin-bottom: 2vw;
+  margin-bottom: 1.5vw;
   font-size: 1.1vw;
   font-weight: 400;
   width: 24vw;
@@ -493,16 +541,6 @@
   display: -ms-flexbox;
   display: flex;
   color: #939393;
-}
-
-.ml-masterclass-desktop-requisitos__points__item::before {
-  content: '';
-  height: 2vw;
-  width: 3vw;
-  border-radius: 50%;
-  background: #EE306C;
-  margin-top: 0.5vw;
-  margin-right: 1vw;
 }
 
 .ml-masterclass-movil-requisitos {
@@ -625,10 +663,9 @@
 
 .ml-masterclass-desktop-redes-del-expertos__fotos {
   height: 28.3vw;
-  width: 17.5vw;
   z-index: 100;
   margin-top: -7.3vw;
-  margin-left: 15vw;
+  margin-left: 10vw;
 }
 
 .ml-masterclass-desktop-redes-del-expertos__nombre {
@@ -670,14 +707,14 @@
   font-size: 1.1vw;
   color: #FFF;
   font-weight: 400;
-  width: 23vw;
+  width: 30vw;
 }
 
 .ml-masterclass-desktop-redes-del-expertos__redes__paragraph__row {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  margin-top: 2.4vw;
+  margin-top: 1.5vw;
   -webkit-box-orient: horizontal;
   -webkit-box-direction: normal;
       -ms-flex-direction: row;
@@ -685,8 +722,8 @@
 }
 
 .ml-masterclass-desktop-redes-del-expertos__redes__paragraph__row__items {
-  height: 2vw;
-  width: 2vw;
+  height: 3vw;
+  width: 3vw;
   margin-right: 2vw;
 }
 
@@ -694,7 +731,7 @@
   height: 7vw;
   width: 8.8vw;
   margin-top: -5vw;
-  margin-left: 8vw;
+  margin-left: 9vw;
   color: #A059F8;
 }
 
@@ -707,7 +744,6 @@
       -ms-flex-direction: column;
           flex-direction: column;
   background: #480981;
-  height: 86.3vw;
   width: 100%;
   margin-top: 5vw;
 }
@@ -724,8 +760,7 @@
 
 .ml-masterclass-movil-redes-del-expertos__perfil__foto {
   height: 49.4vw;
-  width: 32.5vw;
-  margin-left: 13vw;
+  margin-left: 2vw;
   margin-top: -15vw;
 }
 
