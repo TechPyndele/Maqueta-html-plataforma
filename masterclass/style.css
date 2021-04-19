@@ -131,7 +131,6 @@
   font-weight: 300;
   font-size: 3vw;
   color: #3A0563;
-  vertical-align: baseline;
 }
 
 .ml-masterclass-movil-nombre-y-foto__nombre-experto > img {
@@ -571,6 +570,9 @@
       -ms-flex-direction: row;
           flex-direction: row;
   margin-top: 2vw;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
   margin-bottom: 2vw;
 }
 

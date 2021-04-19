@@ -2,28 +2,27 @@
 const bgMoradoNombreYFoto = {
     idDesktop: document.querySelector('.ml-masterclass-desktop-nombre-y-foto'),
     idMovil: document.querySelector('.ml-masterclass-movil-nombre-y-foto'),
-    urlImagenDesktop: 'https://pyndele.co/wp-content/uploads/2021/04/Desarrollar-un-negocio-escalable-si-es-posible.jpg',
-    urlImagenMovil: 'https://pyndele.co/wp-content/uploads/2021/04/Desarrollar-un-negocio-escalable-si-es-posible-movil.jpg',
-    nombreMasterClass: 'Desarrollar un negocio <br> escalable sí es posible',
-    nombreExperto: 'Ángel Celis Botto',
-    historia: true
+    urlImagenDesktop: 'https://pyndele.co/wp-content/uploads/2021/04/Conoce-la-Gestion-de-Inventarios-desktop.jpg',
+    urlImagenMovil: 'https://pyndele.co/wp-content/uploads/2021/04/Conoce-la-Gestion-de-Inventarios-movil.jpg',
+    nombreMasterClass: 'Conoce la Gestión<br> de Inventarios',
+    nombreExperto: 'Juan Ignacio Isaza',
+    historia: false
 }
 
 const videoIntroduccion = {
-    idDesktop: document.querySelector('.ml-masterclass-desktop-introduccion'),
-    idMovil: document.querySelector('.ml-masterclass-movil-introduccion'),
-    paragraph: `En esta masterClass aprenderás de la mano de un emprendedor y empresario tecnológico de gran trayectoria, consejos prácticos para aplicar en tus iniciativas de negocios y empresa. 
-    Realizarás un recorrido por puntos clave orientados al crecimiento, desde la importancia de los equipos y la construcción de un negocio rentable. Pasando por el desarrollo tecnológico propio de la revolución industrial 4.0, el foco estratégico, la toma de decisiones y la importancia de los datos en los negocios.`,
-    videoId: '524660836',
+    idDesktop: document.querySelector('#ml-masterclass-desktop-introduccion__video'),
+    idMovil: document.querySelector('#ml-masterclass-movil-introduccion__video'),
+    paragraph: `
+
+    Conocer y gestionar adecuadamente los inventarios que tienes disponibles para entrega a tus clientes te evitará muchos dolores de cabeza en el cumplimiento oportuno a tus clientes. En esta masterclass aprenderás acerca de la gestión de inventarios, su clasificación, el uso adecuado de la información y las famosas darkstore.
+    
+    `,
+    videoId: '533633058',
 }
 
 const aprenderasDirigido = {
     idDesktop: document.querySelector('.ml-masterclass-desktop-aprenderas-dirigido'),
     idMovil: document.querySelector('.ml-masterclass-movil-aprenderas-dirigido'),
-    aprenderas: `
-        Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut
-        laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation
-        ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat.`,
     dirigido: `Emprendedores, empresarios, empleados, independientes, consultores, personas apasionadas por lo negocios.`
 }
 
@@ -47,12 +46,14 @@ const requisitos = {
 const redesDeExperto = {
     idDesktop: document.querySelector('.ml-masterclass-desktop-redes-del-expertos'),
     idMovil: document.querySelector('.ml-masterclass-movil-redes-del-expertos'),
-    imgExpertoDesktop: 'https://pyndele.co/wp-content/uploads/2021/04/Angel-Celis-Botto-Desktop.png',
-    imgExpertoMovil: 'https://pyndele.co/wp-content/uploads/2021/04/Angel-Celis-Botto-Movil.png',
-    nombreExperto: 'Ángel <span>Celis Botto.</span>',
+    imgExpertoDesktop: 'https://pyndele.co/wp-content/uploads/2021/04/JUAN-INACIO-ISAZA-desktop.png',
+    imgExpertoMovil: 'https://pyndele.co/wp-content/uploads/2021/04/JUAN-INACIO-ISAZA-movil.png',
+    nombreExperto: `Juan Ignacio<br>Isaza.`,
     paragraph: `
-    Co-founder y líder de tecnología y producto y Liftit. A sido cofundador de 4 compañías en los últimos 10 años, 3 respaldadas por VC. Cree que las startups también son uno de los mejores vehículos para maximizar el crecimiento de las personas. 
-    Considera el Internet como un igualador de oportunidades y de ese pensar deriva su pasión de crear más que empresas, crear equipos, crear misión y visión.
+    
+    Apasionado de la lógistica,  tanto, que es al o que se dedica hace más de 15 años.  Hoy gerencia Turbo Boy, una empresa logística de base tecnológica. 
+    Es ingeniero en Productividad y Calidad. 
+
     `,
     instagram: '#',
     linkedin: '#',
@@ -130,11 +131,8 @@ if (bgMoradoNombreYFoto.idMovil) {
 // renderiza basandose en la constante [videoIntroduccion] el video de introdduccion y parrafo
 if (videoIntroduccion.idDesktop) {
 
-    // <lite-vimeo videoid="${ videoIntroduccion.videoId }" class="ml-masterclass-desktop-introduccion__video">
-    // </lite-vimeo>
     videoIntroduccion.idDesktop
         .innerHTML = `
-
             <iframe class='ml-masterclass-desktop-introduccion__video'
             src="https://player.vimeo.com/video/${videoIntroduccion.videoId}?badge=0&autopause=0&player_id=0&app_id=58479"
             frameborder="0"
@@ -142,61 +140,31 @@ if (videoIntroduccion.idDesktop) {
             <span data-mce-type="bookmark" class="mce_SELRES_start">﻿
             </span>
             </iframe>
-
-            <div class="ml-masterclass-desktop-introduccion__info">
-
-                <div style='display:flex; flex-direction: column;'>
-                
-                    <h3 class='ml-masterclass-desktop-introduccion__info__title'>
-                    
-                    ¿Que aprenderé <br> <span>con esta masterclass?</span> 
-                    
-                    </h3>
-                    
-                    <p class="ml-masterclass-desktop-introduccion__info__paragraph">
-                    
-                    ${videoIntroduccion.paragraph}
-                    
-                    <img src="https://pyndele.co/wp-content/uploads/2021/04/tres-puntos.svg" 
-                    alt="tres puntos" class="ml-masterclass-desktop-introduccion__info__paragraph__tres-puntos">
-                    
-                    </p>
-                
-                </div>
-
-                <div class="ml-masterclass-desktop-introduccion__info__valor"></div>
-
-            </div>
         `
+
+    document.querySelector('.ml-masterclass-desktop-introduccion__info__paragraph')
+        .innerHTML = `${videoIntroduccion.paragraph}`
+
 }
 
 if (videoIntroduccion.idMovil) {
 
-    // <lite-vimeo videoid="${ videoIntroduccion.videoId }" class="ml-masterclass-movil-introduccion__video">
-    // </lite-vimeo>
     videoIntroduccion.idMovil
         .innerHTML = `
-            <iframe class='ml-masterclass-movil-introduccion__video'
-                src="https://player.vimeo.com/video/${videoIntroduccion.videoId}?badge=0&autopause=0&player_id=0&app_id=58479"
-                frameborder="0"
-                allowfullscreen="allowfullscreen">
-                <span data-mce-type="bookmark" class="mce_SELRES_start">﻿
-                </span>
-            </iframe>
-
-            <h3 class='ml-masterclass-movil-introduccion__title' >
-                ¿Que aprenderé en esta <br> <span> masterclas</span>
-            </h3>
-
-            <p class="ml-masterclass-movil-introduccion__paragraph">
             
-                ${videoIntroduccion.paragraph}
-
-            </p>
-
-            <div class="ml-masterclass-movil-introduccion__woo"></div>
-
+        <iframe class='ml-masterclass-movil-introduccion__video'
+            src="https://player.vimeo.com/video/${videoIntroduccion.videoId}?badge=0&autopause=0&player_id=0&app_id=58479"
+            frameborder="0"
+            allowfullscreen="allowfullscreen">
+            <span data-mce-type="bookmark" class="mce_SELRES_start">﻿
+            </span>
+        </iframe>
+            
         `
+
+    document.querySelector('.ml-masterclass-movil-introduccion__paragraph')
+        .innerHTML = `${videoIntroduccion.paragraph}`
+
 }
 
 
@@ -343,6 +311,15 @@ if (requisitos.idMovil) {
     
                 </p>
             </div>
+
+            
+            <div class="ml-masterclass-movil-requisitos__points">
+                <span></span>
+                <p>
+                    ${requisitos.paragraph4}
+    
+                </p>
+            </div>
         `
 }
 
@@ -363,7 +340,7 @@ if (redesDeExperto.idDesktop) {
             <div class="ml-masterclass-desktop-redes-del-expertos__redes">
 
                 <p class="ml-masterclass-desktop-redes-del-expertos__redes__paragraph" style='
-                width: 30vw;
+                width: 32vw; margin-top: 0vw;
                 '>
                     ${redesDeExperto.paragraph}
                 </p>
@@ -371,18 +348,24 @@ if (redesDeExperto.idDesktop) {
                 <div class="ml-masterclass-desktop-redes-del-expertos__redes__paragraph__row">
 
                     <a href="${redesDeExperto.instagram}">
-                        <img src="https://pyndele.co/wp-content/uploads/2021/04/instagram.svg" alt="instagram" class="ml-masterclass-desktop-redes-del-expertos__redes__paragraph__row__items">
+                        <img src="https://pyndele.co/wp-content/uploads/2021/04/instagram.svg" alt="instagram" 
+                            class="ml-masterclass-desktop-redes-del-expertos__redes__paragraph__row__items">
                     </a>
 
                     <a href="${redesDeExperto.linkedin}">
-                        <img src="https://pyndele.co/wp-content/uploads/2021/04/linkedin.svg" alt="linkedin" class="ml-masterclass-desktop-redes-del-expertos__redes__paragraph__row__items">
+                        <img src="https://pyndele.co/wp-content/uploads/2021/04/linkedin.svg" alt="linkedin" 
+                            class="ml-masterclass-desktop-redes-del-expertos__redes__paragraph__row__items">
                     </a>
 
                     <a href="${redesDeExperto.web}">
-                        <img src="https://pyndele.co/wp-content/uploads/2021/04/web.svg" alt="web" class="ml-masterclass-desktop-redes-del-expertos__redes__paragraph__row__items">
+                        <img src="https://pyndele.co/wp-content/uploads/2021/04/web.svg" alt="web" 
+                            class="ml-masterclass-desktop-redes-del-expertos__redes__paragraph__row__items">
                     </a>
 
-                    <img src="https://pyndele.co/wp-content/uploads/2021/04/risa-morada-2.svg" alt="risa morada" class="ml-masterclass-desktop-redes-del-expertos__redes__paragraph__row__risa-morada">
+                    <img src="https://pyndele.co/wp-content/uploads/2021/04/risa-morada-2.svg" alt="risa morada" 
+                        class="ml-masterclass-desktop-redes-del-expertos__redes__paragraph__row__risa-morada"
+                        style='margin-top: -2vw; margin-left: 12vw'
+                        >
 
                 </div>
 
@@ -428,9 +411,6 @@ if (redesDeExperto.idMovil) {
 
             </div>
 
-
         </div>
-
-
         `
-}
+} 
