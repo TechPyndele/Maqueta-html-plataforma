@@ -765,7 +765,7 @@
 
 .ml-home-desktop-masterclass__proximos-lanzamientos__row-1__risa-morada {
   width: 40vw;
-  margin-left: -5vw;
+  margin-left: -6vw;
   margin-top: -20vw;
   height: 36.4vw;
 }
@@ -875,16 +875,16 @@
   display: -ms-flexbox;
   display: flex;
   padding-bottom: 30px;
-  -webkit-box-orient: vertical;
+  -webkit-box-orient: horizontal;
   -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
+      -ms-flex-direction: row;
+          flex-direction: row;
 }
 
 [ml-home-desktop-masterclass] .swiper-slide {
   font-size: 18px;
-  width: 20vw !important;
-  margin-right: 0 !important;
+  width: 20vw;
+  margin-right: 0;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -1594,6 +1594,32 @@
   color: #FFF;
   font-weight: 300;
   width: 56vw;
+}
+
+[ml-home-desktop-expertos] .swiper-slide {
+  font-size: 18px;
+  width: 14vw;
+  margin-right: 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+[ml-home-desktop-expertos] .swiper-pagination-bullet {
+  background: #a8a8a8;
+  opacity: .7;
+  height: 1vw;
+  width: 1vw;
+}
+
+[ml-home-desktop-expertos] .swiper-pagination-bullet-active-main {
+  background: #A059F8;
 }
 
 .ml-home-desktop-beneficios *,

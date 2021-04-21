@@ -534,7 +534,7 @@ $color3: #A059F8
 
             &__risa-morada
                 width: 40vw
-                margin-left:  -5vw
+                margin-left: -6vw
                 margin-top: -20vw
                 height: 36.4vw
 
@@ -610,17 +610,18 @@ $color3: #A059F8
 
 [ml-home-desktop-masterclass]
 
-    .swiper-container 
+
+    .swiper-container  
         width: 80vw;
         height: 30vw;
         display: flex;
         padding-bottom: 30px;
-        flex-direction: column;
+        flex-direction: row;
 
     .swiper-slide 
         font-size: 18px;
-        width: 20vw !important;
-        margin-right: 0 !important;
+        width: 20vw;
+        margin-right: 0;
 
         display: -webkit-box;
         display: -ms-flexbox;
@@ -940,6 +941,7 @@ $color3: #5B5B5B
     display: flex
     flex-direction: row
     margin-top: 4.5vw
+    // background: #000
     margin-bottom: 5vw
 
     &__text
@@ -1000,6 +1002,7 @@ $color3: #5B5B5B
     &__perfil
         display: flex
         flex-direction: column
+
 
         &__row
             display: flex
@@ -1128,6 +1131,45 @@ $color3: #5B5B5B
             color: #FFF
             font-weight: 300
             width: 56vw
+
+[ml-home-desktop-expertos]
+
+    .swiper-container  
+        // width: 80vw;
+        // height: 30vw;
+        // display: flex;
+        // padding-bottom: 30px;
+        // flex-direction: row;
+
+    .swiper-slide 
+        font-size: 18px;
+        width: 14vw;
+        margin-right: 0;
+
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: -webkit-flex;
+        display: flex;
+        -webkit-box-pack: center;
+        -ms-flex-pack: center;
+        -webkit-justify-content: center;
+        justify-content: center;
+        -webkit-box-align: center;
+        -ms-flex-align: center;
+        -webkit-align-items: center;
+        align-items: center;
+
+
+    .swiper-pagination-bullet
+        background: #a8a8a8;
+        opacity: .7;
+        height: 1vw;
+        width: 1vw;
+
+            
+    .swiper-pagination-bullet-active-main
+        background: #A059F8;
+
 
 
 $font:  'Poppins'
