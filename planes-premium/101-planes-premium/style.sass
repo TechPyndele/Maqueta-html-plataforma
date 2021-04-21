@@ -8,17 +8,30 @@ $color6: #8A8A8A
 $color7: #A059F8
 
 
-.jd-row-video
+.jd-main-row-video
     display: flex
     flex-direction: column
     background: linear-gradient(to bottom, #fff 50%, $color1 50%);
-    height: 35vw
-.jd-movil-row-video
+    padding-bottom: 3.5vw
+    padding-top: 2.5vw
+    &__box
+        display: flex
+        margin-right: 17vw
+        margin-left: 17.3vw
+        &__video-vimeo
+            display: flex
+.jd-movil-main-row-video
     display: flex
     flex-direction: column
     background: linear-gradient(to bottom, #fff 50%, $color1 50%);
-    height: 35vw
-
+    padding-bottom: 8vw
+    padding-top: 7.5vw
+    &__box
+        display: flex
+        margin-right: 4.9vw
+        margin-left: 4.6vw
+        &__video-vimeo
+            display: flex
 .jd-main-container-premium *,
 .jd-movil-main-container-premium *
     margin: 0
@@ -148,14 +161,13 @@ $color7: #A059F8
         margin-right: 2.3vw
 
         &__imagen
-            width: 15vw
+            width: 19vw
             height: 7.4vw
             margin-left: 2.2vw
         &__precio
             color: $color6
             font-size: 3.3vw
             font-weight: 800
-            margin-top: 3.7vw
             &__indicador
                 color: $color6
                 font-size: 1.9vw
