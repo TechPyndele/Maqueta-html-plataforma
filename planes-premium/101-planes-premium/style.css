@@ -6,8 +6,7 @@
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
-  background: -webkit-gradient(linear, left top, left bottom, color-stop(50%, #fff), color-stop(50%, #480981));
-  background: linear-gradient(to bottom, #fff 50%, #480981 50%);
+  background: #480981;
   padding-bottom: 3.5vw;
   padding-top: 2.5vw;
 }
@@ -107,6 +106,10 @@
   font-family: "Poppins";
   background: #480981;
   padding-bottom: 2.7vw;
+  background-image: url(https://pyndele.co/wp-content/uploads/2021/04/Recurso-2.svg);
+  background-repeat: no-repeat;
+  background-size: 100vw 50vw, contain;
+  background-position: 0px -20vw;
 }
 
 .jd-main-container-premium__row-conviertete {
@@ -179,6 +182,9 @@
   -webkit-box-direction: normal;
       -ms-flex-direction: row;
           flex-direction: row;
+  background-image: url(https://pyndele.co/wp-content/uploads/2021/04/Recurso-2.svg);
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 .jd-movil-main-container-premium__row-conviertete__texto {
@@ -252,7 +258,6 @@
   -ms-flex-line-pack: justify;
       align-content: space-between;
   font-family: "Poppins";
-  background: #480981;
   padding-bottom: 4.3vw;
 }
 
