@@ -7,60 +7,86 @@
 
     const expertos = [
         {
-            imageTop: `${urlBase}/wp-content/uploads/2021/04/Juan-carlos-Andrade-desktop.png`,
-            linkTop: '#',
-            nameTop: 'Juan carlos Andrade',
+            imageTop: `${urlBase}/wp-content/uploads/Angel-Celis-Botto-perfil.png`,
+            nameTop: 'Angel Celis Botto',
             tematicaTop: 'Temática del experto',
 
-            imageDown: `${urlBase}/wp-content/uploads/2021/04/Jaiber-Perez-desktop.png`,
-            linkDown: '#',
-            nameDown: 'Jaiber Perez ',
+            imageDown: `${urlBase}/wp-content/uploads/Olga-Gonzalez-Perfil.png`,
+            nameDown: 'Olga Gonzalez',
             tematicaDown: 'Temática del experto'
         },
         {
-            imageTop: `${urlBase}/wp-content/uploads/2021/04/Edy-Munoz-desktop.png`,
-            linkTop: '#',
-            nameTop: 'Edy Munoz',
+            imageTop: `${urlBase}/wp-content/uploads/Gabriel-Laverde-Perfil.png`,
+            nameTop: 'Gabriel Laverde',
             tematicaTop: 'Temática del experto',
 
-            imageDown: `${urlBase}/wp-content/uploads/2021/04/Vanessa-Calle-desktop.png`,
-            linkDown: '#',
-            nameDown: 'Vanessa Calle',
-            tematicaDown: 'Temática del experto'
-        },
-        {
-            imageTop: `${urlBase}/wp-content/uploads/2021/04/JUAN-INACIO-ISAZA-desktop.png`,
-            linkTop: '#',
-            nameTop: 'Juan Inacio Isaza',
-            tematicaTop: 'Temática del experto',
-
-            imageDown: `${urlBase}/wp-content/uploads/2021/04/Camilo-Castrillon-desktop-1.png`,
-            linkDown: '#',
-            nameDown: 'Camilo Castrillon',
-            tematicaDown: 'Temática del experto'
-        },
-        {
-            imageTop: `${urlBase}/wp-content/uploads/2021/04/Carolina-Melendez-Movil.png`,
-            linkTop: '#',
-            nameTop: 'Carolina Melendez',
-            tematicaTop: 'Temática del experto',
-
-            imageDown: `${urlBase}/wp-content/uploads/2021/04/Javier-Gomez-desktop.png`,
-            linkDown: '#',
+            imageDown: `${urlBase}/wp-content/uploads/Javier-Gomez-perfil.png`,
             nameDown: 'Javier Gomez',
             tematicaDown: 'Temática del experto'
         },
         {
-            imageTop: `${urlBase}/wp-content/uploads/2021/04/Gabril-Laverde-desktop.png`,
-            linkTop: '#',
-            nameTop: 'Gabril Laverde',
+            imageTop: `${urlBase}/wp-content/uploads/CarolinaMelendez-Perfil.png`,
+            nameTop: 'Carolina Melendez',
             tematicaTop: 'Temática del experto',
 
-            imageDown: `${urlBase}/wp-content/uploads/2021/04/Olga-Gonzalez-desktop.png`,
-            linkDown: '#',
-            nameDown: 'Olga Gonzalez',
+            imageDown: `${urlBase}/wp-content/uploads/Camilo-Castrillon-Perfil.png`,
+            nameDown: 'Camilo Castrillon',
             tematicaDown: 'Temática del experto'
-        }
+        },
+        {
+            imageTop: `${urlBase}/wp-content/uploads/Juan-Ignacio-Isaza-Perfil.png`,
+            nameTop: 'Juan Ignacio',
+            tematicaTop: 'Temática del experto',
+
+            imageDown: `${urlBase}/wp-content/uploads/Vanessa-Calle-Perfil.png`,
+            nameDown: 'Vanessa Calle',
+            tematicaDown: 'Temática del experto'
+        },
+        {
+            imageTop: `${urlBase}/wp-content/uploads/Juan-David-Londono-Perfil.png`,
+            nameTop: 'Juan Londoño',
+            tematicaTop: 'Temática del experto',
+
+            imageDown: `${urlBase}/wp-content/uploads/Edy-Munoz-Perfil.png`,
+            nameDown: 'Edy Munoz',
+            tematicaDown: 'Temática del experto'
+        },
+        {
+            imageTop: `${urlBase}/wp-content/uploads/Nathalia-Miranda-Perfil.png`,
+            nameTop: 'Nathalia Miranda',
+            tematicaTop: 'Temática del experto',
+
+            imageDown: `${urlBase}/wp-content/uploads/Jaiber-Perez-Perfil.png`,
+            nameDown: 'Jaiber Perez',
+            tematicaDown: 'Temática del experto'
+        },
+        {
+            imageTop: `${urlBase}/wp-content/uploads/2021/04/Samuel-Gonzalez-perfil.png`,
+            nameTop: 'Samuel González',
+            tematicaTop: 'Temática del experto',
+
+            imageDown: `${urlBase}/wp-content/uploads/2021/04/Sara-Rojas-Perfil.png`,
+            nameDown: 'Sara Rojas',
+            tematicaDown: 'Temática del experto'
+        },
+        {
+            imageTop: `${urlBase}/wp-content/uploads/Andersson-Londono-Perfil.png`,
+            nameTop: 'Andersson Londoño',
+            tematicaTop: 'Temática del experto',
+
+            imageDown: `${urlBase}/wp-content/uploads/Melissa-del-Valle-Perfil.png`,
+            nameDown: 'Melissa del Valle',
+            tematicaDown: 'Temática del experto'
+        },
+        {
+            imageTop: `${urlBase}/wp-content/uploads/Santiago-Correa-Perfil.png`,
+            nameTop: 'Santiago Correa',
+            tematicaTop: 'Temática del experto',
+
+            imageDown: `${urlBase}/wp-content/uploads/Juan-Carlos-Andrade-Perfil.png`,
+            nameDown: 'Juan Carlos',
+            tematicaDown: 'Temática del experto'
+        },
     ];
 
     // Consumo de API para renderizar expertos
@@ -76,7 +102,6 @@
     // for (let i = 0; i < 10; i++) {
     //     expertos.push({
     //         imageTop:'${urlBase}/wp-content/uploads/2021/04/Juan-carlos-Andrade-desktop.png',
-    //         linkTop: '#',
     //         nameTop: 'Nombre del experto',
     //         tematicaTop: 'Temática del experto',
 
@@ -107,7 +132,6 @@
         
                 <div class="ml-home-desktop-masterclass__proximos-lanzamientos__carrusel__item__nombre-experto">Experto: <span>${ item['nombre-experto'] }</span></div>
         
-                <a href="${ item['url-mas'] }" class="ml-home-desktop-masterclass__proximos-lanzamientos__carrusel__item__conoce-mas">Conoce más</a>
         
                 </div>
             </div>
@@ -147,7 +171,6 @@
             
                     <div class="ml-home-movil-masterclass__carrusel__item__nombre-experto">Experto: <span>${ item['nombre-experto'] }</span></div>
             
-                    <a href="${ item['url-mas'] }" class="ml-home-movil-masterclass__carrusel__item__conoce-mas">Conoce más</a>
             
                     </div>
                 </div>
@@ -186,10 +209,8 @@
                     <div class="ml-home-desktop-nuestros-expertos__perfil">
                         <div class="ml-home-desktop-nuestros-expertos__perfil__row">
                             <div class="ml-home-desktop-nuestros-expertos__perfil__row__item">
-                                <a href="${item['linkTop']}" >
                                     <img src="${item['imageTop']}" 
                                         alt="perfil" class="ml-home-desktop-nuestros-expertos__perfil__row__item__img">
-                                </a>
 
                                 <h3 class="ml-home-desktop-nuestros-expertos__perfil__row__item__nombre">${item['nameTop']}</h3>
                                 
@@ -200,10 +221,8 @@
                         <div class="ml-home-desktop-nuestros-expertos__perfil__row">
                             <div class="ml-home-desktop-nuestros-expertos__perfil__row__item">
                             
-                                <a href="${item['linkDown']}" >
                                     <img src="${item['imageDown']}" 
                                         alt="perfil" class="ml-home-desktop-nuestros-expertos__perfil__row__item__img">
-                                </a>
                                 
                                 <h3 class="ml-home-desktop-nuestros-expertos__perfil__row__item__nombre">${item['nameDown']}</h3>
                                 

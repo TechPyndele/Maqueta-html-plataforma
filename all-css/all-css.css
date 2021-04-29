@@ -1427,6 +1427,7 @@
       -ms-flex-direction: column;
           flex-direction: column;
   width: 7.9vw;
+  height: 15vw;
   margin-right: 5vw;
   margin-bottom: 5vw;
 }
@@ -3392,5 +3393,401 @@
   height: 7.5vw;
   width: 7.5vw;
   margin-bottom: 2vw;
+}
+
+.ml-normalize-cookies * {
+  font-family: 'Poppins';
+  margin: 0;
+  line-height: 1;
+  list-style: none;
+}
+
+.ml-normalize-cookies #desktop .header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+  width: 100%;
+  height: 23.7vw;
+  background: #480981;
+  background-image: url("https://pyndele.co/wp-content/uploads/2021/04/bg-politicas.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.ml-normalize-cookies #desktop .header__title {
+  margin-left: 16vw;
+  margin-bottom: 8vw;
+  color: #fff;
+  font-size: 3.6vw;
+  font-weight: 800;
+}
+
+.ml-normalize-cookies #desktop .header__title > span {
+  display: block;
+  color: #29C4CD;
+}
+
+.ml-normalize-cookies #desktop .header__img {
+  margin-left: 9vw;
+  height: 19vw;
+  margin-bottom: -0.06vw;
+}
+
+.ml-normalize-cookies #desktop .text {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  width: 65vw;
+  margin: 5vw 15vw;
+}
+
+.ml-normalize-cookies #desktop .text__title {
+  color: #5B5B5B;
+  font-size: 2.6vw;
+  margin-bottom: 3vw;
+}
+
+.ml-normalize-cookies #desktop .text p {
+  color: #5B5B5B;
+  line-height: 1.5;
+  font-size: 1.3vw;
+  text-align: justify;
+}
+
+.ml-normalize-cookies #movil .header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+  width: 100%;
+  height: 46vw;
+  background: #480981;
+  background-image: url("https://pyndele.co/wp-content/uploads/2021/04/Recurso-1-8-2.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.ml-normalize-cookies #movil .header__title {
+  margin-left: 5vw;
+  margin-bottom: 15vw;
+  color: #fff;
+  font-size: 6.3vw;
+  font-weight: 800;
+}
+
+.ml-normalize-cookies #movil .header__title > span {
+  display: block;
+  color: #29C4CD;
+}
+
+.ml-normalize-cookies #movil .header__img {
+  height: 27vw;
+  margin-bottom: -0.06vw;
+}
+
+.ml-normalize-cookies #movil .text {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  width: 80vw;
+  margin: 10vw auto;
+}
+
+.ml-normalize-cookies #movil .text__title {
+  color: #5B5B5B;
+  font-size: 6vw;
+  margin-bottom: 6.3vw;
+}
+
+.ml-normalize-cookies #movil .text p {
+  color: #5B5B5B;
+  line-height: 1.5;
+  font-size: 3vw;
+  text-align: justify;
+}
+
+.ml-normalize-terminos * {
+  font-family: 'Poppins';
+  margin: 0;
+  line-height: 1;
+  list-style: none;
+}
+
+.ml-normalize-terminos #desktop .header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+  width: 100%;
+  height: 23.7vw;
+  background: #29C4CD;
+  background-image: url("https://pyndele.co/wp-content/uploads/2021/04/bg-politicas.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.ml-normalize-terminos #desktop .header__title {
+  margin-left: 16vw;
+  margin-bottom: 8vw;
+  color: #fff;
+  font-size: 3.6vw;
+  font-weight: 800;
+}
+
+.ml-normalize-terminos #desktop .header__title > span {
+  display: block;
+  color: #29C4CD;
+}
+
+.ml-normalize-terminos #desktop .header__img {
+  margin-left: 9vw;
+  height: 19vw;
+  margin-bottom: -0.6vw;
+}
+
+.ml-normalize-terminos #desktop .text {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  width: 65vw;
+  margin: 5vw 15vw;
+}
+
+.ml-normalize-terminos #desktop .text__title {
+  color: #5B5B5B;
+  font-size: 2.6vw;
+  margin-bottom: 3vw;
+}
+
+.ml-normalize-terminos #desktop .text p {
+  color: #5B5B5B;
+  line-height: 1.5;
+  font-size: 1.3vw;
+  text-align: justify;
+}
+
+.ml-normalize-terminos #movil .header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+  width: 100%;
+  height: 46vw;
+  background: #480981;
+  background-image: url("https://pyndele.co/wp-content/uploads/2021/04/Recurso-1-8-2.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.ml-normalize-terminos #movil .header__title {
+  margin-left: 5vw;
+  margin-bottom: 15vw;
+  color: #fff;
+  font-size: 6.3vw;
+  font-weight: 800;
+}
+
+.ml-normalize-terminos #movil .header__title > span {
+  display: block;
+  color: #29C4CD;
+}
+
+.ml-normalize-terminos #movil .header__img {
+  height: 27vw;
+  margin-bottom: -0.06vw;
+}
+
+.ml-normalize-terminos #movil .text {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  width: 80vw;
+  margin: 10vw auto;
+}
+
+.ml-normalize-terminos #movil .text__title {
+  color: #5B5B5B;
+  font-size: 6vw;
+  margin-bottom: 6.3vw;
+}
+
+.ml-normalize-terminos #movil .text p {
+  color: #5B5B5B;
+  line-height: 1.5;
+  font-size: 3vw;
+  text-align: justify;
+}
+
+.ml-normalize-terminos * {
+  font-family: 'Poppins';
+  margin: 0;
+  line-height: 1;
+  list-style: none;
+}
+
+.ml-normalize-terminos #desktop .header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+  width: 100%;
+  height: 23.7vw;
+  background: #29C4CD;
+  background-image: url("https://pyndele.co/wp-content/uploads/2021/04/bg-politicas.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.ml-normalize-terminos #desktop .header__title {
+  margin-left: 16vw;
+  margin-bottom: 8vw;
+  color: #fff;
+  font-size: 3.6vw;
+  font-weight: 800;
+}
+
+.ml-normalize-terminos #desktop .header__title > span {
+  display: block;
+  color: #29C4CD;
+}
+
+.ml-normalize-terminos #desktop .header__img {
+  margin-left: 9vw;
+  height: 19vw;
+  margin-bottom: -0.6vw;
+}
+
+.ml-normalize-terminos #desktop .text {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  width: 65vw;
+  margin: 5vw 15vw;
+}
+
+.ml-normalize-terminos #desktop .text__title {
+  color: #5B5B5B;
+  font-size: 2.6vw;
+  margin: 3vw 0 2vw 0;
+}
+
+.ml-normalize-terminos #desktop .text p {
+  color: #5B5B5B;
+  line-height: 1.5;
+  font-size: 1.3vw;
+  text-align: justify;
+}
+
+.ml-normalize-terminos #movil .header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+  width: 100%;
+  height: 46vw;
+  background: #480981;
+  background-image: url("https://pyndele.co/wp-content/uploads/2021/04/Recurso-1-8-2.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.ml-normalize-terminos #movil .header__title {
+  margin-left: 5vw;
+  margin-bottom: 15vw;
+  color: #fff;
+  font-size: 6.3vw;
+  font-weight: 800;
+}
+
+.ml-normalize-terminos #movil .header__title > span {
+  display: block;
+  color: #29C4CD;
+}
+
+.ml-normalize-terminos #movil .header__img {
+  height: 27vw;
+  margin-bottom: -0.06vw;
+}
+
+.ml-normalize-terminos #movil .text {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  width: 80vw;
+  margin: 10vw auto;
+}
+
+.ml-normalize-terminos #movil .text__title {
+  color: #5B5B5B;
+  font-size: 6vw;
+  margin: 3vw 0 2vw 0;
+}
+
+.ml-normalize-terminos #movil .text p {
+  color: #5B5B5B;
+  line-height: 1.5;
+  font-size: 3vw;
+  text-align: justify;
 }
 /*# sourceMappingURL=all-css.css.map */

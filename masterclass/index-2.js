@@ -1,33 +1,22 @@
 const bgMoradoNombreYFoto = {
     idDesktop: document.querySelector('.ml-masterclass-desktop-nombre-y-foto'),
     idMovil: document.querySelector('.ml-masterclass-movil-nombre-y-foto'),
-    urlImagenDesktop: 'https://pyndele.co/wp-content/uploads/Como-ser-un-lider-que-produce-resultados-desktop.jpg',
-    urlImagenMovil: 'https://pyndele.co/wp-content/uploads/Como-ser-un-lider-que-produce-resultados-movil.jpg',
-    nombreMasterClass: '¿Cómo ser un <br>líder que produce <br>resultados?',
-    nombreExperto: 'Javier Gómez',
+    urlImagenDesktop: 'https://pyndele.co/wp-content/uploads/2021/04/Explora-como-la-logistica-puede-sacarte-de-apuros-desktop.jpg',
+    urlImagenMovil: 'https://pyndele.co/wp-content/uploads/2021/04/Explora-como-la-logistica-puede-sacarte-de-apuros-movil.jpg',
+    nombreMasterClass: 'Explora como la<br> logística puede<br> sacarte de apuros',
+    nombreExperto: 'Juan Ignacio Isaza',
     historia: false
 }
-
-// const videoIntroduccion = {
-//     idDesktop: document.querySelector('.ml-masterclass-desktop-introduccion'),
-//     idMovil: document.querySelector('.ml-masterclass-movil-introduccion'),
-//     paragraph: `
-    
-//     Cuando te preparas para ser un líder empoderante que moviliza las personas hacia resultados, veras que tu negocio o empresa obtiene objetivos de manera más consistente y sostenible en el tiempo, debido a que las personas que te acompañan estarán más comprometidas con su trabajo. En esta masterclass aprenderás acerca de herramientas prácticas para que fortalezcas tus habilidades de liderazgo orientado al logro de resultados individuales y de equipo.
-
-//     `,
-//     videoId: '535901140',
-// }
 
 const videoIntroduccion = {
     idDesktop: document.querySelector('#ml-masterclass-desktop-introduccion__video'),
     idMovil: document.querySelector('#ml-masterclass-movil-introduccion__video'),
     paragraph: `
-    
-    Cuando te preparas para ser un líder empoderante que moviliza las personas hacia resultados, veras que tu negocio o empresa obtiene objetivos de manera más consistente y sostenible en el tiempo, debido a que las personas que te acompañan estarán más comprometidas con su trabajo. En esta masterclass aprenderás acerca de herramientas prácticas para que fortalezcas tus habilidades de liderazgo orientado al logro de resultados individuales y de equipo.
 
+    La logistica es una actividad clave que te podrá sacar de muchos apuros si sabes aplicarla adecuadamente en tu negocio y te podrá brindar información clave para incrementartu competitividad. En esta masterclass aprenderás acerca de lo que significa la primera y última milla y las ventajas de entrar en la ola de la logística 4.0 en tu actividad económica.
+    
     `,
-    videoId: '535901140',
+    videoId: '533633355',
 }
 
 const aprenderasDirigido = {
@@ -51,21 +40,6 @@ const requisitos = {
     paragraph4: `
         Apertura a nuevos conocimentos
     `,
-}
-
-const redesDeExperto = {
-    idDesktop: document.querySelector('.ml-masterclass-desktop-redes-del-expertos'),
-    idMovil: document.querySelector('.ml-masterclass-movil-redes-del-expertos'),
-    imgExpertoDesktop: 'https://pyndele.co/wp-content/uploads/2021/04/Javier-Gomez-desktop.png',
-    imgExpertoMovil: 'https://pyndele.co/wp-content/uploads/2021/04/Javier-Gomez-movil.png',
-    nombreExperto: 'Javier<br> Gómez',
-    paragraph: `
-    Movilizador de la  transformación de personas y equipos por medioa del coaching desde hace más de 5 años. Se enfoca en la creación de nuevos modelos de pensamiento propios de un lider coach. Es ingeniero industrial de profesión, Coach a nivel profesional, Life coaching y PNL. 
-    `,
-    instagram: '#',
-    linkedin: '#',
-    web: '#',
-
 }
 
 
@@ -331,6 +305,26 @@ if (requisitos.idMovil) {
 }
 
 
+const redesDeExperto = {
+    idDesktop: document.querySelector('.ml-masterclass-desktop-redes-del-expertos'),
+    idMovil: document.querySelector('.ml-masterclass-movil-redes-del-expertos'),
+    imgExpertoDesktop: 'https://pyndele.co/wp-content/uploads/2021/04/JUAN-INACIO-ISAZA-desktop.png',
+    imgExpertoMovil: 'https://pyndele.co/wp-content/uploads/2021/04/JUAN-INACIO-ISAZA-movil.png',
+    nombreExperto: `Juan Ignacio<br>Isaza.`,
+    paragraph: `
+    
+    Apasionado de la lógistica,  tanto, que es al o que se dedica hace más de 15 años.  Hoy gerencia Turbo Boy, una empresa logística de base tecnológica. 
+    Es ingeniero en Productividad y Calidad. 
+
+    `,
+    instagram: '#',
+    linkedin: '#',
+    web: '#',
+
+}
+
+
+
 
 // renderiza la zona donde estan las redes del experto
 if (redesDeExperto.idDesktop) {
@@ -347,7 +341,7 @@ if (redesDeExperto.idDesktop) {
             <div class="ml-masterclass-desktop-redes-del-expertos__redes">
 
                 <p class="ml-masterclass-desktop-redes-del-expertos__redes__paragraph" style='
-                width: 30vw; margin-top: 1vw;
+                width: 32vw; margin-top: 0vw;
                 '>
                     ${redesDeExperto.paragraph}
                 </p>
@@ -371,7 +365,7 @@ if (redesDeExperto.idDesktop) {
 
                     <img src="https://pyndele.co/wp-content/uploads/2021/04/risa-morada-2.svg" alt="risa morada" 
                         class="ml-masterclass-desktop-redes-del-expertos__redes__paragraph__row__risa-morada"
-                        style='margin-top: -3vw;'
+                        style='margin-top: -2vw; margin-left: 12vw'
                         >
 
                 </div>
