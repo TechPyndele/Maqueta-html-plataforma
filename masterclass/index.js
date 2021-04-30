@@ -49,7 +49,7 @@ const requisitos = {
         Aplicar los aprendizajes en tu negocio o empresa
     `,
     paragraph4: `
-        Apertura a nuevos conocimentos
+        Apertura a nuevos conocimientos
     `,
 }
 
