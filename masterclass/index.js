@@ -1,23 +1,25 @@
 const bgMoradoNombreYFoto = {
     idDesktop: document.querySelector('.ml-masterclass-desktop-nombre-y-foto'),
     idMovil: document.querySelector('.ml-masterclass-movil-nombre-y-foto'),
-    urlImagenDesktop: 'https://pyndele.co/wp-content/uploads/2021/04/La-importancia-de-la-gestion-del-conocimiento-en-tu-empresa-desktop-1.jpg',
-    urlImagenMovil: 'https://pyndele.co/wp-content/uploads/2021/04/La-importancia-de-la-gestion-del-conocimiento-en-tu-empresa-movil-1.jpg',
-    nombreMasterClass: 'La importancia de la <br> gestión del conocimiento<br> en tu empresa',
-    nombreExperto: 'Olga González',
+    urlImagenDesktop: 'https://pyndele.co/wp-content/uploads/2021/04/Descubre-el-poder-del-plan-de-marketing-desktop-1.jpg',
+    urlImagenMovil: 'https://pyndele.co/wp-content/uploads/2021/04/Descubre-el-poder-del-plan-de-marketing-movil-1.jpg',
+    nombreMasterClass: 'Descubre el<br> poder del plan<br> de marketing',
+    nombreExperto: 'Edy Muñoz',
     historia: false
 }
 
 const videoIntroduccion = {
-    idDesktop: document.querySelector('.ml-masterclass-desktop-introduccion'),
-    idMovil: document.querySelector('.ml-masterclass-movil-introduccion'),
+    idDesktop: document.querySelector('#ml-masterclass-desktop-introduccion__video'),
+    idMovil: document.querySelector('#ml-masterclass-movil-introduccion__video'),
     paragraph: `
 
-    El conocimiento es un eje fundamental de cualquier organización, sin embargo, siempre se ha pensado que solo las grandes empresas deben gestionarlo. La verdad es que cualquier negocio o empresa, de cualquier tamaño, debe gestionar el conocimiento para ser más competitivo y perdurable en el tiempo. En esta masterClass aprenderás acerca de la importancia de la gestión del conocimiento y algunos puntos claves para comprender su funcionamiento y aplicación.
-
+    El marketing es una herramienta que permite organizar los procesos para llegar  adecuadamente al mercado. En esta MasterClass aprenderás acerca de la importancia del plan de marketing como una herramientas de planificación y organización de los objetivos, estrategias y tácticas a desarrollar en tu negocio o empresa.
+    
     `,
-    videoId: '524964392',
+    videoId: '523839367',
 }
+
+
 
 
 
@@ -87,11 +89,8 @@ if (bgMoradoNombreYFoto.idMovil) {
 // renderiza basandose en la constante [videoIntroduccion] el video de introdduccion y parrafo
 if (videoIntroduccion.idDesktop) {
 
-    // <lite-vimeo videoid="${ videoIntroduccion.videoId }" class="ml-masterclass-desktop-introduccion__video">
-    // </lite-vimeo>
     videoIntroduccion.idDesktop
         .innerHTML = `
-
             <iframe class='ml-masterclass-desktop-introduccion__video'
             src="https://player.vimeo.com/video/${videoIntroduccion.videoId}?badge=0&autopause=0&player_id=0&app_id=58479"
             frameborder="0"
@@ -99,59 +98,31 @@ if (videoIntroduccion.idDesktop) {
             <span data-mce-type="bookmark" class="mce_SELRES_start">﻿
             </span>
             </iframe>
-
-            <div class="ml-masterclass-desktop-introduccion__info">
-
-                <div style='display:flex; flex-direction: column;'>
-                
-                    <h3 class='ml-masterclass-desktop-introduccion__info__title'>
-                    
-                    ¿Que aprenderé <br> <span>con esta masterclass?</span> 
-                    
-                    </h3>
-                    
-                    <p class="ml-masterclass-desktop-introduccion__info__paragraph">
-                    
-                    ${videoIntroduccion.paragraph}
-                    
-                    <img src="https://pyndele.co/wp-content/uploads/2021/04/tres-puntos.svg" 
-                    alt="tres puntos" class="ml-masterclass-desktop-introduccion__info__paragraph__tres-puntos">
-                    
-                    </p>
-                
-                </div>
-
-                <div class="ml-masterclass-desktop-introduccion__info__valor"></div>
-
-            </div>
         `
+
+    document.querySelector('.ml-masterclass-desktop-introduccion__info__paragraph')
+        .innerHTML = `${videoIntroduccion.paragraph}`
+
 }
 
 if (videoIntroduccion.idMovil) {
 
-    // <lite-vimeo videoid="${ videoIntroduccion.videoId }" class="ml-masterclass-movil-introduccion__video">
-    // </lite-vimeo>
     videoIntroduccion.idMovil
         .innerHTML = `
-            <iframe class='ml-masterclass-movil-introduccion__video'
-                src="https://player.vimeo.com/video/${videoIntroduccion.videoId}?badge=0&autopause=0&player_id=0&app_id=58479"
-                frameborder="0"
-                allowfullscreen="allowfullscreen">
-                <span data-mce-type="bookmark" class="mce_SELRES_start">﻿
-                </span>
-            </iframe>
-
-            <h3 class='ml-masterclass-movil-introduccion__title' >
-                ¿Que aprenderé en esta <br> <span> masterclas</span>
-            </h3>
-
-            <p class="ml-masterclass-movil-introduccion__paragraph">
             
-                ${videoIntroduccion.paragraph}
-
-            </p>
-
-            <div class="ml-masterclass-movil-introduccion__woo"></div>
-
+        <iframe class='ml-masterclass-movil-introduccion__video'
+            src="https://player.vimeo.com/video/${videoIntroduccion.videoId}?badge=0&autopause=0&player_id=0&app_id=58479"
+            frameborder="0"
+            allowfullscreen="allowfullscreen">
+            <span data-mce-type="bookmark" class="mce_SELRES_start">﻿
+            </span>
+        </iframe>
+            
         `
+
+    document.querySelector('.ml-masterclass-movil-introduccion__paragraph')
+        .innerHTML = `${videoIntroduccion.paragraph}`
+
 }
+
+
